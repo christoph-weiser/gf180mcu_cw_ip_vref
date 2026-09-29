@@ -10,12 +10,9 @@ all: corners venv
 
 corners:
 	@ echo Creating Corners 
-	@( cd xschem/corners/ && python3 corner_gen.py )
+	@( cd tools/corners/ && python3 corner_gen.py )
 
-structure: 
-	@( mkdir -p $(TOOLS_DIR) )
-
-venv: structure
+venv:
 	@ echo Creating virtual environment
 	@( python3 -m venv $(VENV_DIR) )
 	@( source $(VENV_DIR)/bin/activate; \
