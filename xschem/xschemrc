@@ -2,6 +2,7 @@
 # PATH DEFINITIONS
 #----------------------------------------------------------------------
 set DESIGN_PATH [exec pwd]
+set CORNERS ${DESIGN_PATH}/xschem/corners
 
 #----------------------------------------------------------------------
 # xschem system-wide design library paths: xschem_library_path
