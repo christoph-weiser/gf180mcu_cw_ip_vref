@@ -10,24 +10,19 @@
 | Initial Accuracy             | ΔVbg,i   | -2.5  |        | +2.5       | %     | at T=20°C, Vdd=3.3V, ±3σ       | 
 | Trimmed Accuracy             | ΔVbg,t   | -0.25 | +-0.15 |  +0.25     | %     | for all possible trimvalues    |
 | Area                         | A        |       |        | 200x200    | µm²   |                                |
-|                              |          |       |        |            |       |                                |
 | Temperature Range            | T        |  -40  |        | 85         | °C    |                                |
 | Quiesent Current             | Iq       |       |  15    | 20         | µA    | Vdd=3.0V to 5.0V, T=20°C       |
 | Power Dissipation            | Pd       |       |  49.5  | 100        | µW    | Vdd=3.0V to 5.0V, T=20°C       |
 | Power-down state Current     | Ioff     |       |        | 1          | nA    |                                |
-|                              |          |       |        |            |       |                                |
 | Temperature coefficient      | Tc       |       |  27    | 67         | µV/°C | Across full Temperature        | 
 |                              |          |       |        |            |       | range, ±3σ yield               |
 | Relative change              | ΔVtc     |       |  ±3.4  | ±8.5       | mV    | Across full Temperature        | 
 |                              |          |       |        |            |       | range, ±3σ yield               |
-|                              |          |       |        |            |       |                                |
 | Line Regulation              | dV/dVdd  |       |  1     | 2          | mV/V  | Vdd=3.0V to 5.0V, T=20°C       |
 | Line Relative Change         | ΔVvdd    |       |  2     | 4          | mV    | Vdd=3.0V to 5.0V, T=20°C       |
-|                              |          |       |        |            |       |                                |
 | Power Supply Rejection Ratio | PSRR     |  75   |        |            | dB    | f=1Hz, Vdd=3.3V                |
 |                              |          |  60   |        |            | dB    | f=100Hz, Vdd=3.3V              |   
 |                              |          |  40   |        |            | dB    | f=1kHz, Vdd=3.3V               |
-|                              |          |       |        |            |       |                                |
 | Noise                        | en       |       |  75    | 80         | µVrms | f=0.1Hz to 10Hz                |
 |                              |          |       |  90    | 100        | µVrms | f=10Hz to 10kHz                |
 | Turn-on settling time        | tset     |       |  8u    | 20         | µs    | Vdd=3.0V to 5.0V,              |
