@@ -1,0 +1,26 @@
+v {xschem version=3.4.3 file_version=1.2
+}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=xstb"
+}
+V {}
+S {}
+E {}
+L 4 120 -50 140 -50 {}
+L 4 0 -50 20 -50 {}
+L 4 70 -20 70 0 {}
+B 5 137.5 -52.5 142.5 -47.5 {name=A dir=inout
+}
+B 5 -2.5 -52.5 2.5 -47.5 {name=B dir=inout
+}
+B 5 67.5 -2.5 72.5 2.5 {name=REF dir=inout
+}
+P 4 5 20 -20 20 -80 120 -80 120 -20 20 -20 {}
+T {A} 115 -44 2 0 0.2 0.2 {}
+T {B} 32 -43 2 0 0.2 0.2 {}
+T {@name} 98.25 -95 0 0 0.2 0.2 {}
+T {@symname} 20.75 -95 0 0 0.2 0.2 {}
+T {REF} 61 -35 0 0 0.2 0.2 {}
+T {PROBE} 53 -62 0 0 0.2 0.2 {}

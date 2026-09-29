@@ -1,0 +1,23 @@
+v {xschem version=3.4.3 file_version=1.2
+}
+G {}
+K {type=logo
+template="name=l1 author=\\"Christoph Weiser\\" license=\\"Apache-2.0\\" year=\\"2026\\" "
+verilog_ignore=true
+vhdl_ignore=true
+spice_ignore=true
+tedax_ignore=true
+}
+V {}
+S {}
+E {}
+P 4 5 0 -80 280 -80 280 -60 0 -60 0 -80 {}
+P 4 5 0 -60 280 -60 280 -40 0 -40 0 -60 {}
+P 4 5 0 -40 280 -40 280 -20 0 -20 0 -40 {}
+P 4 5 0 -20 280 -20 280 0 0 0 0 -20 {}
+T {Copyright (C) @year @author} 50 -17.5 0 0 0.2 0.2 {}
+T {Title:} 2.5 -77.5 0 0 0.2 0.2 {}
+T {License:   @license} 2.5 -37.5 0 0 0.2 0.2 {}
+T {@time_last_modified} 50 -57.5 0 0 0.2 0.2 {}
+T {tcleval([file tail [xschem get schname]])} 50 -77.5 0 0 0.2 0.2 {}
+T {Date:} 2.5 -57.5 0 0 0.2 0.2 {}
