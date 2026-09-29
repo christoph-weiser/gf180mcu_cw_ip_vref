@@ -1,0 +1,26 @@
+v {xschem version=3.4.3 file_version=1.2
+}
+G {}
+K {type=primitive
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 0 -30 20 -30 {}
+L 4 110 -30 130 -30 {}
+L 4 0 -70 20 -70 {}
+L 4 0 -50 20 -50 {}
+B 5 -2.5 -72.5 2.5 -67.5 {name=i_reset dir=in sim_pinnumber=0}
+B 5 -2.5 -52.5 2.5 -47.5 {name=i_en dir=in sim_pinnumber=1}
+B 5 -2.5 -32.5 2.5 -27.5 {name=i_clk dir=in sim_pinnumber=2}
+B 5 127.5 -32.5 132.5 -27.5 {name=o_out[7:0] dir=out sim_pinnumber=3}
+P 4 5 20 -80 20 -20 110 -20 110 -80 20 -80 {}
+P 4 10 50 -30 60 -30 60 -40 70 -40 70 -50 80 -50 80 -60 90 -60 90 -70 100 -70 {}
+T {@symname} 65.5 -17 0 0 0.2 0.2 {}
+T {@name} 23 -17 0 0 0.2 0.2 {}
+T {clk} 41 -24 2 0 0.2 0.2 {}
+T {out} 101 -24 2 0 0.2 0.2 {}
+T {reset} 51 -64 2 0 0.2 0.2 {}
+T {en} 41 -44 2 0 0.2 0.2 {}
