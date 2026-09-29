@@ -33,12 +33,11 @@
 
 ## Schematics
 
-The schematics for the circuit are located in xschem/sch
-
+The schematics for the circuit are located in [xschem/sch](xschem/sch)
 
 ## Testbenches
 
-The testbenches are located in xschem/tb.
+The testbenches are located in [xschem/tb](xschem/tb).
 
 The following overview shows which testbench is used to simulate which specification.
 Some might be duplicate where the same specification is checked using different methods.
@@ -61,7 +60,7 @@ Some might be duplicate where the same specification is checked using different 
 ## Setup
 
 Prior to running any simulation one should source the cadrc found 
-in the xschem folder.
+in the xschem folder [xschem/cadrc](xschem/cadrc).
 
 ```
 cd xschem
@@ -70,8 +69,9 @@ source cadrc
 
 Simulation corners and a virtual python environment holding essential tools 
 for simulation can be generated simply issuing the make command in the 
-xschem directory.
+[xschem](xschem) directory.
 
 ```
+cd xschem
 make 
 ```
