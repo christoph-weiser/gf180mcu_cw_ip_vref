@@ -1,3 +1,3 @@
 # Current Mode Voltage Reference
 
-[Documentation](doc.md)
+[Documentation](doc/doc.md)
