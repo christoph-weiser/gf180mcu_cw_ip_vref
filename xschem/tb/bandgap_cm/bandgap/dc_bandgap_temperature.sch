@@ -93,14 +93,3 @@ value="* Model Corners
 *.include \\\\$::CORNERS\\\\/ngspice/sf.spice
 *.include \\\\$::CORNERS\\\\/ngspice/fs.spice
 "}
-C {devices/code.sym} 840 -450 0 0 {name=EXT 
-only_toplevel=false
-format="tcleval( @value )"
-value="* extract
-
-* tb_amplifier pex
-*.include \\\\$::DESIGN_PATH\\\\/sch/bandgap_cm/bg_amplifier/bg_amplifier.pex.spice
-
-* bandgap pex
-*.include \\\\$::DESIGN_PATH\\\\/sch/bandgap_cm/bandgap/bandgap.pex.spice
-"}
