@@ -6,7 +6,7 @@ TOOLS_DIR = $(PRJ)/tools
 VENV_DIR = $(TOOLS_DIR)/cad
 
 
-all: corners venv ictools
+all: corners venv
 
 corners:
 	@ echo Creating Corners 
@@ -20,5 +20,3 @@ venv: structure
 	@( python3 -m venv $(VENV_DIR) )
 	@( source $(VENV_DIR)/bin/activate; \
    	   pip install spctl spatk pandas )
-
-ictools: 
