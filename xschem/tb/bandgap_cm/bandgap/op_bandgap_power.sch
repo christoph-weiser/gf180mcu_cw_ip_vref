@@ -32,21 +32,10 @@ value="* Control
 
 .param vdd = 3.3
 .temp 27
-
 .options reltol     = 1e-6
 
 *------------------------------------------------------------
-* Nodeset for better convergence
-*------------------------------------------------------------
-.nodeset v(vbg)  = '1'
-.nodeset v(xbg.gate) = 'vdd/2'
-.nodeset v(xbg.vx)   = '0.70'
-.nodeset v(xbg.vbe2) = '0.65'
-.nodeset v(xbg.vs1)  = '0'
-*------------------------------------------------------------
-
-*------------------------------------------------------------
-* Save device current for DC analysis
+* Save device current for OP analysis
 *------------------------------------------------------------
 .save @m.xbg.xm1.m0[id]
 .save @m.xbg.xm2.m0[id]
@@ -59,12 +48,9 @@ value="* Control
 .control
 save all
 
-*optran 0 0 0 100n 0.1m 0
-
-dc vdd  2.5 5 0.1
+op
 
 let vsup = v(vdd)
-
 let itot = abs(vdd#branch)
 
 let id_xm1  = abs(@m.xbg.xm1.m0[id])
@@ -84,19 +70,13 @@ let pbgc = vsup*ibgc
 let psum = vsup*isum
 let ptot = vsup*itot
 
-gnuplot p1 itot isum iamp ibgc
-gnuplot p2 ptot psum pamp pbgc
+print iamp
+print ibgc
+print itot
 
-meas dc i_min min itot from=2.5 to=5
-meas dc i_max max itot from=2.5 to=5
-meas dc p_min min ptot from=2.5 to=5
-meas dc p_max max ptot from=2.5 to=5
-
-print i_min
-print i_max
-print p_min
-print p_max
-
+print pamp
+print pbgc
+print ptot
 
 .endc
 .end
