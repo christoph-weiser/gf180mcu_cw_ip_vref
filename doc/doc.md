@@ -44,6 +44,8 @@ Some might be duplicate where the same specification is checked using different 
 
 For results see the individual pages.
 
+- [op_bandgap.sch](op_bandgap.md):                          operating point
+- [ac_bandgap_stb.sch](ac_bandgap_stb.md):                  loop stability
 - [ac_bandgap_psrr.sch](ac_bandgap_psrr.md):                PSRR
 - [op_bandgap_power.sch](op_bandgap_power.md):              Iq, Pd
 - [dc_bandgap_supply.sch](dc_bandgap_supply.md):            dV/dVdd, ΔVvdd
@@ -55,8 +57,6 @@ For results see the individual pages.
 - [tr_bandgap_supply.sch](tr_bandgap_supply.md)             dV/dVdd, ΔVvdd
 - [tr_bandgap_temperature.sch](tr_bandgap_temperature.md):  Tc, ΔVtc
 - [tr_bandgap_trim.sch](tr_bandgap_trim.md):                ΔVbg,t
-- [ac_bandgap_stb.sch](ac_bandgap_stb.md):                  loop stability
-- [op_bandgap.sch](op_bandgap.sch):                         operating point
 
 
 ## Setup
