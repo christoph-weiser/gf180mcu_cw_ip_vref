@@ -42,19 +42,21 @@ The testbenches are located in [xschem/tb](../xschem/tb).
 The following overview shows which testbench is used to simulate which specification.
 Some might be duplicate where the same specification is checked using different methods.
 
-- "ac_bandgap_psrr.sch":        PSRR
-- "op_bandgap_power.sch":       Iq, Pd
-- "dc_bandgap_supply.sch":      dV/dVdd, ΔVvdd
-- "dc_bandgap_temperature.sch": Tc, ΔVtc
-- "mc_bandgap_temperature.sch": ΔVbg,i
-- "no_bandgap.sch":             en
-- "tr_bandgap_psrr.sch"         PSRR
-- "tr_bandgap_startup.sch"      tset
-- "tr_bandgap_supply.sch"       dV/dVdd, ΔVvdd
-- "tr_bandgap_temperature.sch": Tc, ΔVtc
-- "tr_bandgap_trim.sch":        ΔVbg,t
-- "ac_bandgap_stb.sch":         loop stability
-- "op_bandgap.sch":             operating point
+For results see the individual pages.
+
+- [ac_bandgap_psrr.sch](ac_bandgap_psrr.md):                PSRR
+- [op_bandgap_power.sch](op_bandgap_power.md):              Iq, Pd
+- [dc_bandgap_supply.sch](dc_bandgap_supply.md):            dV/dVdd, ΔVvdd
+- [dc_bandgap_temperature.sch](dc_bandgap_temperature.md):  Tc, ΔVtc
+- [mc_bandgap_temperature.sch](mc_bandgap_temperature.md):  ΔVbg,i
+- [no_bandgap.sch](no_bandgap.md):                          en
+- [tr_bandgap_psrr.sch](tr_bandgap_psrr.md)                 PSRR
+- [tr_bandgap_startup.sch](tr_bandgap_startup.md)           tset
+- [tr_bandgap_supply.sch](tr_bandgap_supply.md)             dV/dVdd, ΔVvdd
+- [tr_bandgap_temperature.sch](tr_bandgap_temperature.md):  Tc, ΔVtc
+- [tr_bandgap_trim.sch](tr_bandgap_trim.md):                ΔVbg,t
+- [ac_bandgap_stb.sch](ac_bandgap_stb.md):                  loop stability
+- [op_bandgap.sch](op_bandgap.sch):                         operating point
 
 
 ## Setup
@@ -75,7 +77,3 @@ for simulation can be generated simply issuing the make command in the
 cd xschem
 make 
 ```
-
-## Pre-Layout Simulation results
-
-[Results](sim_sch.md)
