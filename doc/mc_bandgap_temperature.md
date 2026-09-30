@@ -19,5 +19,5 @@ Simulation results for mc_bandgap_temperature
 ![dv_dt](pic/sim_sch/mc_bandgap_temperature/dv_dt.png)
 
 ![tc](pic/sim_sch/mc_bandgap_temperature/tc.png)
-![tc_nom](pic/sim_sch/mc_bandgap_temperature/tc_nom.png)
+![tc_norm](pic/sim_sch/mc_bandgap_temperature/tc_norm.png)
 
