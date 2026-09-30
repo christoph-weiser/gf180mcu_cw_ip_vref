@@ -75,3 +75,7 @@ for simulation can be generated simply issuing the make command in the
 cd xschem
 make 
 ```
+
+## Pre-Layout Simulation results
+
+[Results](sim_sch.md)
