@@ -35,7 +35,7 @@
 
 The schematics for the circuit are located in [xschem/sch](../xschem/sch)
 
-## Testbenches
+## Testbenches and Results
 
 The testbenches are located in [xschem/tb](../xschem/tb).
 
