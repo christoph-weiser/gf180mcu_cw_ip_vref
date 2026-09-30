@@ -2,7 +2,7 @@
 
 The results shown below are all pre-layout simulation results.
 
-# op_bandgap_power
+## op_bandgap_power
 
 |      | min       | max       | mean      | std       |
 |:-----|:----------|:----------|:----------|:----------|
