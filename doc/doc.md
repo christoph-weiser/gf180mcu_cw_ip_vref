@@ -73,6 +73,9 @@ Simulation corners and a virtual python environment holding essential tools
 for simulation can be generated simply issuing the make command in the 
 [xschem](../xschem) directory.
 
+Make sure environment variables PDK and PDK_ROOT are set to point to the 
+gf180mcuD pdk.
+
 ```
 cd xschem
 make 
