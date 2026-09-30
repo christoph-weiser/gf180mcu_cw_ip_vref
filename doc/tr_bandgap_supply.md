@@ -4,5 +4,5 @@ Simulation results for tr_bandgap_supply
 
 ## Pre-Layout Simulation
 
-![xyz](pic/sim_sch/tr_bandgap_supply/xyz.png)
+![dv_dvdd](pic/sim_sch/tr_bandgap_supply/dv_dvdd.png)
 
