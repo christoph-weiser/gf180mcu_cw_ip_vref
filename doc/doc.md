@@ -48,7 +48,7 @@ For results see the individual pages.
 - [op_bandgap_power.sch](op_bandgap_power.md):              Iq, Pd
 - [dc_bandgap_supply.sch](dc_bandgap_supply.md):            dV/dVdd, ΔVvdd
 - [dc_bandgap_temperature.sch](dc_bandgap_temperature.md):  Tc, ΔVtc
-- [mc_bandgap_temperature.sch](mc_bandgap_temperature.md):  ΔVbg,i
+- [mc_bandgap_temperature.sch](mc_bandgap_temperature.md):  ΔVbg
 - [no_bandgap.sch](no_bandgap.md):                          en
 - [tr_bandgap_psrr.sch](tr_bandgap_psrr.md)                 PSRR
 - [tr_bandgap_startup.sch](tr_bandgap_startup.md)           tset
