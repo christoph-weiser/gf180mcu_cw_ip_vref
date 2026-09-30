@@ -43,7 +43,7 @@ The following overview shows which testbench is used to simulate which specifica
 Some might be duplicate where the same specification is checked using different methods.
 
 - "ac_bandgap_psrr.sch":        PSRR
-- "dc_bandgap_power.sch":       Iq, Pd
+- "op_bandgap_power.sch":       Iq, Pd
 - "dc_bandgap_supply.sch":      dV/dVdd, ΔVvdd
 - "dc_bandgap_temperature.sch": Tc, ΔVtc
 - "mc_bandgap_temperature.sch": ΔVbg,i
