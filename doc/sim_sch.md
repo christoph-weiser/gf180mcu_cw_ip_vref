@@ -2,18 +2,21 @@
 
 The results shown below are all pre-layout simulation results.
 
-## dc_bandgap_power
+# op_bandgap_power
 
-|       | min       | max       | mean      | std       |
-|:------|:----------|:----------|:----------|:----------|
-| i_min | 13.20579u | 28.76725u | 21.524u   | 4.52942u  |
-| i_max | 16.98472u | 29.54914u | 22.82995u | 4.45051u  |
-| p_min | 33.01448u | 71.91813u | 53.80999u | 11.32355u |
-| p_max | 84.92358u | 147.7457u | 114.1498u | 22.25257u |
+|      | min       | max       | mean      | std       |
+|:-----|:----------|:----------|:----------|:----------|
+| iamp | 4.90561u  | 9.68597u  | 7.05185u  | 1.40299u  |
+| ibgc | 7.19443u  | 12.44681u | 9.63843u  | 1.89971u  |
+| itot | 16.42464u | 29.54914u | 22.46829u | 4.41985u  |
+| pamp | 14.71684u | 48.42985u | 26.79417u | 9.11306u  |
+| pbgc | 21.60794u | 62.15826u | 36.29921u | 11.20453u |
+| ptot | 49.27392u | 147.7457u | 84.85841u | 27.02177u |
 
-
-![i_max](pic/sim_sch/dc_bandgap_power/i_max.png)
-![i_min](pic/sim_sch/dc_bandgap_power/i_min.png)
-![p_max](pic/sim_sch/dc_bandgap_power/p_max.png)
-![p_min](pic/sim_sch/dc_bandgap_power/p_min.png)
+![iamp](pic/sim_sch/op_bandgap_power/iamp.png)
+![ibgc](pic/sim_sch/op_bandgap_power/ibgc.png)
+![itot](pic/sim_sch/op_bandgap_power/itot.png)
+![pamp](pic/sim_sch/op_bandgap_power/pamp.png)
+![pbgc](pic/sim_sch/op_bandgap_power/pbgc.png)
+![ptot](pic/sim_sch/op_bandgap_power/ptot.png)
 
