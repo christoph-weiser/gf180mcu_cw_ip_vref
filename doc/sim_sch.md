@@ -12,8 +12,8 @@ The results shown below are all pre-layout simulation results.
 | p_max | 84.92358u | 147.7457u | 114.1498u | 22.25257u |
 
 
-![i_max](doc/pic/sim_sch/dc_bandgap_power/i_max.png)
-![i_min](doc/pic/sim_sch/dc_bandgap_power/i_min.png)
-![p_max](doc/pic/sim_sch/dc_bandgap_power/p_max.png)
-![p_min](doc/pic/sim_sch/dc_bandgap_power/p_min.png)
+![i_max](pic/sim_sch/dc_bandgap_power/i_max.png)
+![i_min](pic/sim_sch/dc_bandgap_power/i_min.png)
+![p_max](pic/sim_sch/dc_bandgap_power/p_max.png)
+![p_min](pic/sim_sch/dc_bandgap_power/p_min.png)
 
