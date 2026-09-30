@@ -42,20 +42,20 @@ for s in sim:
 
                         m_l = m.replace("typical", "tt")
 
-                        c_l = c.replace("ss", "min")
-                        c_l = c_l.replace("ff", "max")
+                        c_l = c.replace("ss", "max")
+                        c_l = c_l.replace("ff", "min")
                         c_l = c_l.replace("typical", "nom")
 
-                        r_l = r.replace("ss", "min")
-                        r_l = r_l.replace("ff", "max")
+                        r_l = r.replace("ss", "max")
+                        r_l = r_l.replace("ff", "min")
                         r_l = r_l.replace("typical", "nom")
 
-                        d_l = d.replace("ss", "min")
-                        d_l = d_l.replace("ff", "max")
+                        d_l = d.replace("ss", "s")
+                        d_l = d_l.replace("ff", "f")
                         d_l = d_l.replace("typical", "nom")
 
-                        b_l = b.replace("ss", "min")
-                        b_l = b_l.replace("ff", "max")
+                        b_l = b.replace("ss", "s")
+                        b_l = b_l.replace("ff", "f")
                         b_l = b_l.replace("typical", "nom")
 
                         if (r_l == "nom" and c_l == "nom" and b_l == "nom" and d_l == "nom"):
