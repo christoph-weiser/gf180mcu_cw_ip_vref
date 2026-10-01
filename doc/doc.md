@@ -74,3 +74,14 @@ gf180mcuD pdk.
 cd xschem
 make 
 ```
+
+## Running PVT simulations
+
+1. Setup the environment as described in Setup section above.
+2. Source cadrc `source cadrc`
+3. Navigate to the testbench tests folder ([tests](../xschem/tb/bandgap_cm/bandgap/tests))
+4. Run the recipe .conf file 'runtest --configfile="ac_bandgap_stb.conf"
+
+**Hint**: give --cores=N argument to runtest to distribute the simulation cases
+on multiple cores.
+
