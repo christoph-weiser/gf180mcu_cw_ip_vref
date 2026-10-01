@@ -2,33 +2,27 @@
 
 ## Target Specifications
 
-| Parameter                    | Symbol.  | Min.  | Typ.   | Max.       | Unit. | Condition                      |
-| :--------------------------- | :------- | :---: | :----: | :--------: | :---: | :----------------------------- |
-| Supply Voltage               | Vdda     |  3.0  |  3.3   | 5.0        | V     |                                |
-| Output Voltage               | Vbg      |       |  1     |            | V     |                                |
-| Load Capacitance             | Cl       |       |        | 500        | fF    | To archive tset                |
-| Initial Accuracy             | ΔVbg,i   | -2.5  |        | +2.5       | %     | at T=20°C, Vdd=3.3V, ±3σ       | 
-| Trimmed Accuracy             | ΔVbg,t   | -0.25 | +-0.15 |  +0.25     | %     | for all possible trimvalues    |
-| Area                         | A        |       |        | 200x200    | µm²   |                                |
-| Temperature Range            | T        |  -40  |        | 85         | °C    |                                |
-| Quiesent Current             | Iq       |       |  15    | 20         | µA    | Vdd=3.0V to 5.0V, T=20°C       |
-| Power Dissipation            | Pd       |       |  49.5  | 100        | µW    | Vdd=3.0V to 5.0V, T=20°C       |
-| Power-down state Current     | Ioff     |       |        | 1          | nA    |                                |
-| Temperature coefficient      | Tc       |       |  27    | 67         | µV/°C | Across full Temperature        | 
-|                              |          |       |        |            |       | range, ±3σ yield               |
-| Relative change              | ΔVtc     |       |  ±3.4  | ±8.5       | mV    | Across full Temperature        | 
-|                              |          |       |        |            |       | range, ±3σ yield               |
-| Line Regulation              | dV/dVdd  |       |  1     | 2          | mV/V  | Vdd=3.0V to 5.0V, T=20°C       |
-| Line Relative Change         | ΔVvdd    |       |  2     | 4          | mV    | Vdd=3.0V to 5.0V, T=20°C       |
-| Power Supply Rejection Ratio | PSRR     |  75   |        |            | dB    | f=1Hz, Vdd=3.3V                |
-|                              |          |  60   |        |            | dB    | f=100Hz, Vdd=3.3V              |   
-|                              |          |  40   |        |            | dB    | f=1kHz, Vdd=3.3V               |
-| Noise                        | en       |       |  75    | 80         | µVrms | f=0.1Hz to 10Hz                |
-|                              |          |       |  90    | 100        | µVrms | f=10Hz to 10kHz                |
-| Turn-on settling time        | tset     |       |  8u    | 20         | µs    | Vdd=3.0V to 5.0V,              |
-|                              |          |       |        |            |       | Across full Temperature,       |
-|                              |          |       |        |            |       | @Cl max,                       | 
-|                              |          |       |        |            |       | Vbg: +-1% of final value       |
+| Parameter                    | Symbol.  | Min.  | Typ.   | Max.       | Unit. | Condition                         |
+| :--------------------------- | :------- | :---: | :----: | :--------: | :---: | :-------------------------------- |
+| Supply Voltage               | Vdda     |  3.0  |  3.3   | 5.0        | V     |                                   |
+| Output Voltage               | Vbg      |       |  1     |            | V     |                                   |
+| Load Capacitance             | Cl       |       |        | 500        | fF    | To archive tset                   |
+| Initial Accuracy             | ΔVbgi    | -25   |        | +25        | %     | at T=27°C, Vdd=3.3V, ±3σ          | 
+| Trimmed Accuracy             | ΔVbgt    | -0.25 | +-0.15 | +0.25      | %     | for all possible trimvalues       |
+| Area                         | A        |       |        | 180x220    | µm²   |                                   |
+| Temperature Range            | T        |  -40  |        | 85         | °C    |                                   |
+| Quiesent Current             | Iq       |       |  20    | 30         | µA    | Vdd=3.0V to 5.0V, T=27°C          |
+| Power Dissipation            | Pd       |       |  66    | 150        | µW    | Vdd=3.0V to 5.0V, T=27°C          |
+| Power-down state Current     | Ioff     |       |        | 0.1        | µA    |                                   |
+| Temperature coefficient      | Tc       |       |  35    | 85         | µV/°C | All PVT, ±3σ yield                | 
+| Line Regulation              | dV/dVdd  |       |  1     | 2          | mV/V  | Vdd=3.0V to 5.0V, T=27°C          |
+| Line Relative Change         | ΔVvdd    |       |  2     | 4          | mV    | Vdd=3.0V to 5.0V, T=27°C          |
+| Power Supply Rejection Ratio | PSRR     |  75   |        |            | dB    | f=1Hz, Vdd=3.3V                   |
+|                              |          |  60   |        |            | dB    | f=100Hz, Vdd=3.3V                 |   
+|                              |          |  40   |        |            | dB    | f=1kHz, Vdd=3.3V                  |
+| Noise                        | en       |       |  75    | 80         | µVrms | f=0.1Hz to 10Hz                   |
+|                              |          |       |  90    | 100        | µVrms | f=10Hz to 10kHz                   |
+| Turn-on settling time        | tset     |       |  8u    | 20         | µs    | All PVT, @Cl max, Vbg: +-1% of SS |
 
 
 ## Schematics
@@ -49,14 +43,14 @@ For results see the individual pages.
 - [ac_bandgap_psrr.sch](ac_bandgap_psrr.md):                PSRR
 - [op_bandgap_power.sch](op_bandgap_power.md):              Iq, Pd
 - [dc_bandgap_supply.sch](dc_bandgap_supply.md):            dV/dVdd, ΔVvdd
-- [dc_bandgap_temperature.sch](dc_bandgap_temperature.md):  Tc, ΔVtc
-- [mc_bandgap_temperature.sch](mc_bandgap_temperature.md):  ΔVbg
+- [dc_bandgap_temperature.sch](dc_bandgap_temperature.md):  Tc
+- [mc_bandgap_temperature.sch](mc_bandgap_temperature.md):  ΔVbgi
 - [no_bandgap.sch](no_bandgap.md):                          en
 - [tr_bandgap_psrr.sch](tr_bandgap_psrr.md)                 PSRR
 - [tr_bandgap_startup.sch](tr_bandgap_startup.md)           tset
 - [tr_bandgap_supply.sch](tr_bandgap_supply.md)             dV/dVdd, ΔVvdd
-- [tr_bandgap_temperature.sch](tr_bandgap_temperature.md):  Tc, ΔVtc
-- [tr_bandgap_trim.sch](tr_bandgap_trim.md):                ΔVbg,t
+- [tr_bandgap_temperature.sch](tr_bandgap_temperature.md):  Tc
+- [tr_bandgap_trim_ss.sch](tr_bandgap_trim_ss.md):          ΔVbgt
 
 
 ## Setup
