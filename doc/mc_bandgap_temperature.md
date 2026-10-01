@@ -11,6 +11,3 @@ Simulation results for mc_bandgap_temperature
 
 ![vbg_min](pic/sim_sch/mc_bandgap_temperature/vbg_min.png)
 ![vbg_max](pic/sim_sch/mc_bandgap_temperature/vbg_max.png)
-![t_max](pic/sim_sch/mc_bandgap_temperature/t_max.png)
-![t_min](pic/sim_sch/mc_bandgap_temperature/t_min.png)
-
