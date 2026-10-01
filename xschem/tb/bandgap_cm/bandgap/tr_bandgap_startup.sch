@@ -34,7 +34,7 @@ only_toplevel=true
 value="* Control
 
 .param vdd = 3.3
-.param cl = 100e-15
+.param cl = 500e-15
 
 .param t_en = 20u
 .csparam t_en = t_en
