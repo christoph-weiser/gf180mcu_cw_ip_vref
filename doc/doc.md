@@ -36,7 +36,7 @@ The testbenches are located in [xschem/tb](../xschem/tb).
 The following overview shows which testbench is used to simulate which specification.
 Some might be duplicate where the same specification is checked using different methods.
 
-For results see the individual pages.
+For **results** see the individual pages.
 
 - [op_bandgap.sch](op_bandgap.md):                          operating point
 - [ac_bandgap_stb.sch](ac_bandgap_stb.md):                  loop stability
