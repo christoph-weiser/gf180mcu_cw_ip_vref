@@ -22,7 +22,7 @@
 |                              |          |  40   |        |            | dB    | f=1kHz, Vdd=3.3V                  |
 | Noise                        | en       |       |  75    | 80         | µVrms | f=0.1Hz to 10Hz                   |
 |                              |          |       |  90    | 100        | µVrms | f=10Hz to 10kHz                   |
-| Turn-on settling time        | tset     |       |  8u    | 20         | µs    | All PVT, @Cl max, Vbg: +-1% of SS |
+| Turn-on settling time        | tset     |       |  8u    | 35         | µs    | All PVT, @Cl max, Vbg: +-1% of SS |
 
 
 ## Schematics
