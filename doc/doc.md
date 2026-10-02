@@ -14,7 +14,7 @@
 | Quiesent Current             | Iq       |       |  20    | 30         | µA    | All PVT                           |
 | Off-State Current            | Ioff     |       |        | 0.1        | µA    | All PVT                           |
 | Power Dissipation            | Pd       |       |  66    | 150        | µW    | All PVT                           |
-| Power-down state Current     | Ioff     |       |        | 0.1        | µA    |                                   |
+| Power-down state Current     | Ioff     |       |        | 10         | nA    | All PVT                           |
 | Temperature coefficient      | Tc       |       |  35    | 85         | µV/°C | All PVT, ±3σ yield                | 
 | Line Regulation              | dV/dVdd  |       |  1     | 2          | mV/V  | All PVT                           |
 | Line Relative Change         | ΔVvdd    |       |  2     | 4          | mV    | All PVT                           |
