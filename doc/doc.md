@@ -12,6 +12,7 @@
 | Initial Accuracy             | ΔVbgi    | -25   |        | +25        | %     | All PVT, ±3σ yield                | 
 | Trimmed Accuracy             | ΔVbgt    | -0.25 | +-0.15 | +0.25      | %     |                                   | 
 | Quiesent Current             | Iq       |       |  20    | 30         | µA    | All PVT                           |
+| Off-State Current            | Ioff     |       |        | 0.1        | µA    | All PVT                           |
 | Power Dissipation            | Pd       |       |  66    | 150        | µW    | All PVT                           |
 | Power-down state Current     | Ioff     |       |        | 0.1        | µA    |                                   |
 | Temperature coefficient      | Tc       |       |  35    | 85         | µV/°C | All PVT, ±3σ yield                | 
@@ -48,6 +49,7 @@ For **results** see the individual pages.
 | [mc_bandgap_temperature](mc_bandgap_temperature.md)  | ΔVbgi              |
 | [no_bandgap](no_bandgap.md)                          | en                 |
 | [op_bandgap_power](op_bandgap_power.md)              | Iq, Pd             |
+| [tr_bandgap_power_off](tr_bandgap_power_off.md)      | Ioff               |
 | [tr_bandgap_psrr](tr_bandgap_psrr.md)                | PSRR               |
 | [tr_bandgap_startup](tr_bandgap_startup.md)          | tset               |
 | [tr_bandgap_supply](tr_bandgap_supply.md)            | dV/dVdd, ΔVvdd     |
