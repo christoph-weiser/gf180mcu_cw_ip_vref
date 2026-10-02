@@ -7,16 +7,16 @@
 | Supply Voltage               | Vdda     |  3.0  |  3.3   | 5.0        | V     |                                   |
 | Output Voltage               | Vbg      |       |  1     |            | V     |                                   |
 | Load Capacitance             | Cl       |       |        | 500        | fF    | To archive tset                   |
-| Initial Accuracy             | ΔVbgi    | -25   |        | +25        | %     | at T=27°C, Vdd=3.3V, ±3σ          | 
-| Trimmed Accuracy             | ΔVbgt    | -0.25 | +-0.15 | +0.25      | %     | for all possible trimvalues       |
+| Initial Accuracy             | ΔVbgi    | -25   |        | +25        | %     | All PVT, ±3σ yield                | 
+| Trimmed Accuracy             | ΔVbgt    | -0.25 | +-0.15 | +0.25      | %     |                                   | 
 | Area                         | A        |       |        | 180x220    | µm²   |                                   |
 | Temperature Range            | T        |  -40  |        | 85         | °C    |                                   |
-| Quiesent Current             | Iq       |       |  20    | 30         | µA    | Vdd=3.0V to 5.0V, T=27°C          |
-| Power Dissipation            | Pd       |       |  66    | 150        | µW    | Vdd=3.0V to 5.0V, T=27°C          |
+| Quiesent Current             | Iq       |       |  20    | 30         | µA    | All PVT                           |
+| Power Dissipation            | Pd       |       |  66    | 150        | µW    | All PVT                           |
 | Power-down state Current     | Ioff     |       |        | 0.1        | µA    |                                   |
 | Temperature coefficient      | Tc       |       |  35    | 85         | µV/°C | All PVT, ±3σ yield                | 
-| Line Regulation              | dV/dVdd  |       |  1     | 2          | mV/V  | Vdd=3.0V to 5.0V, T=27°C          |
-| Line Relative Change         | ΔVvdd    |       |  2     | 4          | mV    | Vdd=3.0V to 5.0V, T=27°C          |
+| Line Regulation              | dV/dVdd  |       |  1     | 2          | mV/V  | All PVT                           |
+| Line Relative Change         | ΔVvdd    |       |  2     | 4          | mV    | All PVT                           |
 | Power Supply Rejection Ratio | PSRR     |  75   |        |            | dB    | f=1Hz, Vdd=3.3V                   |
 |                              |          |  60   |        |            | dB    | f=100Hz, Vdd=3.3V                 |   
 |                              |          |  40   |        |            | dB    | f=1kHz, Vdd=3.3V                  |
