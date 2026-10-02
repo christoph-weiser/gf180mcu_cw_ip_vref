@@ -7,10 +7,10 @@
 | Supply Voltage               | Vdda     |  3.0  |  3.3   | 5.0        | V     |                                   |
 | Output Voltage               | Vbg      |       |  1     |            | V     |                                   |
 | Load Capacitance             | Cl       |       |        | 500        | fF    | To archive tset                   |
-| Initial Accuracy             | ΔVbgi    | -25   |        | +25        | %     | All PVT, ±3σ yield                | 
-| Trimmed Accuracy             | ΔVbgt    | -0.25 | +-0.15 | +0.25      | %     |                                   | 
 | Area                         | A        |       |        | 180x220    | µm²   |                                   |
 | Temperature Range            | T        |  -40  |        | 85         | °C    |                                   |
+| Initial Accuracy             | ΔVbgi    | -25   |        | +25        | %     | All PVT, ±3σ yield                | 
+| Trimmed Accuracy             | ΔVbgt    | -0.25 | +-0.15 | +0.25      | %     |                                   | 
 | Quiesent Current             | Iq       |       |  20    | 30         | µA    | All PVT                           |
 | Power Dissipation            | Pd       |       |  66    | 150        | µW    | All PVT                           |
 | Power-down state Current     | Ioff     |       |        | 0.1        | µA    |                                   |
