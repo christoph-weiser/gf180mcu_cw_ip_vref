@@ -86,6 +86,6 @@ make
 3. Navigate to the testbench tests folder ([tests](../xschem/tb/bandgap_cm/bandgap/tests))
 4. Run the recipe .conf file `runtest --configfile="ac_bandgap_stb.conf"`
 
-**Hint**: give `--cores=N` argument to runtest to distribute the simulation cases
+**Hint**: give `--cores=N` argument to `runtest` to distribute the simulation cases
 on multiple cores.
 
