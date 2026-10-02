@@ -6,7 +6,7 @@
 | :--------------------------- | :------- | :---: | :----: | :--------: | :---: | :-------------------------------- |
 | Supply Voltage               | Vdda     |  3.0  |  3.3   | 5.0        | V     |                                   |
 | Output Voltage               | Vbg      |       |  1     |            | V     |                                   |
-| Load Capacitance             | Cl       |       |        | 500        | fF    | To archive tset                   |
+| Load Capacitance             | Cl       |       |        | 500        | fF    | To achieve tset                   |
 | Area                         | A        |       |        | 180x220    | µm²   |                                   |
 | Temperature Range            | T        |  -40  |        | 85         | °C    |                                   |
 | Initial Accuracy             | ΔVbgi    | -25   |        | +25        | %     | All PVT, ±3σ yield                | 
