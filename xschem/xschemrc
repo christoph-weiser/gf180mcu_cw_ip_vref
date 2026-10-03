@@ -14,3 +14,8 @@ append XSCHEM_LIBRARY_PATH :${DESIGN_PATH}
 # change bus character default [] to ___
 #----------------------------------------------------------------------
 set bus_replacement_char {__}
+
+#----------------------------------------------------------------------
+# Top-level schematic
+#----------------------------------------------------------------------
+set XSCHEM_START_WINDOW ${DESIGN_PATH}/sch/top/gf180mcu_cw_ip_vref.sch
