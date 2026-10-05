@@ -1,5 +1,15 @@
 # Current Mode Voltage Reference
 
+## Functional description
+
+The circuit provides a PVT independent 1V reference voltage.
+It is self biased, so no external components or bias currents are required. 
+VDD and VSS are sufficient to generate the reference voltage.
+
+It features a 8bit trim array to archive better target accuracy. 
+It also features a enable signal, such that the circuit can be powered down when not required.
+
+
 ## Target Specifications
 
 | Parameter                    | Symbol.  | Min.  | Typ.   | Max.       | Unit. | Condition                         |
@@ -23,6 +33,23 @@
 | Noise                        | en       |       |  75    | 80         | µVrms | f=0.1Hz to 10Hz                   |
 |                              |          |       |  90    | 100        | µVrms | f=10Hz to 10kHz                   |
 | Turn-on settling time        | tset     |       |  8     | 35         | µs    | All PVT, @Cl max, Vbg: +-1% of SS |
+
+
+## List of I/O 
+
+**Primary I/O**
+
+VAPWR:          IO,  Analog supply voltage
+VDPWR:          IO,  Digital supply voltage
+VGND:           IO,  Supply ground
+VBG             OUT, Bandgap reference voltage
+EN              IN,  Enable signal
+Trim[7:0]:      IN,  Digital trim inputs
+
+**Test I/O**
+Bias:           IN, Testbuffer bias current
+Vext:           IN, External test voltage to measure testbuffer.
+dsw[1:0]        IN, Digital path selector switches
 
 
 ## Schematics
