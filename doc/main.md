@@ -96,3 +96,18 @@ The configuration allows for characterization of the test buffer itself as a
 standalone component and for the full system, including the voltage reference.
 
 ![architecture](pic/toplevel.png)
+
+The simulation results for the testbuffer can be found here:
+
+| Testbench                                                    | Parameters         |
+| :------------------------------------------------------------| :----------------- |
+| [op_tb_amplifier](testbuffer/op_tb_amplifier.md)             | operating point    |
+| [ac_tb_amplifier_stb](testbuffer/ac_tb_amplifier_stb.md)     | Avol, UGBW, φm     |
+| [ac_tb_amplifier_cin](testbuffer/ac_tb_amplifier_cin.md)     | Cin                |
+| [ac_tb_amplifier_cmrr](testbuffer/ac_tb_amplifier_cmrr.md)   | CMRR               |
+| [ac_tb_amplifier_psrr](testbuffer/ac_tb_amplifier_psrr.md)   | PSRR+, PSRR-       |
+| [dc_tb_amplifier_icmr](testbuffer/dc_tb_amplifier_icmr.md)   | ICMR+, ICMR-       |
+| [mc_tb_amplifier](testbuffer/mc_tb_amplifier.md)             | Vos                |
+| [no_tb_amplifier](testbuffer/no_tb_amplifier.md)             | en                 |
+| [op_tb_amplifier_power](testbuffer/op_tb_amplifier_power.md) | Iq, Pd             |
+| [tr_tb_amplifier_slew](testbuffer/tr_tb_amplifier_slew.md)   | SR+, SR-           |
