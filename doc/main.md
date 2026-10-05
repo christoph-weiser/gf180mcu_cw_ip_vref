@@ -42,13 +42,13 @@ It also features a enable signal, such that the circuit can be powered down when
 VAPWR:          IO,  Analog supply voltage
 VDPWR:          IO,  Digital supply voltage
 VGND:           IO,  Supply ground
-VBG             OUT, Bandgap reference voltage
-EN              IN,  Enable signal
-Trim[7:0]:      IN,  Digital trim inputs
+vbg             OUT, Bandgap reference voltage
+en              IN,  Enable signal
+trim[7:0]:      IN,  Digital trim inputs
 
 **Test I/O**
-Bias:           IN, Testbuffer bias current
-Vext:           IN, External test voltage to measure testbuffer.
+bias:           IN, Testbuffer bias current
+vext:           IN, External test voltage to measure testbuffer.
 dsw[1:0]        IN, Digital path selector switches
 
 
