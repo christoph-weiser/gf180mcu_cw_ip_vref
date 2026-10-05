@@ -90,4 +90,9 @@ on multiple cores.
 
 ## Test architecture
 
+To test the circuit without changing its characteristics, it's required to include a 
+test buffer and switches. 
+The configuration allows for characterization of the test buffer itself as a 
+standalone component and for the full system, including the voltage reference.
+
 ![architecture](pic/toplevel.png)
