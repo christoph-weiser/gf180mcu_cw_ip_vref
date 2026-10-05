@@ -17,13 +17,13 @@ Simulation results for ac_tb_amplifier_psrr
 | psrr_n_1k  |  99.9274 | 124.759  | 113.316  |  6.17257 |
 | psrr_n_10k |  93.8032 | 106.484  |  99.0141 |  2.54145 |
 
+![psrr_p](pic/sim_sch/ac_tb_amplifier_psrr/psrr_p.png)
+![psrr_n](pic/sim_sch/ac_tb_amplifier_psrr/psrr_n.png)
+
 ![psrr_p_1](pic/sim_sch/ac_tb_amplifier_psrr/psrr_p_1.png)
-![psrr_p_10](pic/sim_sch/ac_tb_amplifier_psrr/psrr_p_10.png)
 ![psrr_p_100](pic/sim_sch/ac_tb_amplifier_psrr/psrr_p_100.png)
 ![psrr_p_1k](pic/sim_sch/ac_tb_amplifier_psrr/psrr_p_1k.png)
 ![psrr_p_10k](pic/sim_sch/ac_tb_amplifier_psrr/psrr_p_10k.png)
 ![psrr_n_1](pic/sim_sch/ac_tb_amplifier_psrr/psrr_n_1.png)
-![psrr_n_10](pic/sim_sch/ac_tb_amplifier_psrr/psrr_n_10.png)
 ![psrr_n_100](pic/sim_sch/ac_tb_amplifier_psrr/psrr_n_100.png)
 ![psrr_n_1k](pic/sim_sch/ac_tb_amplifier_psrr/psrr_n_1k.png)
-![psrr_n_10k](pic/sim_sch/ac_tb_amplifier_psrr/psrr_n_10k.png)
