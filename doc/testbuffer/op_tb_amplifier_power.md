@@ -19,3 +19,6 @@ Simulation results for op_tb_amplifier_power
 | id_xmb4 | 4.21708u  | 6.68154u  | 5.38995u  | 647.6329n |
 | itot    | 47.64168u | 58.94192u | 52.1634u  | 3.18924u  |
 | ptot    | 142.925u  | 294.7096u | 199.0516u | 58.826u   |
+
+![itot](pic/sim_sch/op_tb_amplifier_power/itot.png)
+![ptot](pic/sim_sch/op_tb_amplifier_power/ptot.png)
