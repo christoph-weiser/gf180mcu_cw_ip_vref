@@ -37,19 +37,20 @@ It also features a enable signal, such that the circuit can be powered down when
 
 ## List of I/O 
 
-**Primary I/O**
+| Primary I/O      | Direction          | Description               |
+| :--------------: | :----------------- | :------------------------ |
+| VAPWR            | IO                 | Analog supply voltage     |
+| VDPWR            | IO                 | Digital supply voltage    |
+| VGND             | IO                 | Supply ground             |
+| vbg              | OUT                | Bandgap reference voltage |
+| en               | IN                 | Enable signal             |
+| trim[7:0]        | IN                 | Digital trim inputs       |
 
-VAPWR:          IO,  Analog supply voltage
-VDPWR:          IO,  Digital supply voltage
-VGND:           IO,  Supply ground
-vbg             OUT, Bandgap reference voltage
-en              IN,  Enable signal
-trim[7:0]:      IN,  Digital trim inputs
-
-**Test I/O**
-bias:           IN, Testbuffer bias current
-vext:           IN, External test voltage to measure testbuffer.
-dsw[1:0]        IN, Digital path selector switches
+| Test I/O         | Direction          | Description               |
+| :--------------: | :----------------- | :------------------------ |
+| bias             | IN                 | Testbuffer bias current   |
+| vext             | IN                 | External test input       |
+| dsw[1:0]         | IN                 | Path selector switches    |
 
 
 ## Schematics
