@@ -37,6 +37,10 @@ It also features a enable signal, such that the circuit can be powered down when
 
 ## List of I/O 
 
+
+Primary I/O are inputs and outputs that are required for the operation
+of the voltage reference.
+
 | Primary I/O      | Direction          | Description               |
 | :--------------: | :----------------- | :------------------------ |
 | VAPWR            | IO                 | Analog supply voltage     |
@@ -45,6 +49,10 @@ It also features a enable signal, such that the circuit can be powered down when
 | vbg              | OUT                | Bandgap reference voltage |
 | en               | IN                 | Enable signal             |
 | trim[7:0]        | IN                 | Digital trim inputs       |
+
+
+Test I/O are inputs required to test and characterize the voltage 
+reference after tapeout.
 
 | Test I/O         | Direction          | Description               |
 | :--------------: | :----------------- | :------------------------ |
