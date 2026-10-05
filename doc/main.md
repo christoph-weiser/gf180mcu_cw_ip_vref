@@ -88,3 +88,6 @@ make
 **Hint**: give `--cores=N` argument to `runtest` to distribute the simulation cases
 on multiple cores.
 
+## Test architecture
+
+![architecture](pic/toplevel.png)
