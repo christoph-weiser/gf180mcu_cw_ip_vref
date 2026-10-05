@@ -38,22 +38,22 @@ Some might be duplicate where the same specification is checked using different 
 
 For **results** see the individual pages.
 
-| Testbench                                            | Parameters         |
-| :----------------------------------------------------| :----------------- |
-| [op_bandgap](op_bandgap.md)                          | operating point    |
-| [ac_bandgap_stb](ac_bandgap_stb.md)                  | loop stability     |
-| [ac_bandgap_psrr](ac_bandgap_psrr.md)                | PSRR               |
-| [dc_bandgap_supply](dc_bandgap_supply.md)            | dV/dVdd, ΔVvdd     |
-| [dc_bandgap_temperature](dc_bandgap_temperature.md)  | Tc                 |
-| [mc_bandgap_temperature](mc_bandgap_temperature.md)  | ΔVbgi              |
-| [no_bandgap](no_bandgap.md)                          | en                 |
-| [op_bandgap_power](op_bandgap_power.md)              | Iq, Pd             |
-| [tr_bandgap_power_off](tr_bandgap_power_off.md)      | Ioff               |
-| [tr_bandgap_psrr](tr_bandgap_psrr.md)                | PSRR               |
-| [tr_bandgap_startup](tr_bandgap_startup.md)          | tset               |
-| [tr_bandgap_supply](tr_bandgap_supply.md)            | dV/dVdd, ΔVvdd     |
-| [tr_bandgap_temperature](tr_bandgap_temperature.md)  | Tc                 |
-| [tr_bandgap_trim_ss](tr_bandgap_trim_ss.md)          | ΔVbgt              |
+| Testbench                                                    | Parameters         |
+| :------------------------------------------------------------| :----------------- |
+| [op_bandgap](bandgap/op_bandgap.md)                          | operating point    |
+| [ac_bandgap_stb](bandgap/ac_bandgap_stb.md)                  | loop stability     |
+| [ac_bandgap_psrr](bandgap/ac_bandgap_psrr.md)                | PSRR               |
+| [dc_bandgap_supply](bandgap/dc_bandgap_supply.md)            | dV/dVdd, ΔVvdd     |
+| [dc_bandgap_temperature](bandgap/dc_bandgap_temperature.md)  | Tc                 |
+| [mc_bandgap_temperature](bandgap/mc_bandgap_temperature.md)  | ΔVbgi              |
+| [no_bandgap](bandgap/no_bandgap.md)                          | en                 |
+| [op_bandgap_power](bandgap/op_bandgap_power.md)              | Iq, Pd             |
+| [tr_bandgap_power_off](bandgap/tr_bandgap_power_off.md)      | Ioff               |
+| [tr_bandgap_psrr](bandgap/tr_bandgap_psrr.md)                | PSRR               |
+| [tr_bandgap_startup](bandgap/tr_bandgap_startup.md)          | tset               |
+| [tr_bandgap_supply](bandgap/tr_bandgap_supply.md)            | dV/dVdd, ΔVvdd     |
+| [tr_bandgap_temperature](bandgap/tr_bandgap_temperature.md)  | Tc                 |
+| [tr_bandgap_trim_ss](bandgap/tr_bandgap_trim_ss.md)          | ΔVbgt              |
 
 
 ## Setup
