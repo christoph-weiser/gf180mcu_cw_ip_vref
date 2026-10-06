@@ -133,7 +133,7 @@ standalone component and for the full system, including the voltage reference.
 
 ![architecture](pic/toplevel.png)
 
-The simulation results for the testbuffer can be found here:
+The simulation results for the **testbuffer** can be found here:
 
 | Testbench                                                    | Parameters         |
 | :------------------------------------------------------------| :----------------- |
@@ -147,3 +147,11 @@ The simulation results for the testbuffer can be found here:
 | [no_tb_amplifier](testbuffer/no_tb_amplifier.md)             | en                 |
 | [op_tb_amplifier_power](testbuffer/op_tb_amplifier_power.md) | Iq, Pd             |
 | [tr_tb_amplifier_slew](testbuffer/tr_tb_amplifier_slew.md)   | SR+, SR-           |
+
+
+The simulation results for the **levelshifter** can be found here:
+
+| Testbench                                                    | Parameters         |
+| :------------------------------------------------------------| :----------------- |
+| [tr_levelshifter](levelshifter/tr_levelshifter.md)           | tr, tf, Vhi, Vlo   |
+
