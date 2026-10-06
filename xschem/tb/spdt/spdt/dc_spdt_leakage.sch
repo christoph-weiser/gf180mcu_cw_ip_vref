@@ -64,6 +64,9 @@ let iout = abs(vmo#branch)
 meas dc iin_max max iin
 meas dc iout_max max iout
 
+print iin_max
+print iout_max
+
 gnuplot p1 iin
 
 set wr_singlescale
