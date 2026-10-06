@@ -155,3 +155,10 @@ The simulation results for the **levelshifter** can be found here:
 | :------------------------------------------------------------| :----------------- |
 | [tr_levelshifter](levelshifter/tr_levelshifter.md)           | tr, tf, Vhi, Vlo   |
 
+
+The simulation results for the **SPDT** switch can be found here:
+
+| Testbench                                                    | Parameters         |
+| :------------------------------------------------------------| :----------------- |
+| [dc_spdt_leakage](spdt/dc_spdt_leakage.md)                   | ileak              |
+| [dc_spdt_ron](spdt/dc_spdt_ron.md)                           | Ron                |
