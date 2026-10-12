@@ -62,10 +62,10 @@ save all
 
 setseed $&ns
 
-dc temp -40 125 5
+dc temp -40 85 5
 
-meas dc vbg_min min vbg from=0 to=75
-meas dc vbg_max max vbg from=0 to=75
+meas dc vbg_min min vbg from=-40 to=85
+meas dc vbg_max max vbg from=-40 to=85
 
 let vbg_min_eval = vbg_min + 1u
 let vbg_max_eval = vbg_max - 1u
