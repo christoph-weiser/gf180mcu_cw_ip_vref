@@ -191,7 +191,7 @@ C {devices/lab_wire.sym} 360 -590 0 1 {name=l16 sig_type=std_logic lab=vdd
 C {devices/lab_wire.sym} 360 -470 0 1 {name=l17 sig_type=std_logic lab=vdd
 }
 C {devices/lab_wire.sym} 360 -290 0 1 {name=l18 sig_type=std_logic lab=vss}
-C {devices/titleblock.sym} 1260 0 0 0 {name=l21 author="Christoph Weiser" license="Apache-2.0" year="2026" }
+C {devices/titleblock.sym} 1260 0 0 0 {name=l21 author="Christoph Weiser" license="Apache-2.0" year="2026"}
 C {devices/notes.sym} 1350 -110 0 0 {name=h25
 descr=bla
 tclcommand="execute 0 sh -c \\"$\{editor\} [file dirname [xschem get schname]]/doc/notes.md\\""
@@ -443,7 +443,8 @@ model=ppolyf_u_1k_6p0
 spiceprefix=X
 m=1
 }
-C {devices/lab_wire.sym} 930 -490 1 1 {name=l19 sig_type=std_logic lab=vss}
+C {devices/lab_wire.sym} 930 -490 1 1 {name=l19 sig_type=std_logic lab=vdd
+}
 C {devices/ngspice_get_expr.sym} 590 -400 2 0 {name=r36 node="vov=[to_eng [expr \{ [ ngspice::get_node vov_xm1 ]\} ] ]"
 descr=""
 }
