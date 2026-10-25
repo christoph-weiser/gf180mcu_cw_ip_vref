@@ -19,3 +19,21 @@ Simulation results for tr_bandgap_startup
 ![t_hl](pic/sim_sch/tr_bandgap_startup/t_hl.png)
 ![t_lh](pic/sim_sch/tr_bandgap_startup/t_lh.png)
 
+
+## Post-Layout Simulation
+
+|        | min       | max       | mean      | std       |
+|:-------|:----------|:----------|:----------|:----------|
+| vbg_ss | 988.2668m | 1.01890   | 1.00536   | 7.37230m  |
+| t_set  | 925.47n   | 37.09564u | 6.64581u  | 7.65994u  |
+| t_hl   | 20.92547u | 57.09564u | 26.64582u | 7.65994u  |
+| t_lh   | 20.01989u | 20.14131u | 20.06491u | 33.59962n |
+
+![vbg_ss](pic/sim_pex/tr_bandgap_startup/vbg_ss.png)
+![t_set](pic/sim_pex/tr_bandgap_startup/t_set.png)
+
+![transient](pic/sim_pex/tr_bandgap_startup/transient.png)
+
+![t_hl](pic/sim_pex/tr_bandgap_startup/t_hl.png)
+![t_lh](pic/sim_pex/tr_bandgap_startup/t_lh.png)
+
