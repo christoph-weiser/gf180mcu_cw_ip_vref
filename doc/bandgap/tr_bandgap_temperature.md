@@ -9,6 +9,7 @@ correctness of the corresponding .dc testbench.
 ## Pre-Layout Simulation
 
 ![vbg](pic/sim_sch/tr_bandgap_temperature/vbg.png)
+![vbg_norm](pic/sim_sch/tr_bandgap_temperature/vbg_norm.png)
 
 ## Post-Layout Simulation
 
