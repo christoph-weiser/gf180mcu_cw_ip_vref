@@ -1,0 +1,698 @@
+* PEX CC extract
+
+.subckt bandgap vdd vbg vss tio_7_ tio_6_ tio_5_ tio_4_ tio_3_ tio_2_ tio_1_ tio_0_ trim_7_ trim_6_
++ trim_5_ trim_4_ trim_3_ trim_2_ trim_1_ trim_0_ iout en
+
+viout   iout    vss     0
+vtio7   tio_7_  vss     0
+vtio6   tio_6_  vss     0
+vtio5   tio_5_  gate    0
+vtio4   tio_4_  vy      0
+vtio3   tio_3_  vx      0
+vtio2   tio_2_  vss     0
+vtio1   tio_1_  vs1     0
+vtio0   tio_0_  bias    0
+
+X0 vss vss vss vss nfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X1 vss vss vss vss nfet_06v0 ad=-0.26381n pd=-1.72223m as=-0 ps=-0 w=8u l=8u
+X2 vss vss vss vss nfet_06v0 ad=-0 pd=-0 as=-0 ps=-0 w=8u l=8u
+X3 vss vss vss vss nfet_06v0 ad=-0 pd=-0 as=-0 ps=-0 w=8u l=8u
+X4 vss vss vss vss nfet_06v0 ad=-0 pd=-0 as=-0 ps=-0 w=8u l=8u
+X5 vb1 vb1 vss vss nfet_06v0 ad=14.96p pd=72.4u as=-0 ps=-0 w=8u l=8u
+X6 vb1 vb1 vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=8u
+X7 vss vss vss vss nfet_06v0 ad=-0 pd=-0 as=-0 ps=-0 w=8u l=8u
+X8 vss vss vss vss nfet_06v0 ad=-0 pd=-0 as=-0 ps=-0 w=8u l=8u
+X9 bias vb1 vss vss nfet_06v0 ad=7.04p pd=33.76u as=-0 ps=-0 w=8u l=8u
+X10 vss vb1 bias vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=8u
+X11 vss vss vss vss nfet_06v0 ad=-0 pd=-0 as=-0 ps=-0 w=8u l=8u
+X12 vss vss vss vss nfet_06v0 ad=-0 pd=-0 as=-0 ps=-0 w=8u l=8u
+X13 vss vb1 vb1 vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=8u
+X14 vss vb1 vb1 vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=8u
+X15 vss vss vss vss nfet_06v0 ad=-0 pd=-0 as=-0 ps=-0 w=8u l=8u
+X16 vss vss vss vss nfet_06v0 ad=-0 pd=-0 as=-0 ps=-0 w=8u l=8u
+X17 vss vss vss vss nfet_06v0 ad=-0 pd=-0 as=-0 ps=-0 w=8u l=8u
+X18 vss vss vss vss nfet_06v0 ad=-0 pd=-0 as=-0 ps=-0 w=8u l=8u
+X19 vss vss vss vss nfet_06v0 ad=-0 pd=-0 as=-0 ps=-0 w=8u l=8u
+X20 bg__mi1_mi2_me1_me2_me3_me4_0/enb en vss vss nfet_06v0 ad=0.88p pd=4.88u as=0.88p ps=4.88u w=2u l=1u
+X21 vs2 bg__mi1_mi2_me1_me2_me3_me4_0/enb vss vss nfet_06v0 ad=1.32p pd=7.76u as=-0 ps=-0 w=2u l=1u
+X22 vb1 bg__mi1_mi2_me1_me2_me3_me4_0/enb vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=2u l=1u
+X23 bg__mi1_mi2_me1_me2_me3_me4_0/enb en vdd vdd pfet_06v0 ad=0.88p pd=4.88u as=0.88p ps=4.88u w=2u l=1u
+X24 vs1 en vdd vdd pfet_06v0 ad=0.88p pd=4.88u as=0.92372n ps=4.30706m w=2u l=1u
+X25 gate en vdd vdd pfet_06v0 ad=17.52p pd=73.04u as=0 ps=0 w=2u l=1u
+X26 vss vs2 gate vss nfet_06v0 ad=0.44p pd=2.88u as=0.44p ps=2.88u w=1u l=1u
+X27 bg__ms1_ms2_ms3_ms4_c1_0/vs3 en vs2 vss nfet_06v0 ad=1.32p pd=8.64u as=0 ps=0 w=1u l=1u
+X28 vss vx bg__ms1_ms2_ms3_ms4_c1_0/vs3 vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=1u l=1u
+X29 vs1 en bg__ms1_ms2_ms3_ms4_c1_0/vs3 vss nfet_06v0 ad=0.44p pd=2.88u as=0 ps=0 w=1u l=1u
+X30 vs1 vss cap_mim_2f0_m4m5_noshield c_width=10u c_length=10u
+X31 vdd vdd vdd ppolyf_u_1k r_width=1u r_length=20u
+X32 vdd vdd vdd ppolyf_u_1k r_width=1u r_length=20u
+X33 vdd vdd vdd ppolyf_u_1k r_width=1u r_length=20u
+X34 bg__r1_r2_r3_ro_0/m2_1892_4406# bg__trimres_0/pos vdd ppolyf_u_1k r_width=1u r_length=20u
+X35 bg__r1_r2_r3_ro_0/m2_1892_4406# bg__r1_r2_r3_ro_0/m2_2444_234# vdd ppolyf_u_1k r_width=1u r_length=20u
+X36 bg__r1_r2_r3_ro_0/m2_2996_4406# bg__r1_r2_r3_ro_0/m2_2444_234# vdd ppolyf_u_1k r_width=1u r_length=20u
+X37 bg__r1_r2_r3_ro_0/m2_2996_4406# bg__r1_r2_r3_ro_0/m2_3548_234# vdd ppolyf_u_1k r_width=1u r_length=20u
+X38 bg__r1_r2_r3_ro_0/m2_4100_4406# bg__r1_r2_r3_ro_0/m2_3548_234# vdd ppolyf_u_1k r_width=1u r_length=20u
+X39 bg__r1_r2_r3_ro_0/m2_4100_4406# bg__r1_r2_r3_ro_0/m2_4652_234# vdd ppolyf_u_1k r_width=1u r_length=20u
+X40 bg__r1_r2_r3_ro_0/m2_5204_4406# bg__r1_r2_r3_ro_0/m2_4652_234# vdd ppolyf_u_1k r_width=1u r_length=20u
+X41 bg__r1_r2_r3_ro_0/m2_5204_4406# bg__r1_r2_r3_ro_0/m2_5756_234# vdd ppolyf_u_1k r_width=1u r_length=20u
+X42 bg__r1_r2_r3_ro_0/m2_6308_4406# bg__r1_r2_r3_ro_0/m2_5756_234# vdd ppolyf_u_1k r_width=1u r_length=20u
+X43 bg__r1_r2_r3_ro_0/m2_6308_4406# bg__r1_r2_r3_ro_0/m2_6860_234# vdd ppolyf_u_1k r_width=1u r_length=20u
+X44 vbg bg__r1_r2_r3_ro_0/m2_6860_234# vdd ppolyf_u_1k r_width=1u r_length=20u
+X45 vdd vdd vdd ppolyf_u_1k r_width=1u r_length=20u
+X46 vdd vdd vdd ppolyf_u_1k r_width=1u r_length=20u
+X47 vss bg__r1_r2_r3_ro_0/m2_9068_n166# vdd ppolyf_u_1k r_width=1u r_length=20u
+X48 bg__r1_r2_r3_ro_0/m2_9620_4406# vss vdd ppolyf_u_1k r_width=1u r_length=20u
+X49 bg__r1_r2_r3_ro_0/m2_10172_4406# bg__r1_r2_r3_ro_0/m2_9068_n166# vdd ppolyf_u_1k r_width=1u r_length=20u
+X50 bg__r1_r2_r3_ro_0/m2_10172_4406# bg__r1_r2_r3_ro_0/m2_10724_n166# vdd ppolyf_u_1k r_width=1u r_length=20u
+X51 bg__r1_r2_r3_ro_0/m2_9620_4406# bg__r1_r2_r3_ro_0/m2_11276_234# vdd ppolyf_u_1k r_width=1u r_length=20u
+X52 bg__r1_r2_r3_ro_0/m2_11828_4406# bg__r1_r2_r3_ro_0/m2_11276_234# vdd ppolyf_u_1k r_width=1u r_length=20u
+X53 bg__r1_r2_r3_ro_0/m2_12380_4406# bg__r1_r2_r3_ro_0/m2_10724_n166# vdd ppolyf_u_1k r_width=1u r_length=20u
+X54 bg__r1_r2_r3_ro_0/m2_12380_4406# bg__r1_r2_r3_ro_0/m2_12932_n166# vdd ppolyf_u_1k r_width=1u r_length=20u
+X55 bg__r1_r2_r3_ro_0/m2_11828_4406# bg__r1_r2_r3_ro_0/m2_13484_234# vdd ppolyf_u_1k r_width=1u r_length=20u
+X56 bg__r1_r2_r3_ro_0/m2_14036_4406# bg__r1_r2_r3_ro_0/m2_13484_234# vdd ppolyf_u_1k r_width=1u r_length=20u
+X57 bg__r1_r2_r3_ro_0/m2_14588_3806# vbe2 vdd ppolyf_u_1k r_width=1u r_length=20u
+X58 bg__r1_r2_r3_ro_0/m2_15140_4406# bg__r1_r2_r3_ro_0/m2_12932_n166# vdd ppolyf_u_1k r_width=1u r_length=20u
+X59 bg__r1_r2_r3_ro_0/m2_15140_4406# bg__r1_r2_r3_ro_0/m2_15692_n166# vdd ppolyf_u_1k r_width=1u r_length=20u
+X60 bg__r1_r2_r3_ro_0/m2_14036_4406# bg__r1_r2_r3_ro_0/m2_16244_234# vdd ppolyf_u_1k r_width=1u r_length=20u
+X61 bg__r1_r2_r3_ro_0/m2_16796_4406# bg__r1_r2_r3_ro_0/m2_16244_234# vdd ppolyf_u_1k r_width=1u r_length=20u
+X62 bg__r1_r2_r3_ro_0/m2_17348_4406# bg__r1_r2_r3_ro_0/m2_15692_n166# vdd ppolyf_u_1k r_width=1u r_length=20u
+X63 bg__r1_r2_r3_ro_0/m2_17348_4406# bg__r1_r2_r3_ro_0/m2_17900_n166# vdd ppolyf_u_1k r_width=1u r_length=20u
+X64 bg__r1_r2_r3_ro_0/m2_16796_4406# bg__r1_r2_r3_ro_0/m2_18452_234# vdd ppolyf_u_1k r_width=1u r_length=20u
+X65 bg__r1_r2_r3_ro_0/m2_19004_4406# bg__r1_r2_r3_ro_0/m2_18452_234# vdd ppolyf_u_1k r_width=1u r_length=20u
+X66 bg__r1_r2_r3_ro_0/m2_19556_4406# bg__r1_r2_r3_ro_0/m2_17900_n166# vdd ppolyf_u_1k r_width=1u r_length=20u
+X67 bg__r1_r2_r3_ro_0/m2_19556_4406# bg__r1_r2_r3_ro_0/m2_20108_n166# vdd ppolyf_u_1k r_width=1u r_length=20u
+X68 bg__r1_r2_r3_ro_0/m2_19004_4406# bg__r1_r2_r3_ro_0/m2_20660_234# vdd ppolyf_u_1k r_width=1u r_length=20u
+X69 bg__r1_r2_r3_ro_0/m2_21212_4406# bg__r1_r2_r3_ro_0/m2_20660_234# vdd ppolyf_u_1k r_width=1u r_length=20u
+X70 bg__r1_r2_r3_ro_0/m2_21764_4406# bg__r1_r2_r3_ro_0/m2_20108_n166# vdd ppolyf_u_1k r_width=1u r_length=20u
+X71 bg__r1_r2_r3_ro_0/m2_21764_4406# bg__r1_r2_r3_ro_0/m2_22316_n166# vdd ppolyf_u_1k r_width=1u r_length=20u
+X72 bg__r1_r2_r3_ro_0/m2_14588_3806# vy vdd ppolyf_u_1k r_width=1u r_length=20u
+X73 bg__r1_r2_r3_ro_0/m2_21212_4406# bg__r1_r2_r3_ro_0/m2_23420_234# vdd ppolyf_u_1k r_width=1u r_length=20u
+X74 bg__r1_r2_r3_ro_0/m2_23972_4406# bg__r1_r2_r3_ro_0/m2_23420_234# vdd ppolyf_u_1k r_width=1u r_length=20u
+X75 bg__r1_r2_r3_ro_0/m2_24524_4406# bg__r1_r2_r3_ro_0/m2_22316_n166# vdd ppolyf_u_1k r_width=1u r_length=20u
+X76 bg__r1_r2_r3_ro_0/m2_24524_4406# bg__r1_r2_r3_ro_0/m2_25076_n166# vdd ppolyf_u_1k r_width=1u r_length=20u
+X77 bg__r1_r2_r3_ro_0/m2_23972_4406# bg__r1_r2_r3_ro_0/m2_25628_234# vdd ppolyf_u_1k r_width=1u r_length=20u
+X78 bg__r1_r2_r3_ro_0/m2_26180_4406# bg__r1_r2_r3_ro_0/m2_25628_234# vdd ppolyf_u_1k r_width=1u r_length=20u
+X79 bg__r1_r2_r3_ro_0/m2_26732_4406# bg__r1_r2_r3_ro_0/m2_25076_n166# vdd ppolyf_u_1k r_width=1u r_length=20u
+X80 bg__r1_r2_r3_ro_0/m2_26732_4406# vy vdd ppolyf_u_1k r_width=1u r_length=20u
+X81 bg__r1_r2_r3_ro_0/m2_26180_4406# bg__r1_r2_r3_ro_0/m2_27836_234# vdd ppolyf_u_1k r_width=1u r_length=20u
+X82 vx bg__r1_r2_r3_ro_0/m2_27836_234# vdd ppolyf_u_1k r_width=1u r_length=20u
+X83 vdd vdd vdd ppolyf_u_1k r_width=1u r_length=20u
+X84 vdd vdd vdd ppolyf_u_1k r_width=1u r_length=20u
+X85 vdd vdd vdd ppolyf_u_1k r_width=1u r_length=20u
+X86 vdd vdd vdd vdd pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X87 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X88 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X89 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X90 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X91 bg__m1_m2_mb1_mo1_mo2_0/iout gate vdd vdd pfet_06v0 ad=14.08p pd=67.52u as=0 ps=0 w=8u l=8u
+X92 bg__m1_m2_mb1_mo1_mo2_0/iout gate vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X93 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X94 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X95 vdd gate vb1 vdd pfet_06v0 ad=0 pd=0 as=7.04p ps=33.76u w=8u l=8u
+X96 vdd gate vx vdd pfet_06v0 ad=0 pd=0 as=21.12p ps=0.10128m w=8u l=8u
+X97 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X98 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X99 vbg gate vdd vdd pfet_06v0 ad=14.08p pd=67.52u as=0 ps=0 w=8u l=8u
+X100 vbg gate vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X101 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X102 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X103 vdd gate vy vdd pfet_06v0 ad=0 pd=0 as=14.08p ps=67.52u w=8u l=8u
+X104 vdd gate vy vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X105 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X106 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X107 vx gate vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X108 vx gate vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X109 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X110 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X111 vdd gate vx vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X112 vdd gate vx vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X113 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X114 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X115 vy gate vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X116 vy gate vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X117 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X118 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X119 vdd gate vbg vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X120 vdd gate vbg vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X121 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X122 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X123 vb1 gate vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X124 vx gate vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X125 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X126 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X127 vdd gate bg__m1_m2_mb1_mo1_mo2_0/iout vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X128 vdd gate bg__m1_m2_mb1_mo1_mo2_0/iout vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X129 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X130 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X131 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X132 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X133 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=8u
+X134 vdd vdd vdd ppolyf_u_1k r_width=1u r_length=5u
+X135 vdd vdd vdd ppolyf_u_1k r_width=1u r_length=5u
+X136 bg__trimres_0/bgt__runits_0/m2_772_1390# bg__trimres_0/pos vdd ppolyf_u_1k r_width=1u r_length=5u
+X137 bg__trimres_0/bgt__runits_0/m2_772_2986# bg__trimres_0/bgt__runits_0/m2_772_1390# vdd ppolyf_u_1k r_width=1u r_length=5u
+X138 bg__trimres_0/bgt__runits_0/m2_1324_1390# bg__trimres_0/bgt__runits_0/m2_1324_218# vdd ppolyf_u_1k r_width=1u r_length=5u
+X139 bg__trimres_0/bgt__runits_0/m2_772_2986# bg__trimres_0/bgt__runits_0/m2_1324_1390# vdd ppolyf_u_1k r_width=1u r_length=5u
+X140 bg__trimres_0/bgt__runits_0/m2_1876_1390# bg__trimres_0/bgt__runits_0/m2_1324_218# vdd ppolyf_u_1k r_width=1u r_length=5u
+X141 bg__trimres_0/bgt__runits_0/m2_1876_2986# bg__trimres_0/bgt__runits_0/m2_1876_1390# vdd ppolyf_u_1k r_width=1u r_length=5u
+X142 bg__trimres_0/bgt__runits_0/m2_2428_1390# bg__trimres_0/bgt__runits_0/a6 vdd ppolyf_u_1k r_width=1u r_length=5u
+X143 bg__trimres_0/bgt__runits_0/m2_1876_2986# bg__trimres_0/bgt__runits_0/m2_2428_1390# vdd ppolyf_u_1k r_width=1u r_length=5u
+X144 bg__trimres_0/bgt__runits_0/m2_2980_1390# bg__trimres_0/bgt__runits_0/a6 vdd ppolyf_u_1k r_width=1u r_length=5u
+X145 bg__trimres_0/bgt__runits_0/m2_2980_2986# bg__trimres_0/bgt__runits_0/m2_2980_1390# vdd ppolyf_u_1k r_width=1u r_length=5u
+X146 bg__trimres_0/bgt__runits_0/m2_3532_1390# bg__trimres_0/bgt__runits_0/a5 vdd ppolyf_u_1k r_width=1u r_length=5u
+X147 bg__trimres_0/bgt__runits_0/m2_2980_2986# bg__trimres_0/bgt__runits_0/m2_3532_1390# vdd ppolyf_u_1k r_width=1u r_length=5u
+X148 bg__trimres_0/bgt__runits_0/m2_4084_1390# bg__trimres_0/bgt__runits_0/a5 vdd ppolyf_u_1k r_width=1u r_length=5u
+X149 bg__trimres_0/bgt__runits_0/a4 bg__trimres_0/bgt__runits_0/m2_4084_1390# vdd ppolyf_u_1k r_width=1u r_length=5u
+X150 bg__trimres_0/bgt__runits_0/a3 bg__trimres_0/bgt__runits_0/a2 vdd ppolyf_u_1k r_width=1u r_length=5u
+X151 bg__trimres_0/bgt__runits_0/a4 bg__trimres_0/bgt__runits_0/a3 vdd ppolyf_u_1k r_width=1u r_length=5u
+X152 bg__trimres_0/bgt__runits_0/a3 bg__trimres_0/bgt__runits_0/a2 vdd ppolyf_u_1k r_width=1u r_length=5u
+X153 vdd vdd vdd ppolyf_u_1k r_width=1u r_length=5u
+X154 bg__trimres_0/bgt__runits_0/a1 bg__trimres_0/bgt__runits_0/a0 vdd ppolyf_u_1k r_width=1u r_length=5u
+X155 bg__trimres_0/bgt__runits_0/a2 bg__trimres_0/bgt__runits_0/a1 vdd ppolyf_u_1k r_width=1u r_length=5u
+X156 bg__trimres_0/bgt__runits_0/a1 bg__trimres_0/bgt__runits_0/a0 vdd ppolyf_u_1k r_width=1u r_length=5u
+X157 bg__trimres_0/bgt__runits_0/a2 bg__trimres_0/bgt__runits_0/a1 vdd ppolyf_u_1k r_width=1u r_length=5u
+X158 bg__trimres_0/bgt__runits_0/a1 bg__trimres_0/bgt__runits_0/a0 vdd ppolyf_u_1k r_width=1u r_length=5u
+X159 bg__trimres_0/bgt__runits_0/a2 bg__trimres_0/bgt__runits_0/a1 vdd ppolyf_u_1k r_width=1u r_length=5u
+X160 bg__trimres_0/bgt__runits_0/a1 bg__trimres_0/bgt__runits_0/a0 vdd ppolyf_u_1k r_width=1u r_length=5u
+X161 bg__trimres_0/bgt__runits_0/a2 bg__trimres_0/bgt__runits_0/a1 vdd ppolyf_u_1k r_width=1u r_length=5u
+X162 bg__trimres_0/bgt__runits_0/a1 bg__trimres_0/bgt__runits_0/a0 vdd ppolyf_u_1k r_width=1u r_length=5u
+X163 vss bg__trimres_0/bgt__runits_0/a0 vdd ppolyf_u_1k r_width=1u r_length=5u
+X164 bg__trimres_0/bgt__runits_0/a1 bg__trimres_0/bgt__runits_0/a0 vdd ppolyf_u_1k r_width=1u r_length=5u
+X165 vss bg__trimres_0/bgt__runits_0/a0 vdd ppolyf_u_1k r_width=1u r_length=5u
+X166 bg__trimres_0/bgt__runits_0/a1 bg__trimres_0/bgt__runits_0/a0 vdd ppolyf_u_1k r_width=1u r_length=5u
+X167 vss bg__trimres_0/bgt__runits_0/a0 vdd ppolyf_u_1k r_width=1u r_length=5u
+X168 bg__trimres_0/bgt__runits_0/a1 bg__trimres_0/bgt__runits_0/a0 vdd ppolyf_u_1k r_width=1u r_length=5u
+X169 vss bg__trimres_0/bgt__runits_0/a0 vdd ppolyf_u_1k r_width=1u r_length=5u
+X170 bg__trimres_0/bgt__runits_0/a0 vss vdd ppolyf_u_1k r_width=1u r_length=5u
+X171 vss bg__trimres_0/bgt__runits_0/a0 vdd ppolyf_u_1k r_width=1u r_length=5u
+X172 bg__trimres_0/bgt__runits_0/a0 vss vdd ppolyf_u_1k r_width=1u r_length=5u
+X173 vss bg__trimres_0/bgt__runits_0/a0 vdd ppolyf_u_1k r_width=1u r_length=5u
+X174 bg__trimres_0/bgt__runits_0/a0 vss vdd ppolyf_u_1k r_width=1u r_length=5u
+X175 vss bg__trimres_0/bgt__runits_0/a0 vdd ppolyf_u_1k r_width=1u r_length=5u
+X176 bg__trimres_0/bgt__runits_0/a0 vss vdd ppolyf_u_1k r_width=1u r_length=5u
+X177 vss bg__trimres_0/bgt__runits_0/a0 vdd ppolyf_u_1k r_width=1u r_length=5u
+X178 bg__trimres_0/bgt__runits_0/a0 vss vdd ppolyf_u_1k r_width=1u r_length=5u
+X179 vss bg__trimres_0/bgt__runits_0/a0 vdd ppolyf_u_1k r_width=1u r_length=5u
+X180 bg__trimres_0/bgt__runits_0/a0 vss vdd ppolyf_u_1k r_width=1u r_length=5u
+X181 vss bg__trimres_0/bgt__runits_0/a0 vdd ppolyf_u_1k r_width=1u r_length=5u
+X182 vdd vdd vdd ppolyf_u_1k r_width=1u r_length=5u
+X183 vdd vdd vdd ppolyf_u_1k r_width=1u r_length=5u
+X184 bg__trimres_0/bgt__runits_0/a3 trim_4_ bg__trimres_0/bgt__runits_0/a4 vss nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X185 bg__trimres_0/bgt__runits_0/a4 trim_4_ bg__trimres_0/bgt__runits_0/a3 vss nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X186 bg__trimres_0/bgt__runits_0/a3 trim_4_ bg__trimres_0/bgt__runits_0/a4 vss nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X187 bg__trimres_0/bgt__runits_0/a4 trim_4_ bg__trimres_0/bgt__runits_0/a3 vss nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X188 bg__trimres_0/bgt__runits_0/a4 trim_5_ bg__trimres_0/bgt__runits_0/a5 vss nfet_06v0 ad=78.07999p pd=0.33952m as=78.07999p ps=0.33952m w=8u l=1u
+X189 bg__trimres_0/bgt__runits_0/a5 trim_5_ bg__trimres_0/bgt__runits_0/a4 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X190 bg__trimres_0/bgt__runits_0/a4 trim_5_ bg__trimres_0/bgt__runits_0/a5 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X191 bg__trimres_0/bgt__runits_0/a5 trim_5_ bg__trimres_0/bgt__runits_0/a4 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X192 bg__trimres_0/bgt__runits_0/a5 trim_6_ bg__trimres_0/bgt__runits_0/a6 vss nfet_06v0 ad=0 pd=0 as=78.07999p ps=0.33952m w=8u l=1u
+X193 bg__trimres_0/bgt__runits_0/a6 trim_6_ bg__trimres_0/bgt__runits_0/a5 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X194 bg__trimres_0/bgt__runits_0/a5 trim_6_ bg__trimres_0/bgt__runits_0/a6 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X195 bg__trimres_0/bgt__runits_0/a6 trim_6_ bg__trimres_0/bgt__runits_0/a5 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X196 bg__trimres_0/bgt__runits_0/a6 trim_7_ bg__trimres_0/pos vss nfet_06v0 ad=0 pd=0 as=33.27999p ps=0.13632m w=8u l=1u
+X197 bg__trimres_0/pos trim_7_ bg__trimres_0/bgt__runits_0/a6 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X198 bg__trimres_0/bgt__runits_0/a6 trim_7_ bg__trimres_0/pos vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X199 bg__trimres_0/pos trim_7_ bg__trimres_0/bgt__runits_0/a6 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X200 bg__trimres_0/bgt__runits_0/a3 trim_4_ bg__trimres_0/bgt__runits_0/a4 vss nfet_06v0 ad=89.59999p pd=0.4064m as=0 ps=0 w=8u l=1u
+X201 bg__trimres_0/bgt__runits_0/a4 trim_4_ bg__trimres_0/bgt__runits_0/a3 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X202 bg__trimres_0/bgt__runits_0/a3 trim_4_ bg__trimres_0/bgt__runits_0/a4 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X203 bg__trimres_0/bgt__runits_0/a4 trim_4_ bg__trimres_0/bgt__runits_0/a3 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X204 bg__trimres_0/bgt__runits_0/a4 trim_5_ bg__trimres_0/bgt__runits_0/a5 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X205 bg__trimres_0/bgt__runits_0/a5 trim_5_ bg__trimres_0/bgt__runits_0/a4 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X206 bg__trimres_0/bgt__runits_0/a4 trim_5_ bg__trimres_0/bgt__runits_0/a5 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X207 bg__trimres_0/bgt__runits_0/a5 trim_5_ bg__trimres_0/bgt__runits_0/a4 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X208 bg__trimres_0/bgt__runits_0/a5 trim_6_ bg__trimres_0/bgt__runits_0/a6 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X209 bg__trimres_0/bgt__runits_0/a6 trim_6_ bg__trimres_0/bgt__runits_0/a5 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X210 bg__trimres_0/bgt__runits_0/a5 trim_6_ bg__trimres_0/bgt__runits_0/a6 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X211 bg__trimres_0/bgt__runits_0/a6 trim_6_ bg__trimres_0/bgt__runits_0/a5 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X212 bg__trimres_0/bgt__runits_0/a6 trim_7_ bg__trimres_0/pos vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X213 bg__trimres_0/pos trim_7_ bg__trimres_0/bgt__runits_0/a6 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X214 bg__trimres_0/bgt__runits_0/a6 trim_7_ bg__trimres_0/pos vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X215 bg__trimres_0/pos trim_7_ bg__trimres_0/bgt__runits_0/a6 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X216 bg__trimres_0/bgt__runits_0/a3 trim_4_ bg__trimres_0/bgt__runits_0/a4 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X217 bg__trimres_0/bgt__runits_0/a4 trim_4_ bg__trimres_0/bgt__runits_0/a3 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X218 bg__trimres_0/bgt__runits_0/a3 trim_4_ bg__trimres_0/bgt__runits_0/a4 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X219 bg__trimres_0/bgt__runits_0/a4 trim_4_ bg__trimres_0/bgt__runits_0/a3 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X220 bg__trimres_0/bgt__runits_0/a4 trim_5_ bg__trimres_0/bgt__runits_0/a5 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X221 bg__trimres_0/bgt__runits_0/a5 trim_5_ bg__trimres_0/bgt__runits_0/a4 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X222 bg__trimres_0/bgt__runits_0/a4 trim_5_ bg__trimres_0/bgt__runits_0/a5 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X223 bg__trimres_0/bgt__runits_0/a5 trim_5_ bg__trimres_0/bgt__runits_0/a4 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X224 bg__trimres_0/bgt__runits_0/a5 trim_6_ bg__trimres_0/bgt__runits_0/a6 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X225 bg__trimres_0/bgt__runits_0/a6 trim_6_ bg__trimres_0/bgt__runits_0/a5 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X226 bg__trimres_0/bgt__runits_0/a5 trim_6_ bg__trimres_0/bgt__runits_0/a6 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X227 bg__trimres_0/bgt__runits_0/a6 trim_6_ bg__trimres_0/bgt__runits_0/a5 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X228 bg__trimres_0/bgt__runits_0/a6 trim_7_ bg__trimres_0/pos vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X229 bg__trimres_0/pos trim_7_ bg__trimres_0/bgt__runits_0/a6 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X230 bg__trimres_0/bgt__runits_0/a6 trim_7_ bg__trimres_0/pos vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X231 bg__trimres_0/pos trim_7_ bg__trimres_0/bgt__runits_0/a6 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X232 bg__trimres_0/bgt__runits_0/a3 trim_4_ bg__trimres_0/bgt__runits_0/a4 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X233 bg__trimres_0/bgt__runits_0/a4 trim_4_ bg__trimres_0/bgt__runits_0/a3 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X234 bg__trimres_0/bgt__runits_0/a3 trim_4_ bg__trimres_0/bgt__runits_0/a4 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X235 bg__trimres_0/bgt__runits_0/a4 trim_4_ bg__trimres_0/bgt__runits_0/a3 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X236 bg__trimres_0/bgt__runits_0/a4 trim_5_ bg__trimres_0/bgt__runits_0/a5 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X237 bg__trimres_0/bgt__runits_0/a5 trim_5_ bg__trimres_0/bgt__runits_0/a4 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X238 bg__trimres_0/bgt__runits_0/a4 trim_5_ bg__trimres_0/bgt__runits_0/a5 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X239 bg__trimres_0/bgt__runits_0/a5 trim_5_ bg__trimres_0/bgt__runits_0/a4 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X240 bg__trimres_0/bgt__runits_0/a5 trim_6_ bg__trimres_0/bgt__runits_0/a6 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X241 bg__trimres_0/bgt__runits_0/a6 trim_6_ bg__trimres_0/bgt__runits_0/a5 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X242 bg__trimres_0/bgt__runits_0/a5 trim_6_ bg__trimres_0/bgt__runits_0/a6 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X243 bg__trimres_0/bgt__runits_0/a6 trim_6_ bg__trimres_0/bgt__runits_0/a5 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X244 bg__trimres_0/bgt__runits_0/a6 trim_7_ bg__trimres_0/pos vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X245 bg__trimres_0/pos trim_7_ bg__trimres_0/bgt__runits_0/a6 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X246 bg__trimres_0/bgt__runits_0/a6 trim_7_ bg__trimres_0/pos vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X247 bg__trimres_0/pos trim_7_ bg__trimres_0/bgt__runits_0/a6 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X248 bg__trimres_0/bgt__runits_0/a3 trim_3_ bg__trimres_0/bgt__runits_0/a2 vss nfet_06v0 ad=0 pd=0 as=78.07999p ps=0.33952m w=8u l=1u
+X249 bg__trimres_0/bgt__runits_0/a2 trim_3_ bg__trimres_0/bgt__runits_0/a3 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X250 bg__trimres_0/bgt__runits_0/a3 trim_3_ bg__trimres_0/bgt__runits_0/a2 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X251 bg__trimres_0/bgt__runits_0/a2 trim_3_ bg__trimres_0/bgt__runits_0/a3 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X252 bg__trimres_0/bgt__runits_0/a2 trim_2_ bg__trimres_0/bgt__runits_0/a1 vss nfet_06v0 ad=0 pd=0 as=78.07999p ps=0.33952m w=8u l=1u
+X253 bg__trimres_0/bgt__runits_0/a1 trim_2_ bg__trimres_0/bgt__runits_0/a2 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X254 bg__trimres_0/bgt__runits_0/a2 trim_2_ bg__trimres_0/bgt__runits_0/a1 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X255 bg__trimres_0/bgt__runits_0/a1 trim_2_ bg__trimres_0/bgt__runits_0/a2 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X256 bg__trimres_0/bgt__runits_0/a1 trim_1_ bg__trimres_0/bgt__runits_0/a0 vss nfet_06v0 ad=0 pd=0 as=78.07999p ps=0.33952m w=8u l=1u
+X257 bg__trimres_0/bgt__runits_0/a0 trim_1_ bg__trimres_0/bgt__runits_0/a1 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X258 bg__trimres_0/bgt__runits_0/a1 trim_1_ bg__trimres_0/bgt__runits_0/a0 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X259 bg__trimres_0/bgt__runits_0/a0 trim_1_ bg__trimres_0/bgt__runits_0/a1 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X260 bg__trimres_0/bgt__runits_0/a0 trim_0_ vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=1u
+X261 vss trim_0_ bg__trimres_0/bgt__runits_0/a0 vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=1u
+X262 bg__trimres_0/bgt__runits_0/a0 trim_0_ vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=1u
+X263 vss trim_0_ bg__trimres_0/bgt__runits_0/a0 vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=1u
+X264 bg__trimres_0/bgt__runits_0/a3 trim_3_ bg__trimres_0/bgt__runits_0/a2 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X265 bg__trimres_0/bgt__runits_0/a2 trim_3_ bg__trimres_0/bgt__runits_0/a3 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X266 bg__trimres_0/bgt__runits_0/a3 trim_3_ bg__trimres_0/bgt__runits_0/a2 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X267 bg__trimres_0/bgt__runits_0/a2 trim_3_ bg__trimres_0/bgt__runits_0/a3 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X268 bg__trimres_0/bgt__runits_0/a2 trim_2_ bg__trimres_0/bgt__runits_0/a1 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X269 bg__trimres_0/bgt__runits_0/a1 trim_2_ bg__trimres_0/bgt__runits_0/a2 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X270 bg__trimres_0/bgt__runits_0/a2 trim_2_ bg__trimres_0/bgt__runits_0/a1 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X271 bg__trimres_0/bgt__runits_0/a1 trim_2_ bg__trimres_0/bgt__runits_0/a2 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X272 bg__trimres_0/bgt__runits_0/a1 trim_1_ bg__trimres_0/bgt__runits_0/a0 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X273 bg__trimres_0/bgt__runits_0/a0 trim_1_ bg__trimres_0/bgt__runits_0/a1 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X274 bg__trimres_0/bgt__runits_0/a1 trim_1_ bg__trimres_0/bgt__runits_0/a0 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X275 bg__trimres_0/bgt__runits_0/a0 trim_1_ bg__trimres_0/bgt__runits_0/a1 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X276 bg__trimres_0/bgt__runits_0/a0 trim_0_ vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=1u
+X277 vss trim_0_ bg__trimres_0/bgt__runits_0/a0 vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=1u
+X278 bg__trimres_0/bgt__runits_0/a0 trim_0_ vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=1u
+X279 vss trim_0_ bg__trimres_0/bgt__runits_0/a0 vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=1u
+X280 bg__trimres_0/bgt__runits_0/a3 trim_3_ bg__trimres_0/bgt__runits_0/a2 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X281 bg__trimres_0/bgt__runits_0/a2 trim_3_ bg__trimres_0/bgt__runits_0/a3 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X282 bg__trimres_0/bgt__runits_0/a3 trim_3_ bg__trimres_0/bgt__runits_0/a2 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X283 bg__trimres_0/bgt__runits_0/a2 trim_3_ bg__trimres_0/bgt__runits_0/a3 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X284 bg__trimres_0/bgt__runits_0/a2 trim_2_ bg__trimres_0/bgt__runits_0/a1 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X285 bg__trimres_0/bgt__runits_0/a1 trim_2_ bg__trimres_0/bgt__runits_0/a2 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X286 bg__trimres_0/bgt__runits_0/a2 trim_2_ bg__trimres_0/bgt__runits_0/a1 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X287 bg__trimres_0/bgt__runits_0/a1 trim_2_ bg__trimres_0/bgt__runits_0/a2 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X288 bg__trimres_0/bgt__runits_0/a1 trim_1_ bg__trimres_0/bgt__runits_0/a0 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X289 bg__trimres_0/bgt__runits_0/a0 trim_1_ bg__trimres_0/bgt__runits_0/a1 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X290 bg__trimres_0/bgt__runits_0/a1 trim_1_ bg__trimres_0/bgt__runits_0/a0 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X291 bg__trimres_0/bgt__runits_0/a0 trim_1_ bg__trimres_0/bgt__runits_0/a1 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X292 bg__trimres_0/bgt__runits_0/a0 trim_0_ vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=1u
+X293 vss trim_0_ bg__trimres_0/bgt__runits_0/a0 vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=1u
+X294 bg__trimres_0/bgt__runits_0/a0 trim_0_ vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=1u
+X295 vss trim_0_ bg__trimres_0/bgt__runits_0/a0 vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=1u
+X296 bg__trimres_0/bgt__runits_0/a3 trim_3_ bg__trimres_0/bgt__runits_0/a2 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X297 bg__trimres_0/bgt__runits_0/a2 trim_3_ bg__trimres_0/bgt__runits_0/a3 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X298 bg__trimres_0/bgt__runits_0/a3 trim_3_ bg__trimres_0/bgt__runits_0/a2 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X299 bg__trimres_0/bgt__runits_0/a2 trim_3_ bg__trimres_0/bgt__runits_0/a3 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X300 bg__trimres_0/bgt__runits_0/a2 trim_2_ bg__trimres_0/bgt__runits_0/a1 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X301 bg__trimres_0/bgt__runits_0/a1 trim_2_ bg__trimres_0/bgt__runits_0/a2 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X302 bg__trimres_0/bgt__runits_0/a2 trim_2_ bg__trimres_0/bgt__runits_0/a1 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X303 bg__trimres_0/bgt__runits_0/a1 trim_2_ bg__trimres_0/bgt__runits_0/a2 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X304 bg__trimres_0/bgt__runits_0/a1 trim_1_ bg__trimres_0/bgt__runits_0/a0 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X305 bg__trimres_0/bgt__runits_0/a0 trim_1_ bg__trimres_0/bgt__runits_0/a1 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X306 bg__trimres_0/bgt__runits_0/a1 trim_1_ bg__trimres_0/bgt__runits_0/a0 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X307 bg__trimres_0/bgt__runits_0/a0 trim_1_ bg__trimres_0/bgt__runits_0/a1 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=1u
+X308 bg__trimres_0/bgt__runits_0/a0 trim_0_ vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=1u
+X309 vss trim_0_ bg__trimres_0/bgt__runits_0/a0 vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=1u
+X310 bg__trimres_0/bgt__runits_0/a0 trim_0_ vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=1u
+X311 vss trim_0_ bg__trimres_0/bgt__runits_0/a0 vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=1u
+X312 vss vss vss pnp_05p00x05p00
+X313 vss vss vss pnp_05p00x05p00
+X314 vss vss vss pnp_05p00x05p00
+X315 vss vss vss pnp_05p00x05p00
+X316 vss vss vss pnp_05p00x05p00
+X317 vss vss vss pnp_05p00x05p00
+X318 vss vss vbe2 pnp_05p00x05p00
+X319 vss vss vbe2 pnp_05p00x05p00
+X320 vss vss vbe2 pnp_05p00x05p00
+X321 vss vss vss pnp_05p00x05p00
+X322 vss vss vss pnp_05p00x05p00
+X323 vss vss vbe2 pnp_05p00x05p00
+X324 vss vss vx pnp_05p00x05p00
+X325 vss vss vbe2 pnp_05p00x05p00
+X326 vss vss vss pnp_05p00x05p00
+X327 vss vss vss pnp_05p00x05p00
+X328 vss vss vbe2 pnp_05p00x05p00
+X329 vss vss vbe2 pnp_05p00x05p00
+X330 vss vss vbe2 pnp_05p00x05p00
+X331 vss vss vss pnp_05p00x05p00
+X332 vss vss vss pnp_05p00x05p00
+X333 vss vss vss pnp_05p00x05p00
+X334 vss vss vss pnp_05p00x05p00
+X335 vss vss vss pnp_05p00x05p00
+X336 vss vss vss pnp_05p00x05p00
+X337 vdd vdd vdd vdd pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X338 vdd vdd vdd vdd pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X339 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X340 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X341 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X342 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X343 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X344 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X345 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X346 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X347 bg__amplifier_0/bga__md1_md2_0/von vy bg__amplifier_0/bga__md1_md2_0/vcm vdd pfet_06v0 ad=16.64p pd=68.16u as=89.59999p ps=0.4064m w=8u l=4u
+X348 bg__amplifier_0/bga__md1_md2_0/vcm vy bg__amplifier_0/bga__md1_md2_0/von vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X349 bg__amplifier_0/bga__md1_md2_0/von vy bg__amplifier_0/bga__md1_md2_0/vcm vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X350 bg__amplifier_0/bga__md1_md2_0/vcm vy bg__amplifier_0/bga__md1_md2_0/von vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X351 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X352 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X353 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X354 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X355 bg__amplifier_0/bga__md1_md2_0/vop vx bg__amplifier_0/bga__md1_md2_0/vcm vdd pfet_06v0 ad=16.64p pd=68.16u as=0 ps=0 w=8u l=4u
+X356 bg__amplifier_0/bga__md1_md2_0/vcm vx bg__amplifier_0/bga__md1_md2_0/vop vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X357 bg__amplifier_0/bga__md1_md2_0/vop vx bg__amplifier_0/bga__md1_md2_0/vcm vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X358 bg__amplifier_0/bga__md1_md2_0/vcm vx bg__amplifier_0/bga__md1_md2_0/vop vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X359 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X360 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X361 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X362 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X363 bg__amplifier_0/bga__md1_md2_0/vop vx bg__amplifier_0/bga__md1_md2_0/vcm vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X364 bg__amplifier_0/bga__md1_md2_0/vcm vx bg__amplifier_0/bga__md1_md2_0/vop vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X365 bg__amplifier_0/bga__md1_md2_0/vop vx bg__amplifier_0/bga__md1_md2_0/vcm vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X366 bg__amplifier_0/bga__md1_md2_0/vcm vx bg__amplifier_0/bga__md1_md2_0/vop vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X367 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X368 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X369 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X370 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X371 bg__amplifier_0/bga__md1_md2_0/von vy bg__amplifier_0/bga__md1_md2_0/vcm vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X372 bg__amplifier_0/bga__md1_md2_0/vcm vy bg__amplifier_0/bga__md1_md2_0/von vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X373 bg__amplifier_0/bga__md1_md2_0/von vy bg__amplifier_0/bga__md1_md2_0/vcm vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X374 bg__amplifier_0/bga__md1_md2_0/vcm vy bg__amplifier_0/bga__md1_md2_0/von vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X375 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X376 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X377 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X378 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X379 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X380 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X381 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X382 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X383 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X384 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=4u
+X385 vdd bg__amplifier_0/bga__mc7_mc8_0/mirr bg__amplifier_0/bga__mc7_mc8_0/vdb vdd pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X386 bg__amplifier_0/bga__mc7_mc8_0/vdb bg__amplifier_0/bga__mc7_mc8_0/mirr vdd vdd pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X387 vdd bg__amplifier_0/bga__mc7_mc8_0/mirr bg__amplifier_0/bga__mc7_mc8_0/vda vdd pfet_06v0 ad=0 pd=0 as=42.24p ps=0.20256m w=8u l=2u
+X388 bg__amplifier_0/bga__mc7_mc8_0/vda bg__amplifier_0/bga__mc7_mc8_0/mirr vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X389 vdd bg__amplifier_0/bga__mc7_mc8_0/mirr bg__amplifier_0/bga__mc7_mc8_0/vda vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X390 bg__amplifier_0/bga__mc7_mc8_0/vda bg__amplifier_0/bga__mc7_mc8_0/mirr vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X391 vdd bg__amplifier_0/bga__mc7_mc8_0/mirr bg__amplifier_0/bga__mc7_mc8_0/vdb vdd pfet_06v0 ad=0 pd=0 as=42.24p ps=0.20256m w=8u l=2u
+X392 bg__amplifier_0/bga__mc7_mc8_0/vdb bg__amplifier_0/bga__mc7_mc8_0/mirr vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X393 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X394 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X395 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X396 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X397 vss bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__md1_md2_0/vop vss nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X398 bg__amplifier_0/bga__md1_md2_0/vop bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss vss nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X399 vss bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__md1_md2_0/vop vss nfet_06v0 ad=-0 pd=-0 as=69.75999p ps=0.30544m w=8u l=2u
+X400 bg__amplifier_0/bga__md1_md2_0/vop bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=2u
+X401 vss bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__md1_md2_0/von vss nfet_06v0 ad=-0 pd=-0 as=58.24p ps=0.23856m w=8u l=2u
+X402 bg__amplifier_0/bga__md1_md2_0/von bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=2u
+X403 vss bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__md1_md2_0/von vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=2u
+X404 bg__amplifier_0/bga__md1_md2_0/von bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=2u
+X405 vss bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__md1_md2_0/von vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=2u
+X406 bg__amplifier_0/bga__md1_md2_0/von bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=2u
+X407 vss bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__md1_md2_0/von vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=2u
+X408 bg__amplifier_0/bga__md1_md2_0/von bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=2u
+X409 vss bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss nfet_06v0 ad=-0 pd=-0 as=44.8p ps=0.2032m w=8u l=2u
+X410 bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=2u
+X411 vss bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=2u
+X412 bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=2u
+X413 vss bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__md1_md2_0/vop vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=2u
+X414 bg__amplifier_0/bga__md1_md2_0/vop bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=2u
+X415 vss bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__md1_md2_0/vop vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=2u
+X416 bg__amplifier_0/bga__md1_md2_0/vop bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=2u
+X417 vss bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__md1_md2_0/von vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=2u
+X418 bg__amplifier_0/bga__md1_md2_0/von bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=2u
+X419 vss bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__md1_md2_0/vop vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=2u
+X420 bg__amplifier_0/bga__md1_md2_0/vop bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=2u
+X421 vss bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__md1_md2_0/von vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=2u
+X422 bg__amplifier_0/bga__md1_md2_0/von bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=2u
+X423 vss bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__md1_md2_0/vop vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=2u
+X424 bg__amplifier_0/bga__md1_md2_0/vop bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=2u
+X425 vss bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__md1_md2_0/vop vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=2u
+X426 bg__amplifier_0/bga__md1_md2_0/vop bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=2u
+X427 vss bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__md1_md2_0/vop vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=2u
+X428 bg__amplifier_0/bga__md1_md2_0/vop bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=2u
+X429 vss bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=2u
+X430 bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=2u
+X431 vss bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=2u
+X432 bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=2u
+X433 vss bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__md1_md2_0/von vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=2u
+X434 bg__amplifier_0/bga__md1_md2_0/von bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=2u
+X435 vss bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__md1_md2_0/von vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=2u
+X436 bg__amplifier_0/bga__md1_md2_0/von bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=2u
+X437 vss bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__md1_md2_0/von vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=2u
+X438 bg__amplifier_0/bga__md1_md2_0/von bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=2u
+X439 vss bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__md1_md2_0/von vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=2u
+X440 bg__amplifier_0/bga__md1_md2_0/von bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=2u
+X441 vss bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__md1_md2_0/vop vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=2u
+X442 bg__amplifier_0/bga__md1_md2_0/vop bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=2u
+X443 vss bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__md1_md2_0/vop vss nfet_06v0 ad=-0 pd=-0 as=0 ps=0 w=8u l=2u
+X444 bg__amplifier_0/bga__md1_md2_0/vop bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss vss nfet_06v0 ad=0 pd=0 as=-0 ps=-0 w=8u l=2u
+X445 vss vss vss vss nfet_06v0 ad=-0 pd=-0 as=-0 ps=-0 w=8u l=2u
+X446 vss vss vss vss nfet_06v0 ad=-0 pd=-0 as=-0 ps=-0 w=8u l=2u
+X447 vss vss vss vss nfet_06v0 ad=-0 pd=-0 as=-0 ps=-0 w=8u l=2u
+X448 vss vss vss vss nfet_06v0 ad=-0 pd=-0 as=-0 ps=-0 w=8u l=2u
+X449 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X450 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X451 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X452 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X453 bg__amplifier_0/bga__md1_md2_0/vcm bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X454 vdd bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 bg__amplifier_0/bga__md1_md2_0/vcm vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X455 bg__amplifier_0/bga__md1_md2_0/vcm bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X456 vdd bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 bg__amplifier_0/bga__md1_md2_0/vcm vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X457 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 vdd vdd pfet_06v0 ad=16.64p pd=68.16u as=0 ps=0 w=8u l=2u
+X458 vdd bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X459 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X460 vdd bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X461 bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 vdd vdd pfet_06v0 ad=30.72p pd=0.13568m as=0 ps=0 w=8u l=2u
+X462 vdd bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X463 bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X464 vdd bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X465 bg__amplifier_0/bga__md1_md2_0/vcm bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X466 vdd bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 bg__amplifier_0/bga__md1_md2_0/vcm vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X467 bg__amplifier_0/bga__md1_md2_0/vcm bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X468 vdd bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 bg__amplifier_0/bga__md1_md2_0/vcm vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X469 bg__amplifier_0/bga__md1_md2_0/vcm bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X470 vdd bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 bg__amplifier_0/bga__md1_md2_0/vcm vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X471 bg__amplifier_0/bga__md1_md2_0/vcm bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X472 vdd bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 bg__amplifier_0/bga__md1_md2_0/vcm vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X473 bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X474 vdd bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X475 bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X476 vdd bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X477 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X478 vdd bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X479 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X480 vdd bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X481 bg__amplifier_0/bga__md1_md2_0/vcm bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X482 vdd bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 bg__amplifier_0/bga__md1_md2_0/vcm vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X483 bg__amplifier_0/bga__md1_md2_0/vcm bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X484 vdd bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 bg__amplifier_0/bga__md1_md2_0/vcm vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X485 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X486 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X487 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X488 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X489 vss vss vss vss nfet_06v0 ad=-0 pd=-0 as=-0 ps=-0 w=8u l=2u
+X490 vss vss vss vss nfet_06v0 ad=-0 pd=-0 as=-0 ps=-0 w=8u l=2u
+X491 vss vss vss vss nfet_06v0 ad=-0 pd=-0 as=-0 ps=-0 w=8u l=2u
+X492 vss vss vss vss nfet_06v0 ad=-0 pd=-0 as=-0 ps=-0 w=8u l=2u
+X493 bg__amplifier_0/bga__md1_md2_0/vop bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 gate vss nfet_06v0 ad=0 pd=0 as=17.08p ps=71.04u w=8u l=2u
+X494 gate bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__md1_md2_0/vop vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X495 bg__amplifier_0/bga__md1_md2_0/vop bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 gate vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X496 gate bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__md1_md2_0/vop vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X497 bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 vss nfet_06v0 ad=0 pd=0 as=16.64p ps=68.16u w=8u l=2u
+X498 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X499 bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X500 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X501 bg__amplifier_0/bga__mc7_mc8_0/mirr bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__md1_md2_0/von vss nfet_06v0 ad=28.16p pd=0.13504m as=0 ps=0 w=8u l=2u
+X502 bg__amplifier_0/bga__md1_md2_0/von bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__mc7_mc8_0/mirr vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X503 bg__amplifier_0/bga__mc7_mc8_0/mirr bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__md1_md2_0/von vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X504 bg__amplifier_0/bga__md1_md2_0/von bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__mc7_mc8_0/mirr vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X505 bg__amplifier_0/bga__mc7_mc8_0/mirr bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__md1_md2_0/von vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X506 bg__amplifier_0/bga__md1_md2_0/von bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__mc7_mc8_0/mirr vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X507 bg__amplifier_0/bga__mc7_mc8_0/mirr bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__md1_md2_0/von vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X508 bg__amplifier_0/bga__md1_md2_0/von bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__mc7_mc8_0/mirr vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X509 bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X510 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X511 bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X512 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X513 bg__amplifier_0/bga__md1_md2_0/vop bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 gate vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X514 gate bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__md1_md2_0/vop vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X515 bg__amplifier_0/bga__md1_md2_0/vop bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 gate vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X516 gate bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__md1_md2_0/vop vss nfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X517 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X518 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X519 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X520 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X521 bg__amplifier_0/bga__mc7_mc8_0/mirr bias bg__amplifier_0/bga__mc7_mc8_0/vda vdd pfet_06v0 ad=16.64p pd=68.16u as=0 ps=0 w=8u l=2u
+X522 bg__amplifier_0/bga__mc7_mc8_0/vda bias bg__amplifier_0/bga__mc7_mc8_0/mirr vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X523 bg__amplifier_0/bga__mc7_mc8_0/mirr bias bg__amplifier_0/bga__mc7_mc8_0/vda vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X524 bg__amplifier_0/bga__mc7_mc8_0/vda bias bg__amplifier_0/bga__mc7_mc8_0/mirr vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X525 gate bias bg__amplifier_0/bga__mc7_mc8_0/vdb vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X526 bg__amplifier_0/bga__mc7_mc8_0/vdb bias gate vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X527 gate bias bg__amplifier_0/bga__mc7_mc8_0/vdb vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X528 bg__amplifier_0/bga__mc7_mc8_0/vdb bias gate vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X529 bias bias bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 vdd pfet_06v0 ad=8.32p pd=34.08u as=0 ps=0 w=8u l=2u
+X530 bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 bias bias vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X531 bias bias bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X532 bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 bias bias vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X533 gate bias bg__amplifier_0/bga__mc7_mc8_0/vdb vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X534 bg__amplifier_0/bga__mc7_mc8_0/vdb bias gate vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X535 gate bias bg__amplifier_0/bga__mc7_mc8_0/vdb vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X536 bg__amplifier_0/bga__mc7_mc8_0/vdb bias gate vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X537 bg__amplifier_0/bga__mc7_mc8_0/mirr bias bg__amplifier_0/bga__mc7_mc8_0/vda vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X538 bg__amplifier_0/bga__mc7_mc8_0/vda bias bg__amplifier_0/bga__mc7_mc8_0/mirr vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X539 bg__amplifier_0/bga__mc7_mc8_0/mirr bias bg__amplifier_0/bga__mc7_mc8_0/vda vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X540 bg__amplifier_0/bga__mc7_mc8_0/vda bias bg__amplifier_0/bga__mc7_mc8_0/mirr vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X541 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X542 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X543 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+X544 vdd vdd vdd vdd pfet_06v0 ad=0 pd=0 as=0 ps=0 w=8u l=2u
+C0 bg__amplifier_0/bga__mc7_mc8_0/mirr bg__amplifier_0/bga__mc7_mc8_0/vda 5.15222f
+C1 bias bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 14.28434f
+C2 bg__amplifier_0/bga__md1_md2_0/vcm vx 10.03382f
+C3 bg__r1_r2_r3_ro_0/m2_25076_n166# vdd 3.19349f
+C4 gate bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 6.41368f
+C5 bg__trimres_0/bgt__runits_0/a1 trim_2_ 4.23685f
+C6 vdd bg__trimres_0/bgt__runits_0/a5 2.1503f
+C7 bg__amplifier_0/bga__md1_md2_0/von vy 5.25628f
+C8 bg__trimres_0/bgt__runits_0/a0 bg__trimres_0/bgt__runits_0/a1 10.1537f
+C9 bg__amplifier_0/bga__md1_md2_0/vop bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 11.73989f
+C10 vdd vbe2 5.05076f
+C11 bg__trimres_0/bgt__runits_0/a2 bg__trimres_0/bgt__runits_0/a1 10.56084f
+C12 vdd vx 93.91209f
+C13 bg__trimres_0/bgt__runits_0/a5 bg__trimres_0/bgt__runits_0/a6 10.674f
+C14 bg__amplifier_0/bga__md1_md2_0/von bg__amplifier_0/bga__mc7_mc8_0/mirr 9.44724f
+C15 bg__amplifier_0/bga__md1_md2_0/vcm bg__amplifier_0/bga__md1_md2_0/vop 2.97697f
+C16 vdd bg__trimres_0/bgt__runits_0/a1 13.31463f
+C17 vdd gate 0.21525p
+C18 bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 7.8233f
+C19 bg__trimres_0/bgt__runits_0/a0 trim_0_ 6.5235f
+C20 bg__m1_m2_mb1_mo1_mo2_0/iout vdd 20.94116f
+C21 vdd bg__amplifier_0/bga__md1_md2_0/vop 11.12133f
+C22 bg__trimres_0/bgt__runits_0/a3 bg__trimres_0/bgt__runits_0/a4 12.36012f
+C23 bg__trimres_0/bgt__runits_0/a2 bg__trimres_0/bgt__runits_0/a3 11.38735f
+C24 bias vdd 66.4884f
+C25 vdd bg__r1_r2_r3_ro_0/m2_15692_n166# 3.26918f
+C26 vbg vdd 25.81842f
+C27 vb1 gate 5.81253f
+C28 bg__trimres_0/bgt__runits_0/a3 trim_3_ 5.40391f
+C29 vdd bg__amplifier_0/bga__mc7_mc8_0/vdb 34.24916f
+C30 bg__trimres_0/bgt__runits_0/a0 trim_1_ 4.31994f
+C31 bg__amplifier_0/bga__md1_md2_0/vcm bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 17.65473f
+C32 bg__r1_r2_r3_ro_0/m2_10724_n166# vdd 3.28047f
+C33 bg__r1_r2_r3_ro_0/m2_20108_n166# vdd 3.25167f
+C34 bg__trimres_0/bgt__runits_0/a5 trim_6_ 6.51953f
+C35 vb1 bias 6.59674f
+C36 vx bg__amplifier_0/bga__md1_md2_0/von 2.09428f
+C37 bg__amplifier_0/bga__md1_md2_0/von bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 11.2646f
+C38 vdd bg__trimres_0/bgt__runits_0/a3 3.87185f
+C39 vb1 vbg 13.60804f
+C40 bias bg__amplifier_0/bga__mc7_mc8_0/vda 5.4669f
+C41 vx vy 21.05705f
+C42 bg__r1_r2_r3_ro_0/m2_9068_n166# vdd 2.9499f
+C43 vdd bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 0.13359p
+C44 bg__amplifier_0/bga__mc7_mc8_0/vdb bg__amplifier_0/bga__mc7_mc8_0/vda 11.61859f
+C45 bg__r1_r2_r3_ro_0/m2_11828_4406# vdd 3.36829f
+C46 bg__amplifier_0/bga__md1_md2_0/vcm bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 11.15053f
+C47 bg__trimres_0/bgt__runits_0/a2 trim_2_ 6.09253f
+C48 bg__trimres_0/bgt__runits_0/a5 trim_5_ 4.39361f
+C49 bg__trimres_0/bgt__runits_0/a2 bg__trimres_0/bgt__runits_0/a4 2.74335f
+C50 vdd bg__r1_r2_r3_ro_0/m2_23972_4406# 3.36829f
+C51 vdd bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 37.00672f
+C52 bg__r1_r2_r3_ro_0/m2_14036_4406# vdd 3.74911f
+C53 bg__trimres_0/bgt__runits_0/a2 trim_3_ 4.23423f
+C54 bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 bg__amplifier_0/bga__mc7_mc8_0/vda 7.90239f
+C55 gate vy 6.32607f
+C56 bg__amplifier_0/bga__md1_md2_0/vop bg__amplifier_0/bga__md1_md2_0/von 28.32711f
+C57 bg__r1_r2_r3_ro_0/m2_19004_4406# vdd 3.30106f
+C58 bg__amplifier_0/bga__md1_md2_0/vop vy 7.78496f
+C59 vdd bg__trimres_0/bgt__runits_0/a0 27.78867f
+C60 vdd bg__trimres_0/bgt__runits_0/a4 3.63101f
+C61 bg__trimres_0/bgt__runits_0/a2 vdd 8.041f
+C62 bg__r1_r2_r3_ro_0/m2_26180_4406# vdd 3.37074f
+C63 gate bg__amplifier_0/bga__mc7_mc8_0/mirr 17.34456f
+C64 bg__amplifier_0/bga__md1_md2_0/vcm vdd 63.77054f
+C65 en vdd 4.05519f
+C66 bias bg__amplifier_0/bga__mc7_mc8_0/mirr 11.54537f
+C67 bg__amplifier_0/bga__mc7_mc8_0/vdb bg__amplifier_0/bga__mc7_mc8_0/mirr 5.00189f
+C68 bg__r1_r2_r3_ro_0/m2_17900_n166# vdd 3.26918f
+C69 vdd bg__trimres_0/bgt__runits_0/a6 2.21169f
+C70 vb1 vdd 12.16916f
+C71 bg__amplifier_0/bga__md1_md2_0/von bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 4.87221f
+C72 en vs1 2.74161f
+C73 bg__amplifier_0/bga__mb3_mc5_mc6_0/vbp1 bg__amplifier_0/bga__mc7_mc8_0/mirr 3.69253f
+C74 vdd bg__amplifier_0/bga__mc7_mc8_0/vda 38.49379f
+C75 gate vx 8.08127f
+C76 gate bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 3.11239f
+C77 bg__trimres_0/bgt__runits_0/a3 trim_4_ 5.76931f
+C78 bg__amplifier_0/bga__md1_md2_0/vop vx 4.49956f
+C79 bg__r1_r2_r3_ro_0/m2_14588_3806# vdd 13.87876f
+C80 vdd bg__trimres_0/pos 27.74915f
+C81 bg__amplifier_0/bga__md1_md2_0/vop bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 21.31479f
+C82 bg__r1_r2_r3_ro_0/m2_21212_4406# vdd 3.74911f
+C83 bg__amplifier_0/bga__md1_md2_0/vcm bg__amplifier_0/bga__md1_md2_0/von 8.3459f
+C84 bg__amplifier_0/bga__mc7_mc8_0/mirr bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 9.58807f
+C85 bg__amplifier_0/bga__md1_md2_0/vcm vy 5.50264f
+C86 bg__trimres_0/pos bg__trimres_0/bgt__runits_0/a6 9.7494f
+C87 vdd bg__amplifier_0/bga__md1_md2_0/von 11.03213f
+C88 bg__trimres_0/bgt__runits_0/a6 trim_7_ 6.42334f
+C89 bg__trimres_0/bgt__runits_0/a4 trim_5_ 6.54695f
+C90 vdd vy 89.26685f
+C91 bg__m1_m2_mb1_mo1_mo2_0/iout gate 12.36988f
+C92 bg__amplifier_0/bga__md1_md2_0/vop gate 5.09976f
+C93 bg__r1_r2_r3_ro_0/m2_22316_n166# vdd 3.60738f
+C94 bias gate 4.30767f
+C95 vbg gate 7.24789f
+C96 gate bg__amplifier_0/bga__mc7_mc8_0/vdb 9.04465f
+C97 bg__r1_r2_r3_ro_0/m2_16796_4406# vdd 3.30106f
+C98 vb1 vy 13.73474f
+C99 bg__trimres_0/bgt__runits_0/a6 trim_6_ 4.32541f
+C100 vbg bg__m1_m2_mb1_mo1_mo2_0/iout 13.9384f
+C101 bg__trimres_0/bgt__runits_0/a4 trim_4_ 4.41074f
+C102 vdd bg__amplifier_0/bga__mc7_mc8_0/mirr 40.64604f
+C103 bias bg__amplifier_0/bga__mc7_mc8_0/vdb 4.60377f
+C104 bg__trimres_0/pos trim_7_ 4.26155f
+C105 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 8.16216f
+C106 bg__r1_r2_r3_ro_0/m2_9620_4406# vdd 3.41323f
+C107 bg__r1_r2_r3_ro_0/m2_12932_n166# vdd 3.71664f
+C108 bg__trimres_0/bgt__runits_0/a5 bg__trimres_0/bgt__runits_0/a4 11.67631f
+C109 bg__trimres_0/bgt__runits_0/a1 trim_1_ 6.08569f
+C110 bg__amplifier_0/bga__mb4_mc3_mc4_0/vbn2 vss 36.15746f
+C111 bg__amplifier_0/bga__md1_md2_0/vop vss 15.7584f
+C112 vdd vss 1.9246p
+C113 bg__amplifier_0/bga__mb5_mc1_mc2_0/vbn1 vss 0.15077p
+C114 bg__amplifier_0/bga__md1_md2_0/von vss 11.12094f
+C115 vbe2 vss 29.50419f
+C116 trim_3_ vss 15.69305f
+C117 trim_4_ vss 15.75894f
+C118 trim_2_ vss 13.97204f
+C119 trim_5_ vss 14.04323f
+C120 trim_1_ vss 14.97035f
+C121 trim_6_ vss 15.06089f
+C122 trim_0_ vss 21.7226f
+C123 trim_7_ vss 16.89169f
+C124 bg__trimres_0/bgt__runits_0/a6 vss 8.66505f
+C125 bg__trimres_0/bgt__runits_0/a1 vss 3.75561f
+C126 bg__trimres_0/bgt__runits_0/a0 vss 10.14797f
+C127 bg__trimres_0/bgt__runits_0/a4 vss 8.19297f
+C128 bg__trimres_0/bgt__runits_0/a3 vss 19.09132f
+C129 bg__trimres_0/bgt__runits_0/a5 vss 8.711f
+C130 bg__trimres_0/pos vss 2.40155f
+C131 bg__trimres_0/bgt__runits_0/a2 vss 6.9793f
+C132 vs1 vss 6.34198f
+C133 vs2 vss 2.23224f
+C134 bg__mi1_mi2_me1_me2_me3_me4_0/enb vss 2.55778f
+C135 en vss 4.29031f
+C136 vb1 vss 56.54684f
+.ends
