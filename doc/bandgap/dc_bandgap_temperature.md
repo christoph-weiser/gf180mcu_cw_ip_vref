@@ -13,3 +13,12 @@ Simulation results for dc_bandgap_temperature
 ![tc](pic/sim_sch/dc_bandgap_temperature/tc.png)
 ![tc_norm](pic/sim_sch/dc_bandgap_temperature/tc_norm.png)
 
+
+## Post-Layout Simulation
+
+NGspice has difficulty to converge on the DC operating point of the circuit. 
+While less efficient the Temperature coefficient can also be obtained
+by stepping through transient simulations. 
+
+For results see:
+[tr_bandgap_temperature](tr_bandgap_temperature.md)
