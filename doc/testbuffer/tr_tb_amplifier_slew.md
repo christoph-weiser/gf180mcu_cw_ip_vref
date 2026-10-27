@@ -11,3 +11,14 @@ Simulation results for tr_tb_amplifier_slew
 
 ![sr_pos](pic/sim_sch/tr_tb_amplifier_slew/sr_pos.png)
 ![sr_neg](pic/sim_sch/tr_tb_amplifier_slew/sr_neg.png)
+
+
+## Post-Layout Simulation
+
+|         | min       | max      | mean      | std       |
+|:--------|:----------|:---------|:----------|:----------|
+| sr_pos  | 2.88355M  | 3.77523M  | 3.21119M  | 247.0098k |
+| sr_neg  | 2.30429M  | 2.86052M  | 2.55397M  | 155.2369k |
+
+![sr_pos](pic/sim_pex/tr_tb_amplifier_slew/sr_pos.png)
+![sr_neg](pic/sim_pex/tr_tb_amplifier_slew/sr_neg.png)

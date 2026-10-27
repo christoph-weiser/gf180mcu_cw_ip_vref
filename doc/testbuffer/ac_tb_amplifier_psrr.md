@@ -27,3 +27,30 @@ Simulation results for ac_tb_amplifier_psrr
 ![psrr_n_1](pic/sim_sch/ac_tb_amplifier_psrr/psrr_n_1.png)
 ![psrr_n_100](pic/sim_sch/ac_tb_amplifier_psrr/psrr_n_100.png)
 ![psrr_n_1k](pic/sim_sch/ac_tb_amplifier_psrr/psrr_n_1k.png)
+
+
+## Post-Layout Simulation
+
+|            |      min |      max |     mean |      std |
+|:-----------|---------:|---------:|---------:|---------:|
+| psrr_p_1   | 103.144  | 131.386  | 113.899  |  6.82287 |
+| psrr_p_10  | 102.499  | 114.527  | 109.274  |  2.69577 |
+| psrr_p_100 |  89.9982 |  96.0093 |  92.7561 |  1.35193 |
+| psrr_p_1k  |  69.9982 |  76.0973 |  72.8276 |  1.35742 |
+| psrr_p_10k |  49.9982 |  56.0982 |  52.8283 |  1.35749 |
+| psrr_n_1   |  99.9936 | 167.739  | 118.47   | 12.8245  |
+| psrr_n_10  |  99.9936 | 159.498  | 118.25   | 12.0483  |
+| psrr_n_100 |  99.9929 | 142.499  | 117.523  | 10.393   |
+| psrr_n_1k  |  99.9285 | 124.841  | 113.28   |  6.05051 |
+| psrr_n_10k |  93.8559 | 106.478  |  99.0905 |  2.5436  |
+
+![psrr_p](pic/sim_pex/ac_tb_amplifier_psrr/psrr_p.png)
+![psrr_n](pic/sim_pex/ac_tb_amplifier_psrr/psrr_n.png)
+
+![psrr_p_1](pic/sim_pex/ac_tb_amplifier_psrr/psrr_p_1.png)
+![psrr_p_100](pic/sim_pex/ac_tb_amplifier_psrr/psrr_p_100.png)
+![psrr_p_1k](pic/sim_pex/ac_tb_amplifier_psrr/psrr_p_1k.png)
+![psrr_p_10k](pic/sim_pex/ac_tb_amplifier_psrr/psrr_p_10k.png)
+![psrr_n_1](pic/sim_pex/ac_tb_amplifier_psrr/psrr_n_1.png)
+![psrr_n_100](pic/sim_pex/ac_tb_amplifier_psrr/psrr_n_100.png)
+![psrr_n_1k](pic/sim_pex/ac_tb_amplifier_psrr/psrr_n_1k.png)

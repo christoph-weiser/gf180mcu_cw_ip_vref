@@ -9,3 +9,11 @@ Simulation results for ac_tb_amplifier_cin
 | cin | 62.63891f | 72.60516f | 68.01565f | 2.94873f  |
 
 ![cin](pic/sim_sch/ac_tb_amplifier_cin/cin.png)
+
+## Post-Layout Simulation
+
+|     | min       | max       | mean      | std       |
+|:----|:----------|:----------|:----------|:----------|
+| cin | 62.70455f | 72.69829f | 68.09302f | 2.95344f  |
+
+![cin](pic/sim_pex/ac_tb_amplifier_cin/cin.png)
