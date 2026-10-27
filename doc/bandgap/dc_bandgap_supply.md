@@ -14,3 +14,11 @@ Simulation results for dc_bandgap_supply
 ![vbg_max](pic/sim_sch/dc_bandgap_supply/vbg_max.png)
 ![vbg_min](pic/sim_sch/dc_bandgap_supply/vbg_min.png)
 
+## Post-Layout Simulation
+
+NGspice has difficulty to converge on the DC operating point of the circuit. 
+While less efficient the Supply dependency can also be obtained
+by stepping through transient simulations. 
+
+For results see:
+[tr_bandgap_supply](tr_bandgap_supply.md)
