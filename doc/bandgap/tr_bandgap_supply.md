@@ -9,3 +9,7 @@ correctness of the corresponding .dc testbench.
 
 ![dv_dvdd](pic/sim_sch/tr_bandgap_supply/dv_dvdd.png)
 
+## Post-Layout Simulation
+
+![dv_dvdd](pic/sim_pex/tr_bandgap_supply/dv_dvdd.png)
+![dv_dvdd_norm](pic/sim_pex/tr_bandgap_supply/dv_dvdd_norm.png)
