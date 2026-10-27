@@ -10,3 +10,11 @@ Simulation results for tr_bandgap_power_off
 
 ![ivdd_ss](pic/sim_sch/tr_bandgap_power_off/ivdd_ss.png)
 
+
+## Post-Layout Simulation
+
+|         | min       | max      | mean      | std       |
+|:--------|:----------|:---------|:----------|:----------|
+| ivdd_ss | 803.8972p | 1.40141n | 1.08660n | 201.2443p |
+
+![ivdd_ss](pic/sim_pex/tr_bandgap_power_off/ivdd_ss.png)
