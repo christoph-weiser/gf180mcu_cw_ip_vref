@@ -1,0 +1,116 @@
+* NGSPICE file created from tb_amplifier.ext - technology: gf180mcuD
+
+.subckt tb_amplifier vdd out inp inn vss bias
+X0 vss bias out vss nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X1 bias bias vss vss nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X2 out bias vss vss nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X3 a_2607_1589# inn a_2295_8693# vss nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X4 vdd a_599_5694# out vdd pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X5 a_599_5694# a_2607_1589# vdd vdd pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X6 out bias vss vss nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X7 vss bias a_2295_8693# vss nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X8 a_4447_5738# a_4447_5738# vdd vdd pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X9 a_599_5694# a_8319_6810# vss ppolyf_u_1k_6p0 r_width=2u r_length=7u
+X10 vdd vdd vdd vdd pfet_06v0 ad=2.08p pd=8.52u as=90.56p ps=0.39064m w=8u l=4u
+X11 vss bias out vss nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X12 vss vss vss vss nfet_06v0 ad=2.08p pd=8.52u as=97.28p ps=0.40832m w=8u l=2u
+X13 a_2295_8693# bias vss vss nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X14 vdd a_599_5694# out vdd pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X15 out a_599_5694# vdd vdd pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X16 vdd a_2607_1589# a_599_5694# vdd pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X17 out bias vss vss nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X18 vss bias out vss nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X19 vss vss vss vss nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X20 vss bias a_3199_11277# vss nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X21 a_2295_8693# inp a_599_5694# vss nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X22 vss vss vss vss nfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X23 vdd a_599_5694# out vdd pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X24 vss bias out vss nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X25 vss bias out vss nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X26 out bias vss vss nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X27 a_3199_11277# a_3199_11277# a_4447_5738# vdd pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X28 a_3199_11277# bias vss vss nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X29 vdd vdd vdd vdd pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X30 a_599_5694# a_2607_1589# vdd vdd pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X31 vss bias out vss nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X32 a_599_5694# inp a_2295_8693# vss nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X33 a_2295_8693# inn a_2607_1589# vss nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X34 out a_599_5694# vdd vdd pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X35 vdd vdd vdd vdd pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X36 vss bias bias vss nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X37 out bias vss vss nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X38 a_2295_8693# bias vss vss nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X39 vss bias out vss nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X40 vss vss vss vss nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X41 out a_599_5694# vdd vdd pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X42 vss bias out vss nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X43 a_2295_8693# inn a_2607_1589# vss nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X44 vdd vdd vdd vdd pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X45 vdd vdd vdd vdd pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X46 vss bias out vss nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X47 a_3199_11277# bias vss vss nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X48 vss bias bias vss nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X49 gc a_8319_5850# vss ppolyf_u_1k_6p0 r_width=2u r_length=7u
+X50 vdd a_2607_1589# a_2607_1589# vdd pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X51 vdd a_2607_1589# a_2607_1589# vdd pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X52 vss bias out vss nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X53 a_2607_1589# inn a_2295_8693# vss nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X54 out a_599_5694# vdd vdd pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X55 out bias vss vss nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X56 vss bias out vss nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X57 vdd a_599_5694# out vdd pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X58 a_6797_6330# a_8319_5850# vss ppolyf_u_1k_6p0 r_width=2u r_length=7u
+X59 a_2607_1589# a_2607_1589# vdd vdd pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X60 a_2607_1589# a_2607_1589# vdd vdd pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X61 out bias vss vss nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X62 vss bias out vss nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X63 a_2295_8693# inp a_599_5694# vss nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X64 a_599_5694# inp a_2295_8693# vss nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X65 out a_599_5694# vdd vdd pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X66 a_6797_6330# a_8319_6810# vss ppolyf_u_1k_6p0 r_width=2u r_length=7u
+X67 vdd vdd vdd vdd pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X68 vdd a_599_5694# out vdd pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X69 out bias vss vss nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X70 out bias vss vss nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X71 vdd a_4447_5738# a_4447_5738# vdd pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X72 bias bias vss vss nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X73 vss bias a_2295_8693# vss nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X74 out bias vss vss nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X75 vdd vdd vdd vdd pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X76 vdd vdd vdd vdd pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X77 out bias vss vss nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X78 vdd a_2607_1589# a_599_5694# vdd pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X79 out bias vss vss nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X80 vdd a_599_5694# out vdd pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X81 vss bias a_3199_11277# vss nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X82 out a_599_5694# vdd vdd pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X83 a_4447_5738# a_3199_11277# a_3199_11277# vdd pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+C0 out a_599_5694# 4.1917f
+C1 a_3199_11277# vdd 4.96974f
+C2 a_2295_8693# a_599_5694# 3.50885f
+C3 bias a_3199_11277# 3.9964f
+C4 vdd a_2607_1589# 32.3389f
+C5 gc vdd 3.8307f
+C6 out a_3199_11277# 3.21438f
+C7 out vdd 12.8237f
+C8 inn a_2295_8693# 3.08374f
+C9 bias out 9.94037f
+C10 a_599_5694# vdd 27.4402f
+C11 a_4447_5738# a_3199_11277# 2.0636f
+C12 out gc 2.44223p
+C13 a_599_5694# a_2607_1589# 9.16066f
+C14 bias a_2295_8693# 4.06733f
+C15 a_4447_5738# vdd 5.58464f
+C16 inp a_2607_1589# 2.12527f
+C17 out a_2295_8693# 4.24198f
+C18 gc vss 97.3983f
+C19 inn vss 8.09953f
+C20 inp vss 7.95631f
+C21 out vss 0.12731p
+C22 bias vss 42.1876f
+C23 vdd vss 0.14745p
+C24 a_2607_1589# vss 6.66619f $ **FLOATING
+C25 a_599_5694# vss 8.45615f $ **FLOATING
+C26 a_3199_11277# vss 8.33671f $ **FLOATING
+C27 a_2295_8693# vss 10.1267f $ **FLOATING
+.ends
