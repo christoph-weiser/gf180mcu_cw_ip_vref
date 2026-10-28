@@ -4,9 +4,9 @@ Simulation results for dc_bandgap_temperature
 
 ## Pre-Layout Simulation
 
-|       | min       | max       | mean      | std      |
-|:------|:----------|:----------|:----------|:---------|
-| dv_dt | 20.70302u | 46.48845u | 31.59613u | 7.07938u |
+|         | min       | max       | mean      | std      |
+|:--------|:----------|:----------|:----------|:---------|
+| dv_dt   | 32.53598u | 58.57123u | 42.82626u | 7.88363u |
 
 ![dv_dt](pic/sim_sch/dc_bandgap_temperature/dv_dt.png)
 

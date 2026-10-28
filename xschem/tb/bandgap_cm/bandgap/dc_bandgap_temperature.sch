@@ -44,11 +44,19 @@ value="* Control
 .control
 save all
 
-dc temp -40 125 5
+let tempmin = -40
+let tempmax = 85
+let tempstep = 5
+
+let tmeasmin = tempmin + 1
+let tmeasmax = tempmax - 1
+
+dc temp $&tempmin $&tempmax $&tempstep
+
 gnuplot p1 vbg
 
-meas dc vbg_min min vbg from=0 to=75
-meas dc vbg_max max vbg from=0 to=75
+meas dc vbg_min min vbg from=tmeasmin to=tmeasmax
+meas dc vbg_max max vbg from=tmeasmin to=tmeasmax
 
 let vbg_min_eval = vbg_min + 1u
 let vbg_max_eval = vbg_max - 1u
@@ -68,6 +76,9 @@ print t_min
 print t_max
 print dv_dT
 
+set wr_singlescale
+set wr_vecnames
+wrdata data.csv vbg
 .endc
 .end
 " }
