@@ -15,3 +15,18 @@ Simulation results for tr_levelshifter
 ![vlo](pic/sim_sch/tr_levelshifter/vlo.png)
 ![trise](pic/sim_sch/tr_levelshifter/trise.png)
 ![tfall](pic/sim_sch/tr_levelshifter/tfall.png)
+
+
+## Pre-Layout Simulation
+
+|         | min       | max      | mean      | std       |
+|:--------|:----------|:---------|:----------|:----------|
+| vhi     | 1.79999   | 5.0      | 3.36666   | 1.30724   |
+| vlo     | 652.4982p | 3.97652n | 1.87742n  | 867.5701p |
+| trise   | 1.91n     | 16.477n  | 5.88106n  | 4.06896n  |
+| tfall   | 287.0p    | 817.0p   | 475.6222p | 117.6001p |
+
+![vhi](pic/sim_pex/tr_levelshifter/vhi.png)
+![vlo](pic/sim_pex/tr_levelshifter/vlo.png)
+![trise](pic/sim_pex/tr_levelshifter/trise.png)
+![tfall](pic/sim_pex/tr_levelshifter/tfall.png)
