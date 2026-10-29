@@ -81,7 +81,7 @@ For **results** see the individual pages.
 | [ac_bandgap_psrr](bandgap/ac_bandgap_psrr.md)                | PSRR               |
 | [dc_bandgap_supply](bandgap/dc_bandgap_supply.md)            | dV/dVdd, ΔVvdd     |
 | [dc_bandgap_temperature](bandgap/dc_bandgap_temperature.md)  | Tc                 |
-| [mc_bandgap_temperature](bandgap/mc_bandgap_temperature.md)  | ΔVbgi              |
+| [mm_bandgap_temperature](bandgap/mm_bandgap_temperature.md)  | ΔVbgi              |
 | [no_bandgap](bandgap/no_bandgap.md)                          | en                 |
 | [op_bandgap_power](bandgap/op_bandgap_power.md)              | Iq, Pd             |
 | [tr_bandgap_power_off](bandgap/tr_bandgap_power_off.md)      | Ioff               |
