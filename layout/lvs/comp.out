@@ -1,0 +1,64 @@
+
+Circuit 1 cell pfet_06v0 and Circuit 2 cell pfet_06v0 are black boxes.
+Equate elements:  no current cell.
+Device classes pfet_06v0 and pfet_06v0 are equivalent.
+
+Circuit 1 cell nfet_06v0 and Circuit 2 cell nfet_06v0 are black boxes.
+Equate elements:  no current cell.
+Device classes nfet_06v0 and nfet_06v0 are equivalent.
+
+Circuit 1 cell ppolyf_u_1k_6p0 and Circuit 2 cell ppolyf_u_1k_6p0 are black boxes.
+Equate elements:  no current cell.
+Device classes ppolyf_u_1k_6p0 and ppolyf_u_1k_6p0 are equivalent.
+
+Circuit 1 cell cap_mim_2f0_m4m5_noshield and Circuit 2 cell cap_mim_2f0_m4m5_noshield are black boxes.
+Equate elements:  no current cell.
+Device classes cap_mim_2f0_m4m5_noshield and cap_mim_2f0_m4m5_noshield are equivalent.
+
+Circuit 1 cell pnp_05p00x05p00 and Circuit 2 cell pnp_05p00x05p00 are black boxes.
+Equate elements:  no current cell.
+Device classes pnp_05p00x05p00 and pnp_05p00x05p00 are equivalent.
+Flattening unmatched subcell testbuffer in circuit sch_gf180mcu_cw_vref.spice (0)(1 instance)
+Flattening unmatched subcell tb_amplifier in circuit sch_gf180mcu_cw_vref.spice (0)(1 instance)
+Flattening unmatched subcell spdt in circuit sch_gf180mcu_cw_vref.spice (0)(2 instances)
+Flattening unmatched subcell levelshifter in circuit sch_gf180mcu_cw_vref.spice (0)(11 instances)
+Flattening unmatched subcell bandgap in circuit sch_gf180mcu_cw_vref.spice (0)(1 instance)
+Flattening unmatched subcell bg_amplifier in circuit sch_gf180mcu_cw_vref.spice (0)(1 instance)
+Flattening unmatched subcell bg_trimres in circuit sch_gf180mcu_cw_vref.spice (0)(1 instance)
+
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
+Making another compare attempt.
+
+Class sch_gf180mcu_cw_vref.spice (0):  Merged 35 parallel devices.
+Class lay_gf180mcu_cw_ip_vref.spice (1):  Merged 540 parallel devices.
+Class lay_gf180mcu_cw_ip_vref.spice (1):  Merged 57 series devices.
+Subcircuit summary:
+Circuit 1: sch_gf180mcu_cw_vref.spice      |Circuit 2: lay_gf180mcu_cw_ip_vref.spice   
+-------------------------------------------|-------------------------------------------
+pfet_06v0 (178->76)                        |pfet_06v0 (291->76)                        
+nfet_06v0 (175->82)                        |nfet_06v0 (347->82)                        
+ppolyf_u_1k_6p0 (52->14)                   |ppolyf_u_1k_6p0 (109->14)                  
+cap_mim_2f0_m4m5_noshield (2)              |cap_mim_2f0_m4m5_noshield (2)              
+pnp_05p00x05p00 (25->3)                    |pnp_05p00x05p00 (25->3)                    
+Number of devices: 177                     |Number of devices: 177                     
+Number of nets: 102                        |Number of nets: 102                        
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+Cells have no pins;  pin matching not needed.
+Device classes sch_gf180mcu_cw_vref.spice and lay_gf180mcu_cw_ip_vref.spice are equivalent.
+
+Final result: Circuits match uniquely.
+.

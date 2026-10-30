@@ -1,0 +1,802 @@
+* SPICE3 file created from gf180mcu_cw_ip_vref.ext - technology: gf180mcuD
+
+X0 a_58848_8833# a_58456_10901# VGND VGND nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X1 VAPWR a_24590_15686# a_12342_17754# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X2 VAPWR a_55856_15007# a_43894_16339# VAPWR pfet_06v0 ad=0.52p pd=2.52u as=0.88p ps=4.88u w=2u l=1u
+X3 VGND a_62936_10901# a_62936_8925# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X4 a_58544_15007# a_58848_8833# VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X5 a_37790_10503# a_37878_10411# a_37790_12479# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X6 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0.80096n ps=3.7068m w=8u l=4u
+X7 a_12082_26215# a_37878_16339# a_37790_16431# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X8 a_11542_11118# a_12838_11118# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X9 VGND VGND VGND pnp_05p00x05p00
+**devattr d=1000000,4000
+X10 a_58393_27544# a_58393_27544# VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X11 a_24590_19638# a_14276_35251# VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X12 a_14276_37227# a_38026_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X13 VGND bias a_56297_31862# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X14 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X15 a_41390_19348# a_43894_10411# a_37790_10503# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X16 bias bias VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X17 a_24590_15686# a_24590_15686# VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X18 a_11542_11118# a_12838_11118# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X19 VDPWR trim_6_ a_61144_10901# VDPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X20 a_22018_30337# a_23674_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X21 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X22 a_13230_17754# a_11630_11026# a_14134_11118# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X23 a_17602_30337# a_17050_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X24 a_12082_26215# a_37878_16339# a_37790_16431# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X25 vext a_63447_19170# a_57681_34556# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X26 vout a_56815_19170# a_13972_35251# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X27 a_57681_34556# a_63447_19170# a_17602_30337# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X28 VGND VGND VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=0.54032n ps=2.45736m w=8u l=2u
+X29 a_60640_8833# a_60248_10901# VDPWR VDPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X30 a_42494_20470# a_42494_19348# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X31 VAPWR a_62128_15007# a_37878_16339# VAPWR pfet_06v0 ad=0.52p pd=2.52u as=0.88p ps=4.88u w=2u l=1u
+X32 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X33 a_37790_10503# a_37878_10411# a_37790_12479# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X34 VAPWR a_24590_15686# a_12342_17754# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X35 VAPWR a_12030_11118# a_17602_30337# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X36 a_41390_19348# a_43894_12387# a_42494_20470# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X37 VGND a_12838_11118# a_11542_11118# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X38 VGND VGND a_24778_26215# pnp_05p00x05p00
+**devattr d=1000000,4000
+X39 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X40 VAPWR a_58544_15007# a_43894_10411# VAPWR pfet_06v0 ad=0.52p pd=2.52u as=0.88p ps=4.88u w=2u l=1u
+X41 a_41390_19348# a_43894_10411# a_37790_10503# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X42 a_37790_14455# a_37878_14363# a_37790_16431# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X43 a_61232_15007# a_37878_14363# VAPWR VAPWR pfet_06v0 ad=0.88p pd=4.88u as=0.52p ps=2.52u w=2u l=1u
+X44 a_57681_34556# a_63447_19170# vext VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X45 vout a_56223_19170# a_56297_31862# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X46 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X47 a_57681_34556# a_62855_19170# vext VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X48 VGND VGND VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X49 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X50 a_57648_15007# a_43894_12387# VAPWR VAPWR pfet_06v0 ad=0.88p pd=4.88u as=0.52p ps=2.52u w=2u l=1u
+X51 VGND VGND VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X52 a_24778_30337# a_12430_17662# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X53 a_12082_26215# a_37878_16339# a_37790_16431# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X54 VGND a_12838_11118# a_13230_17754# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X55 a_13230_17754# a_12430_17662# a_12342_17754# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X56 a_13230_17754# a_12838_11118# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X57 a_17602_30337# a_62855_19170# a_57681_34556# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X58 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X59 a_12342_17754# a_12430_17662# a_13230_17754# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X60 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X61 a_37790_16431# a_37878_14363# a_37790_14455# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X62 a_24502_19730# a_24590_19638# a_14134_11118# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X63 a_12342_17754# a_24590_15686# VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X64 a_58848_8833# a_58456_10901# VDPWR VDPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X65 a_62583_32316# a_64605_32796# VAPWR ppolyf_u_1k_6p0 r_width=2u r_length=9.5u
+X66 a_11630_11026# a_11630_11026# a_12838_11118# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X67 VGND a_42494_19348# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X68 VAPWR a_24590_15686# a_11630_11026# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X69 a_37790_14455# a_37878_14363# a_37790_16431# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X70 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X71 a_12030_11118# a_24590_19638# a_25798_19730# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X72 a_12030_11118# a_11630_11026# a_11542_11118# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X73 VGND VGND VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X74 a_38630_20470# a_38078_19348# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X75 a_57648_15007# a_57952_8833# VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X76 a_60233_31862# a_58985_37184# a_58985_37184# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X77 VGND a_12838_11118# a_12838_11118# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X78 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X79 a_37790_12479# a_37878_12387# a_37790_14455# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X80 VGND a_12838_11118# a_11542_11118# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X81 a_56297_31862# bias VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X82 vext a_62855_19170# a_57681_34556# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X83 VAPWR a_24590_15686# a_24590_15686# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X84 a_63920_15007# a_56311_19078# VAPWR VAPWR pfet_06v0 ad=0.88p pd=4.88u as=0.52p ps=2.52u w=2u l=1u
+X85 a_57056_8833# a_56664_10901# VGND VGND nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X86 VGND dsw_1_ a_63832_10901# VGND nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+X87 a_60233_31862# a_60233_31862# VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X88 a_56297_31862# a_56223_19170# vout VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X89 a_37790_16431# a_37878_14363# a_37790_14455# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X90 VGND VGND VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X91 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X92 a_56297_31862# a_56385_31770# VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X93 a_42494_20470# a_42494_19348# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X94 a_42494_19348# a_43894_14363# a_42494_20470# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X95 a_24226_30337# a_26434_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X96 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X97 VGND bias a_58081_34648# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X98 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X99 VGND a_12838_11118# a_11542_11118# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X100 vout a_56223_19170# a_13972_35251# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X101 a_58393_27544# a_56297_31862# a_58081_34648# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X102 a_11542_11118# a_12838_11118# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X103 VAPWR a_24590_15686# a_12342_17754# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X104 VAPWR a_62936_8925# a_62855_19170# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X105 a_41390_19348# a_43894_10411# a_37790_10503# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X106 VAPWR VAPWR VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X107 a_42494_19348# VGND VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X108 a_42494_19348# a_43894_16339# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X109 a_25798_19730# a_24590_19638# a_12030_11118# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X110 a_38630_22066# a_38630_20470# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X111 VGND VGND a_24778_26215# pnp_05p00x05p00
+**devattr d=1000000,4000
+X112 a_12342_17754# a_14276_37227# a_11542_11118# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X113 a_37790_12479# a_37878_12387# a_37790_14455# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X114 a_14276_37227# a_12030_11118# VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X115 VGND a_14276_37227# a_37658_36785# VGND nfet_06v0 ad=0.44p pd=2.88u as=0.44p ps=2.88u w=1u l=1u
+X116 a_58081_34648# a_56297_31862# a_58393_27544# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X117 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X118 VGND a_43894_16339# a_42494_19348# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X119 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X120 a_58985_37184# bias VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X121 a_42494_20470# a_43894_12387# a_41390_19348# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X122 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X123 a_12030_11118# a_24590_19638# a_25798_19730# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X124 a_56297_31862# a_62583_31836# cap_mim_2f0_m4m5_noshield c_width=30u c_length=30u
+X125 VGND a_12838_11118# a_11542_11118# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X126 a_42494_19348# a_43894_14363# a_42494_20470# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X127 a_42494_19348# a_43894_16339# VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X128 VGND a_42494_19348# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X129 a_25330_30337# a_25882_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X130 VAPWR a_12030_11118# a_14276_37227# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X131 a_42494_20470# a_43894_14363# a_42494_19348# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X132 a_61232_15007# a_61536_8833# VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X133 VGND a_14276_35251# a_14276_35251# VGND nfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X134 a_19810_30337# VGND VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X135 a_54960_15007# a_55264_8833# VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X136 VGND bias a_56297_31862# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X137 VGND a_12838_11118# a_13230_17754# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X138 a_14134_11118# a_11630_11026# a_13230_17754# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X139 a_13230_17754# a_12838_11118# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X140 VGND a_42494_19348# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X141 a_42494_19348# VGND VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X142 a_55856_15007# a_43894_16339# VAPWR VAPWR pfet_06v0 ad=0.88p pd=4.88u as=0.52p ps=2.52u w=2u l=1u
+X143 a_37790_12479# a_37878_12387# a_37790_14455# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X144 a_27538_30337# a_28090_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X145 a_11630_11026# a_24590_15686# VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X146 a_37790_16431# a_37878_16339# a_12082_26215# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X147 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X148 a_56297_31862# bias VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X149 a_42494_20470# a_43894_12387# a_41390_19348# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X150 VGND VGND a_24778_26215# pnp_05p00x05p00
+**devattr d=1000000,4000
+X151 vout a_56223_19170# a_56297_31862# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X152 a_13230_17754# a_11630_11026# a_14134_11118# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X153 a_59440_15007# a_59744_8833# VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X154 a_42494_20470# a_43894_14363# a_42494_19348# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X155 VAPWR a_56385_31770# a_56297_31862# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X156 VGND VGND VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X157 a_25798_19730# a_24590_19638# a_12030_11118# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X158 VAPWR a_24590_15686# a_24590_15686# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X159 VGND VGND VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X160 a_57056_8833# a_56664_10901# VDPWR VDPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X161 VDPWR dsw_1_ a_63832_10901# VDPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X162 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X163 a_34714_30337# a_35266_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X164 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X165 a_13230_17754# a_12430_17662# a_12342_17754# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X166 VGND bias a_56297_31862# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X167 a_56385_31770# a_64605_32796# VAPWR ppolyf_u_1k_6p0 r_width=2u r_length=9.5u
+X168 VGND trim_2_ a_57560_10901# VGND nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+X169 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X170 VAPWR a_58393_27544# a_56385_31770# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X171 a_20362_30337# a_19258_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X172 a_37790_12479# a_37878_10411# a_37790_10503# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X173 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X174 VGND a_42494_19348# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X175 a_11542_11118# a_11630_11026# a_12030_11118# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X176 a_37790_10503# a_43894_10411# a_41390_19348# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X177 a_13230_17754# a_12838_11118# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X178 a_12838_11118# a_11630_11026# a_11630_11026# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X179 vout a_56815_19170# a_13972_35251# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X180 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X181 VGND VGND VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X182 a_24502_19730# a_24590_19638# a_14134_11118# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X183 a_37568_32797# a_37064_32705# a_37658_36785# VGND nfet_06v0 ad=0.44p pd=2.88u as=0.44p ps=2.88u w=1u l=1u
+X184 a_42494_20470# a_43894_14363# a_42494_19348# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X185 a_37790_16431# a_37878_16339# a_12082_26215# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X186 VGND VGND a_24778_26215# pnp_05p00x05p00
+**devattr d=1000000,4000
+X187 a_56815_19170# a_56223_19170# VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X188 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X189 a_11630_11026# a_11630_11026# a_12838_11118# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X190 VGND bias bias VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X191 a_26986_30337# a_28642_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X192 a_60336_15007# a_60640_8833# VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X193 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X194 a_14276_37227# a_12030_11118# VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X195 a_56752_15007# a_57056_8833# VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X196 a_63024_15007# a_63328_8833# VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X197 a_42494_20470# a_43894_12387# a_41390_19348# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X198 a_16498_30337# a_15946_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X199 a_12342_17754# a_12430_17662# a_13230_17754# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X200 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X201 a_12082_26215# a_37878_16339# a_37790_16431# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X202 a_63328_8833# a_62936_10901# VGND VGND nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X203 VAPWR a_37064_32705# a_12030_11118# VAPWR pfet_06v0 ad=0.88p pd=4.88u as=0.88p ps=4.88u w=2u l=1u
+X204 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X205 VAPWR a_14134_11118# a_24502_19730# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X206 VAPWR a_60336_15007# a_37878_12387# VAPWR pfet_06v0 ad=0.52p pd=2.52u as=0.88p ps=4.88u w=2u l=1u
+X207 a_13972_35251# a_56815_19170# vout VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X208 VGND VGND VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X209 a_17602_30337# a_62855_19170# a_57681_34556# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X210 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X211 a_59744_8833# a_59352_10901# VGND VGND nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X212 a_34162_30337# a_35818_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X213 a_37790_10503# a_41390_19348# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X214 VAPWR a_56752_15007# a_43894_14363# VAPWR pfet_06v0 ad=0.52p pd=2.52u as=0.88p ps=4.88u w=2u l=1u
+X215 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X216 a_38078_20470# a_38078_19348# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X217 a_37790_16431# a_37878_16339# a_12082_26215# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X218 VAPWR a_12030_11118# a_14276_35251# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X219 VAPWR a_24590_15686# a_11630_11026# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X220 VGND VGND VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X221 VGND a_14276_35251# a_14276_35251# VGND nfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X222 a_37790_14455# a_37878_14363# a_37790_16431# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X223 VGND VGND VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X224 a_20362_30337# a_20914_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X225 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X226 a_56297_31862# bias VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X227 a_36370_30337# a_38026_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X228 a_24590_15686# a_24590_19638# a_24590_19638# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X229 VAPWR a_24590_15686# a_12342_17754# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X230 VGND VGND VGND pnp_05p00x05p00
+**devattr d=1000000,4000
+X231 VDPWR trim_2_ a_57560_10901# VDPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X232 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X233 vext a_62855_19170# a_57681_34556# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X234 a_37790_10503# a_37878_10411# a_37790_12479# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X235 a_12082_26215# a_37878_16339# a_37790_16431# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X236 a_22570_30337# a_23122_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X237 a_42494_19348# VGND VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X238 VGND a_43894_16339# a_42494_19348# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X239 a_14276_35251# a_14276_35251# VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X240 VGND a_12838_11118# a_12838_11118# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X241 a_37790_12479# a_37790_10503# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X242 VAPWR a_63024_15007# a_62936_8925# VAPWR pfet_06v0 ad=0.52p pd=2.52u as=0.88p ps=4.88u w=2u l=1u
+X243 VAPWR a_12030_11118# a_13972_35251# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X244 VAPWR a_24590_15686# a_12342_17754# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X245 a_37526_22066# a_38078_20470# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X246 a_12342_17754# a_14276_37227# a_11542_11118# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X247 VAPWR a_59440_15007# a_37878_10411# VAPWR pfet_06v0 ad=0.52p pd=2.52u as=0.88p ps=4.88u w=2u l=1u
+X248 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X249 a_12838_11118# a_11630_11026# a_11630_11026# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X250 a_37790_14455# a_37878_14363# a_37790_16431# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X251 VGND a_12838_11118# a_13230_17754# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X252 a_62128_15007# a_37878_16339# VAPWR VAPWR pfet_06v0 ad=0.88p pd=4.88u as=0.52p ps=2.52u w=2u l=1u
+X253 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X254 a_11542_11118# a_11630_11026# a_12030_11118# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X255 a_55264_8833# a_54872_10901# VGND VGND nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X256 VGND VGND VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X257 a_36922_30337# a_12430_17662# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X258 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X259 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X260 a_58081_34648# bias VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X261 a_42494_19348# a_43894_14363# a_42494_20470# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X262 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X263 a_37790_10503# a_43894_10411# a_41390_19348# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X264 a_56385_31770# a_57681_34556# a_58081_34648# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X265 a_12430_17662# a_12030_11118# VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X266 VGND a_43894_16339# a_42494_19348# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X267 a_37790_10503# a_41390_19348# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X268 vext a_63447_19170# a_57681_34556# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X269 a_55856_15007# a_56160_8833# VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X270 a_62128_15007# a_62432_8833# VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X271 a_22570_30337# a_20914_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X272 a_63328_8833# a_62936_10901# VDPWR VDPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X273 a_37790_14455# a_37878_12387# a_37790_12479# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X274 VGND a_42494_19348# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X275 vext a_62855_19170# a_57681_34556# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X276 a_57681_34556# a_63447_19170# a_17602_30337# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X277 a_58393_27544# a_58393_27544# VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X278 a_41390_19348# a_43894_10411# a_37790_10503# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X279 a_42494_19348# a_43894_16339# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X280 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X281 VAPWR a_37064_32705# a_37064_33889# VAPWR pfet_06v0 ad=0.88p pd=4.88u as=0.88p ps=4.88u w=2u l=1u
+X282 VGND a_19258_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X283 a_56297_31862# a_56815_19170# vout VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X284 a_59744_8833# a_59352_10901# VDPWR VDPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X285 VGND bias a_56297_31862# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X286 a_41390_19348# a_43894_12387# a_42494_20470# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X287 a_56297_31862# a_56385_31770# VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X288 a_42494_20470# a_42494_19348# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X289 a_58985_37184# bias VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X290 a_13230_17754# a_12838_11118# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X291 a_37790_14455# a_37878_14363# a_37790_16431# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X292 a_24590_19638# a_24590_19638# a_24590_15686# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X293 VAPWR a_37064_32705# a_37568_32797# VAPWR pfet_06v0 ad=0.88p pd=4.88u as=0.88p ps=4.88u w=2u l=1u
+X294 VAPWR a_14134_11118# a_25798_19730# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X295 VGND a_12838_11118# a_11542_11118# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X296 VAPWR a_12030_11118# a_12430_17662# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X297 a_56297_31862# bias VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X298 a_57681_34556# a_62855_19170# vext VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X299 a_42494_19348# a_43894_14363# a_42494_20470# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X300 a_42494_19348# a_43894_16339# VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X301 VGND VGND a_14276_37227# pnp_05p00x05p00
+**devattr d=1000000,4000
+X302 VAPWR a_24590_15686# a_24590_15686# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X303 a_58985_37184# a_58985_37184# a_60233_31862# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X304 a_37790_10503# a_43894_10411# a_41390_19348# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X305 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X306 VAPWR a_56385_31770# a_56297_31862# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X307 a_13230_17754# a_12838_11118# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X308 VGND VGND VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X309 VAPWR VAPWR VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X310 a_14134_11118# a_11630_11026# a_13230_17754# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X311 a_17602_30337# a_63447_19170# a_57681_34556# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X312 VGND bias a_56297_31862# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X313 a_13230_17754# a_12430_17662# a_12342_17754# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X314 VGND VGND VGND pnp_05p00x05p00
+**devattr d=1000000,4000
+X315 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X316 VAPWR a_56385_31770# a_56297_31862# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X317 VAPWR a_58393_27544# a_58393_27544# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X318 a_41390_19348# a_42494_20470# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X319 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X320 a_37658_36785# a_37064_32705# a_36866_36693# VGND nfet_06v0 ad=0.44p pd=2.88u as=0.44p ps=2.88u w=1u l=1u
+X321 VGND a_62936_8925# a_62855_19170# VGND nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+X322 a_55264_8833# a_54872_10901# VDPWR VDPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X323 a_56297_31862# a_56815_19170# vout VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X324 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X325 a_56297_31862# a_56223_19170# vout VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X326 a_14134_11118# a_24590_19638# a_24502_19730# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X327 a_56297_31862# a_56385_31770# VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X328 VGND a_36866_36693# a_12030_11118# VGND nfet_06v0 ad=0.44p pd=2.88u as=0.44p ps=2.88u w=1u l=1u
+X329 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X330 a_14276_35251# a_14276_35251# VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X331 a_14134_11118# a_24590_19638# a_24502_19730# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X332 a_37790_10503# a_37878_10411# a_37790_12479# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X333 VGND a_12838_11118# a_13230_17754# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X334 a_42494_19348# a_43894_16339# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X335 a_37790_12479# a_37878_12387# a_37790_14455# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X336 VAPWR VAPWR VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X337 VGND trim_0_ a_55768_10901# VGND nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+X338 VAPWR a_12030_11118# a_13972_35251# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X339 a_25330_30337# a_23122_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X340 a_42494_20470# a_42494_19348# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X341 vout a_56223_19170# a_13972_35251# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X342 VGND bias bias VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X343 a_63920_15007# a_64224_8833# VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X344 VAPWR a_56385_31770# a_56297_31862# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X345 vout a_56815_19170# a_13972_35251# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X346 a_12838_11118# a_12838_11118# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X347 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X348 a_41390_19348# a_43894_10411# a_37790_10503# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X349 a_11542_11118# a_12838_11118# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X350 a_13186_30337# a_12634_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X351 a_42494_19348# a_43894_14363# a_42494_20470# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X352 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X353 a_12342_17754# a_14276_37227# a_11542_11118# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X354 VGND VGND VGND pnp_05p00x05p00
+**devattr d=1000000,4000
+X355 a_12430_17662# a_12030_11118# VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X356 a_31954_30337# a_32506_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X357 a_12030_11118# a_11630_11026# a_11542_11118# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X358 a_13972_35251# a_56815_19170# vout VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X359 VAPWR VAPWR VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X360 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X361 a_25798_19730# a_14134_11118# VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X362 a_41390_19348# a_43894_12387# a_42494_20470# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X363 VGND trim_7_ a_62040_10901# VGND nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+X364 a_37790_16431# a_37878_16339# a_12082_26215# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X365 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X366 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X367 VGND a_42494_19348# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X368 VGND VGND VGND pnp_05p00x05p00
+**devattr d=1000000,4000
+X369 VAPWR a_58393_27544# a_58393_27544# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X370 a_42494_20470# a_43894_12387# a_41390_19348# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X371 VAPWR a_24590_15686# a_12342_17754# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X372 VGND trim_3_ a_58456_10901# VGND nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+X373 VGND VGND VGND pnp_05p00x05p00
+**devattr d=1000000,4000
+X374 VAPWR a_12030_11118# a_12430_17662# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X375 a_61536_8833# a_61144_10901# VGND VGND nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X376 a_37790_12479# a_37878_10411# a_37790_10503# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X377 a_57952_8833# a_57560_10901# VGND VGND nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X378 VAPWR a_54960_15007# a_37064_32705# VAPWR pfet_06v0 ad=0.52p pd=2.52u as=0.88p ps=4.88u w=2u l=1u
+X379 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X380 a_31954_30337# a_30298_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X381 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X382 VGND a_12838_11118# a_13230_17754# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X383 VGND a_55768_10901# a_43894_16339# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X384 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X385 a_24502_19730# a_14134_11118# VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X386 a_37790_12479# a_37878_10411# a_37790_10503# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X387 a_41390_19348# a_43894_12387# a_42494_20470# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X388 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X389 a_37790_16431# a_37878_16339# a_12082_26215# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X390 VDPWR trim_0_ a_55768_10901# VDPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X391 a_13972_35251# a_56815_19170# vout VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X392 a_34162_30337# a_33610_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X393 a_12342_17754# a_12430_17662# a_13230_17754# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X394 a_13186_30337# a_13738_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X395 a_12030_11118# a_24590_19638# a_25798_19730# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X396 VGND VGND VGND pnp_05p00x05p00
+**devattr d=1000000,4000
+X397 a_56297_31862# bias VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X398 a_11542_11118# a_14276_37227# a_12342_17754# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X399 VGND a_43894_16339# a_42494_19348# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X400 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X401 a_56815_19170# a_56223_19170# VGND VGND nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X402 a_37790_12479# a_37878_10411# a_37790_10503# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X403 VGND a_12838_11118# a_12838_11118# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X404 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X405 a_64224_8833# a_63832_10901# VGND VGND nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X406 a_37790_16431# a_37878_14363# a_37790_14455# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X407 a_56385_31770# a_58393_27544# VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X408 VAPWR a_61232_15007# a_37878_14363# VAPWR pfet_06v0 ad=0.52p pd=2.52u as=0.88p ps=4.88u w=2u l=1u
+X409 a_11542_11118# a_12838_11118# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X410 VGND bias a_56297_31862# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X411 a_42494_20470# a_43894_14363# a_42494_19348# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X412 a_12838_11118# a_12838_11118# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X413 a_14276_37227# a_12030_11118# VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X414 VGND VGND VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X415 a_58081_34648# bias VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X416 a_37790_12479# a_37878_10411# a_37790_10503# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X417 a_37790_16431# a_37878_16339# a_12082_26215# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X418 a_60336_15007# a_37878_12387# VAPWR VAPWR pfet_06v0 ad=0.88p pd=4.88u as=0.52p ps=2.52u w=2u l=1u
+X419 a_57681_34556# a_62855_19170# a_17602_30337# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X420 VDPWR trim_7_ a_62040_10901# VDPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X421 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X422 a_37790_12479# a_37878_12387# a_37790_14455# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X423 a_63447_19170# a_62855_19170# VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X424 a_56297_31862# bias VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X425 VGND a_43894_16339# a_42494_19348# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X426 a_42494_19348# VGND VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X427 VDPWR trim_3_ a_58456_10901# VDPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X428 a_25798_19730# a_24590_19638# a_12030_11118# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X429 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X430 a_61536_8833# a_61144_10901# VDPWR VDPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X431 a_42494_20470# a_43894_12387# a_41390_19348# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X432 a_13972_35251# a_12030_11118# VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X433 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X434 a_57952_8833# a_57560_10901# VDPWR VDPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X435 VGND bias a_56297_31862# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X436 a_15394_30337# a_14842_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X437 a_24590_15686# a_24590_15686# VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X438 a_57681_34556# a_62855_19170# vext VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X439 VGND VGND a_24778_26215# pnp_05p00x05p00
+**devattr d=1000000,4000
+X440 a_12030_11118# a_24590_19638# a_25798_19730# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X441 a_17602_30337# a_63447_19170# a_57681_34556# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X442 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X443 a_37790_12479# a_37878_10411# a_37790_10503# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X444 VGND a_12838_11118# a_13230_17754# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X445 a_11542_11118# a_14276_37227# a_12342_17754# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X446 VAPWR a_60233_31862# a_60233_31862# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X447 VGND a_54872_10901# a_37064_32705# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X448 a_34714_30337# a_32506_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X449 a_58544_15007# a_43894_10411# VAPWR VAPWR pfet_06v0 ad=0.88p pd=4.88u as=0.52p ps=2.52u w=2u l=1u
+X450 VAPWR a_56385_31770# a_56297_31862# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X451 VGND a_57560_10901# a_43894_12387# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X452 a_13230_17754# a_12838_11118# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X453 VGND VGND VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X454 VGND VGND VGND pnp_05p00x05p00
+**devattr d=1000000,4000
+X455 VGND a_12838_11118# a_13230_17754# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X456 a_56160_8833# a_55768_10901# VGND VGND nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X457 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X458 VGND a_42494_19348# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X459 a_11542_11118# a_12838_11118# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X460 a_64224_8833# a_63832_10901# VDPWR VDPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X461 a_37790_14455# a_37878_14363# a_37790_16431# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X462 a_37790_14455# a_37878_12387# a_37790_12479# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X463 a_13230_17754# a_11630_11026# a_14134_11118# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X464 a_25798_19730# a_24590_19638# a_12030_11118# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X465 VGND bias a_58985_37184# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X466 VGND VGND VGND pnp_05p00x05p00
+**devattr d=1000000,4000
+X467 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X468 a_58081_34648# a_57681_34556# a_56385_31770# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X469 a_56297_31862# bias VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X470 a_17602_30337# a_63447_19170# a_57681_34556# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X471 a_12342_17754# a_24590_15686# VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X472 VGND a_43894_16339# a_42494_19348# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X473 a_37790_14455# a_37878_12387# a_37790_12479# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X474 VGND a_12838_11118# a_11542_11118# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X475 a_12342_17754# a_24590_15686# VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X476 a_56297_31862# bias VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X477 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X478 a_12342_17754# a_14276_37227# a_11542_11118# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X479 a_36370_30337# a_35818_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X480 a_37790_10503# a_43894_10411# a_41390_19348# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X481 a_15394_30337# a_15946_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X482 a_37790_14455# a_37878_12387# a_37790_12479# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X483 vext a_62855_19170# a_57681_34556# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X484 a_41390_19348# a_43894_10411# a_37790_10503# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X485 a_42494_20470# a_43894_14363# a_42494_19348# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X486 a_42494_20470# a_42494_19348# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X487 a_57681_34556# a_63447_19170# a_17602_30337# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X488 a_13230_17754# a_12838_11118# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X489 a_14276_35251# a_12030_11118# VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X490 a_62583_31836# a_64605_31836# VAPWR ppolyf_u_1k_6p0 r_width=2u r_length=9.5u
+X491 a_24502_19730# a_24590_19638# a_14134_11118# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X492 a_37526_20470# a_12082_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X493 a_13972_35251# a_56223_19170# vout VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X494 a_56297_31862# a_56223_19170# vout VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X495 a_42494_19348# a_43894_14363# a_42494_20470# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X496 VAPWR VAPWR VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X497 a_24502_19730# a_24590_19638# a_14134_11118# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X498 VAPWR a_58393_27544# a_56385_31770# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X499 a_56297_31862# a_56385_31770# VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X500 a_37790_10503# a_43894_10411# a_41390_19348# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X501 a_11630_11026# a_11630_11026# a_12838_11118# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X502 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X503 a_37790_14455# a_37878_12387# a_37790_12479# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X504 a_12030_11118# a_11630_11026# a_11542_11118# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X505 VGND a_56664_10901# a_43894_14363# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X506 VGND a_12838_11118# a_11542_11118# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X507 a_56160_8833# a_55768_10901# VDPWR VDPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X508 a_13972_35251# a_12030_11118# VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X509 VGND VGND a_24778_26215# pnp_05p00x05p00
+**devattr d=1000000,4000
+X510 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X511 VGND trim_5_ a_60248_10901# VGND nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+X512 VAPWR a_14134_11118# a_25798_19730# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X513 a_42494_20470# a_43894_14363# a_42494_19348# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X514 a_37790_10503# a_37878_10411# a_37790_12479# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X515 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X516 VAPWR VAPWR VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X517 a_56752_15007# a_43894_14363# VAPWR VAPWR pfet_06v0 ad=0.88p pd=4.88u as=0.52p ps=2.52u w=2u l=1u
+X518 VAPWR a_63920_15007# a_56311_19078# VAPWR pfet_06v0 ad=0.52p pd=2.52u as=0.88p ps=4.88u w=2u l=1u
+X519 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X520 a_41390_19348# a_42494_20470# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X521 VGND trim_1_ a_56664_10901# VGND nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+X522 vout a_56223_19170# a_56297_31862# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X523 VGND VGND VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X524 VAPWR VAPWR VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X525 a_12342_17754# a_12430_17662# a_13230_17754# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X526 VGND VGND VGND pnp_05p00x05p00
+**devattr d=1000000,4000
+X527 a_37526_22066# a_37526_20470# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X528 VAPWR VAPWR VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X529 a_11542_11118# a_14276_37227# a_12342_17754# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X530 a_56297_31862# bias VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X531 a_37790_14455# a_37878_12387# a_37790_12479# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X532 a_11542_11118# a_12838_11118# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X533 VGND a_12838_11118# a_11542_11118# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X534 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X535 a_36922_30337# a_35266_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X536 a_24590_15686# a_24590_19638# a_24590_19638# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X537 a_12082_26215# a_37878_16339# a_37790_16431# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X538 VAPWR a_56311_19078# a_56223_19170# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X539 a_39182_20470# a_37790_16431# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X540 a_56297_31862# a_56223_19170# vout VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X541 VGND VGND VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X542 a_42494_19348# a_43894_16339# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X543 VGND bias a_56297_31862# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X544 a_24778_30337# a_24778_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X545 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X546 a_12342_17754# a_24590_15686# VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X547 VAPWR VAPWR VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X548 VGND a_12838_11118# a_13230_17754# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X549 VGND VGND VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X550 VAPWR VAPWR VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X551 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X552 VGND dsw_0_ a_62936_10901# VGND nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+X553 VAPWR VAPWR VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X554 a_37790_14455# a_37878_14363# a_37790_16431# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X555 a_57681_34556# a_62855_19170# a_17602_30337# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X556 vout a_56815_19170# a_13972_35251# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X557 a_42494_20470# a_42494_19348# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X558 VAPWR a_12030_11118# a_14276_37227# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X559 VAPWR VAPWR VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X560 VGND trim_4_ a_59352_10901# VGND nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+X561 VGND a_60248_10901# a_37878_12387# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X562 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X563 a_62432_8833# a_62040_10901# VGND VGND nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X564 a_42494_19348# a_43894_14363# a_42494_20470# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X565 a_37790_10503# a_37878_10411# a_37790_12479# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X566 a_13230_17754# a_12838_11118# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X567 a_14134_11118# a_11630_11026# a_13230_17754# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X568 VGND VGND VGND pnp_05p00x05p00
+**devattr d=1000000,4000
+X569 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X570 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X571 a_12082_30337# a_12082_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X572 VGND bias a_56297_31862# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X573 a_24590_15686# a_24590_15686# VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X574 a_38630_22066# a_39182_20470# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X575 vout a_56815_19170# a_56297_31862# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X576 a_58393_27544# a_56297_31862# a_58081_34648# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X577 a_57681_34556# a_63447_19170# vext VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X578 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X579 a_13230_17754# a_11630_11026# a_14134_11118# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X580 a_17602_30337# a_12030_11118# VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X581 a_31402_30337# a_30850_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X582 a_11542_11118# a_14276_37227# a_12342_17754# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X583 VGND a_58456_10901# a_43894_10411# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X584 VDPWR trim_5_ a_60248_10901# VDPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X585 VGND VGND VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X586 VAPWR a_24590_15686# a_11630_11026# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X587 a_37790_12479# a_37878_10411# a_37790_10503# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X588 a_41390_19348# a_43894_12387# a_42494_20470# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X589 VGND VGND VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X590 a_58081_34648# a_56297_31862# a_58393_27544# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X591 VDPWR trim_1_ a_56664_10901# VDPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X592 a_62583_32316# a_64605_31836# VAPWR ppolyf_u_1k_6p0 r_width=2u r_length=9.5u
+X593 a_42494_20470# a_43894_12387# a_41390_19348# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X594 VGND a_42494_19348# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X595 a_37790_10503# a_37878_10411# a_37790_12479# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X596 a_11630_11026# a_24590_15686# VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X597 VAPWR a_14134_11118# a_24502_19730# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X598 a_39734_20470# a_37790_16431# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X599 a_41390_19348# a_43894_12387# a_42494_20470# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X600 VAPWR a_57648_15007# a_43894_12387# VAPWR pfet_06v0 ad=0.52p pd=2.52u as=0.88p ps=4.88u w=2u l=1u
+X601 a_37790_16431# a_37878_16339# a_12082_26215# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X602 a_37790_16431# a_37878_14363# a_37790_14455# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X603 VGND bias a_58081_34648# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X604 a_11542_11118# a_11630_11026# a_12030_11118# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X605 a_13230_17754# a_12838_11118# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X606 a_29194_30337# a_30850_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X607 a_37790_12479# a_37878_10411# a_37790_10503# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X608 a_11542_11118# a_12838_11118# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X609 a_56297_31862# bias VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X610 a_12838_11118# a_11630_11026# a_11630_11026# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X611 VGND VGND a_24778_26215# pnp_05p00x05p00
+**devattr d=1000000,4000
+X612 a_41390_19348# a_43894_10411# a_37790_10503# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X613 a_27538_30337# a_25882_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X614 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X615 a_12342_17754# a_24590_15686# VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X616 VDPWR dsw_0_ a_62936_10901# VDPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X617 a_56297_31862# a_56385_31770# VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X618 a_37790_16431# a_37878_14363# a_37790_14455# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X619 a_56297_31862# bias VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X620 a_37790_12479# a_37878_12387# a_37790_14455# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X621 a_12342_17754# a_24590_15686# VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X622 a_17602_30337# a_63447_19170# a_57681_34556# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X623 VAPWR a_24590_15686# a_12342_17754# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X624 VDPWR trim_4_ a_59352_10901# VDPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X625 a_11630_11026# a_11630_11026# a_12838_11118# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X626 a_12082_30337# a_12634_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X627 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X628 a_42494_19348# VGND VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X629 a_62432_8833# a_62040_10901# VDPWR VDPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X630 a_63447_19170# a_62855_19170# VGND VGND nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X631 a_39734_22066# a_39734_20470# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X632 VGND VGND VGND pnp_05p00x05p00
+**devattr d=1000000,4000
+X633 VGND VGND VGND pnp_05p00x05p00
+**devattr d=1000000,4000
+X634 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X635 a_40286_20470# a_37790_14455# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X636 a_42494_19348# a_43894_16339# VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X637 a_37790_16431# a_37878_14363# a_37790_14455# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X638 VGND a_62040_10901# a_37878_16339# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X639 a_56385_31770# a_58393_27544# VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X640 VGND VGND VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X641 VGND bias a_56297_31862# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X642 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X643 bias bias VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X644 a_24590_15686# a_24590_15686# VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X645 VGND a_43894_16339# a_42494_19348# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X646 a_63024_15007# a_62936_8925# VAPWR VAPWR pfet_06v0 ad=0.88p pd=4.88u as=0.52p ps=2.52u w=2u l=1u
+X647 VGND VGND VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X648 VAPWR VAPWR VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X649 a_41390_19348# a_43894_10411# a_37790_10503# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X650 VGND a_63832_10901# a_56311_19078# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X651 a_26986_30337# a_26434_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X652 a_59440_15007# a_37878_10411# VAPWR VAPWR pfet_06v0 ad=0.88p pd=4.88u as=0.52p ps=2.52u w=2u l=1u
+X653 VAPWR a_12030_11118# a_14276_37227# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X654 VGND a_37064_33889# a_14276_35251# VGND nfet_06v0 ad=0.88p pd=4.88u as=0.88p ps=4.88u w=2u l=1u
+X655 a_57681_34556# a_63447_19170# a_17602_30337# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X656 a_37790_10503# a_43894_10411# a_41390_19348# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X657 a_37790_16431# a_37878_14363# a_37790_14455# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X658 VGND VGND VGND pnp_05p00x05p00
+**devattr d=1000000,4000
+X659 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X660 VGND VGND VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X661 a_56385_31770# a_57681_34556# a_58081_34648# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X662 a_12838_11118# a_12838_11118# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X663 a_22018_30337# a_21466_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X664 a_11542_11118# a_12838_11118# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X665 VGND a_42494_19348# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X666 a_29194_30337# a_28642_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X667 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X668 a_42494_19348# VGND VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X669 VAPWR a_24590_15686# a_12342_17754# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X670 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X671 a_42494_19348# a_43894_16339# VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X672 a_39734_22066# a_40286_20470# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X673 a_57681_34556# a_62855_19170# vext VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X674 a_37790_10503# a_43894_10411# a_41390_19348# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X675 a_37790_12479# a_37878_12387# a_37790_14455# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X676 a_12030_11118# a_11630_11026# a_11542_11118# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X677 a_17602_30337# a_12030_11118# VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X678 VGND VGND VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X679 vout a_56815_19170# a_56297_31862# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X680 a_14290_30337# a_13738_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X681 a_24502_19730# a_14134_11118# VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X682 vout a_56223_19170# a_56297_31862# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X683 VAPWR a_56385_31770# a_56297_31862# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X684 VGND a_12838_11118# a_12838_11118# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X685 VGND VGND VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X686 a_37790_16431# a_37878_14363# a_37790_14455# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X687 a_13230_17754# a_12430_17662# a_12342_17754# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X688 a_31402_30337# a_33610_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X689 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X690 a_37790_14455# a_37878_12387# a_37790_12479# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X691 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X692 a_12342_17754# a_24590_15686# VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X693 VGND a_12838_11118# a_13230_17754# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X694 a_12838_11118# a_11630_11026# a_11630_11026# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X695 a_19810_30337# a_21466_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X696 a_40838_20470# a_37790_14455# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X697 VGND bias a_56297_31862# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X698 a_11542_11118# a_11630_11026# a_12030_11118# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X699 VGND a_14276_35251# a_24590_19638# VGND nfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X700 VGND a_42494_19348# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X701 a_37790_12479# a_37878_12387# a_37790_14455# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X702 a_12342_17754# a_24590_15686# VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X703 a_54960_15007# a_37064_32705# VAPWR VAPWR pfet_06v0 ad=0.88p pd=4.88u as=0.52p ps=2.52u w=2u l=1u
+X704 VGND en a_54872_10901# VGND nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+X705 VGND VGND VGND pnp_05p00x05p00
+**devattr d=1000000,4000
+X706 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X707 a_37568_32797# VGND cap_mim_2f0_m4m5_noshield c_width=10u c_length=10u
+X708 a_37790_16431# a_37878_16339# a_12082_26215# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X709 VGND a_61144_10901# a_37878_14363# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X710 a_42494_20470# a_42494_19348# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X711 VAPWR a_24590_15686# a_24590_15686# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X712 a_25798_19730# a_14134_11118# VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X713 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X714 a_37790_10503# a_43894_10411# a_41390_19348# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X715 VGND a_43894_16339# a_42494_19348# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X716 a_37790_14455# a_37878_12387# a_37790_12479# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X717 a_13230_17754# a_12838_11118# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X718 VGND VGND VGND pnp_05p00x05p00
+**devattr d=1000000,4000
+X719 a_42494_20470# a_43894_12387# a_41390_19348# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X720 VAPWR a_12030_11118# a_17602_30337# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X721 VGND a_37064_32705# a_37064_33889# VGND nfet_06v0 ad=0.88p pd=4.88u as=0.88p ps=4.88u w=2u l=1u
+X722 a_29746_30337# a_28090_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X723 VGND a_59352_10901# a_37878_10411# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X724 VGND bias a_58985_37184# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X725 VGND a_12838_11118# a_11542_11118# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X726 a_24590_19638# a_24590_19638# a_24590_15686# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X727 a_37790_12479# a_40838_20470# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X728 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X729 VGND trim_6_ a_61144_10901# VGND nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+X730 VGND VGND a_24778_26215# pnp_05p00x05p00
+**devattr d=1000000,4000
+X731 a_42494_20470# a_43894_14363# a_42494_19348# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X732 VGND a_37064_33889# a_36866_36693# VGND nfet_06v0 ad=0.88p pd=4.88u as=0.88p ps=4.88u w=2u l=1u
+X733 a_14290_30337# a_14842_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X734 VAPWR a_24590_15686# a_11630_11026# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X735 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X736 VGND VGND VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X737 a_11542_11118# a_12838_11118# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X738 a_42494_19348# a_43894_14363# a_42494_20470# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X739 a_14134_11118# a_11630_11026# a_13230_17754# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X740 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X741 a_41390_19348# a_42494_20470# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X742 a_42494_20470# a_42494_19348# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X743 a_12838_11118# a_12838_11118# VGND VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X744 a_13972_35251# a_56223_19170# vout VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X745 a_56297_31862# a_56385_31770# VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X746 a_60640_8833# a_60248_10901# VGND VGND nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X747 a_13972_35251# a_56815_19170# vout VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X748 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X749 a_16498_30337# a_17050_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X750 a_11630_11026# a_24590_15686# VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X751 a_37790_10503# a_37878_10411# a_37790_12479# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X752 a_42494_20470# a_43894_12387# a_41390_19348# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X753 a_42494_20470# a_43894_14363# a_42494_19348# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X754 a_12082_26215# a_37878_16339# a_37790_16431# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X755 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X756 a_41390_19348# a_43894_12387# a_42494_20470# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X757 VAPWR VAPWR VAPWR VAPWR pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X758 a_29746_30337# a_30298_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X759 VGND bias a_56297_31862# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X760 VGND a_56311_19078# a_56223_19170# VGND nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+X761 a_58081_34648# a_57681_34556# a_56385_31770# VGND nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X762 a_24226_30337# a_23674_26215# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X763 VDPWR en a_54872_10901# VDPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X764 a_14134_11118# a_24590_19638# a_24502_19730# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X765 a_11630_11026# a_24590_15686# VAPWR VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X766 a_12082_26215# a_37878_16339# a_37790_16431# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X767 a_37790_14455# a_37878_14363# a_37790_16431# VGND nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X768 VGND a_12838_11118# a_13230_17754# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X769 a_14134_11118# a_24590_19638# a_24502_19730# VAPWR pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X770 a_56297_31862# bias VGND VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X771 VGND a_12838_11118# a_11542_11118# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X772 a_41390_19348# a_42494_20470# VAPWR ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X773 a_41390_19348# a_43894_12387# a_42494_20470# VGND nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+.end
