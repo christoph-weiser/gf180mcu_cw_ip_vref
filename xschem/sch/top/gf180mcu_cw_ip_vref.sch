@@ -168,7 +168,7 @@ C {sch/spdt/spdt/spdt.sym} 1120 -650 0 0 {name=xsw1
 }
 C {sch/spdt/spdt/spdt.sym} 1610 -630 0 0 {name=xsw2
 }
-C {devices/titleblock.sym} 2130 0 0 0 {name=l21 author="Christoph Weiser" license="Apache-2.0" year="2026" }
+C {devices/titleblock.sym} 2130 0 0 0 {name=l21 author="Christoph Weiser" license="Apache-2.0" year="2026"}
 C {devices/notes.sym} 2220 -150 0 0 {name=h25
 descr=bla
 tclcommand="execute 0 sh -c \\"$\{editor\} [file dirname [xschem get schname]]/doc/notes.md\\""
@@ -185,7 +185,7 @@ C {devices/lab_wire.sym} 1120 -720 0 0 {name=l3 sig_type=std_logic lab=dsw_ls[0]
 }
 C {devices/lab_wire.sym} 1610 -700 0 0 {name=l4 sig_type=std_logic lab=dsw_ls[1]
 }
-C {sch/levelshifter/levelshifter/levelshifter.sym} 340 -450 0 0 {name=xlvl2[2:0]
+C {sch/levelshifter/levelshifter/levelshifter.sym} 340 -450 0 0 {name=xlvl2[1:0]
 }
 C {devices/lab_wire.sym} 580 -490 0 0 {name=l5 sig_type=std_logic lab=dsw_ls[1:0]
 }
