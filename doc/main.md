@@ -163,3 +163,9 @@ The simulation results for the **SPDT** switch can be found here:
 | :------------------------------------------------------------| :----------------- |
 | [dc_spdt_leakage](spdt/dc_spdt_leakage.md)                   | ileak              |
 | [dc_spdt_ron](spdt/dc_spdt_ron.md)                           | Ron                |
+
+
+## References
+
+[1] H. Banba, "A CMOS Bandgap Reference Circuit with Sub-1-V Operation"
+[2] B. Razavi, "The Design of a Low-Voltage Bandgap Reference"
