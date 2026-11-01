@@ -1,64 +1,313 @@
 
-Circuit 1 cell pfet_06v0 and Circuit 2 cell pfet_06v0 are black boxes.
+Circuit 1 cell ppolyf_u_1k_6p0 and Circuit 2 cell ppolyf_u_1k_6p0 are black boxes.
 Equate elements:  no current cell.
-Device classes pfet_06v0 and pfet_06v0 are equivalent.
+Device classes ppolyf_u_1k_6p0 and ppolyf_u_1k_6p0 are equivalent.
 
 Circuit 1 cell nfet_06v0 and Circuit 2 cell nfet_06v0 are black boxes.
 Equate elements:  no current cell.
 Device classes nfet_06v0 and nfet_06v0 are equivalent.
 
-Circuit 1 cell ppolyf_u_1k_6p0 and Circuit 2 cell ppolyf_u_1k_6p0 are black boxes.
+Circuit 1 cell pfet_06v0 and Circuit 2 cell pfet_06v0 are black boxes.
 Equate elements:  no current cell.
-Device classes ppolyf_u_1k_6p0 and ppolyf_u_1k_6p0 are equivalent.
+Device classes pfet_06v0 and pfet_06v0 are equivalent.
 
 Circuit 1 cell cap_mim_2f0_m4m5_noshield and Circuit 2 cell cap_mim_2f0_m4m5_noshield are black boxes.
 Equate elements:  no current cell.
 Device classes cap_mim_2f0_m4m5_noshield and cap_mim_2f0_m4m5_noshield are equivalent.
 
-Circuit 1 cell pnp_05p00x05p00 and Circuit 2 cell pnp_05p00x05p00 are black boxes.
+Circuit 2 cell pnp_05p00x05p00 is a black box; will not flatten Circuit 1
 Equate elements:  no current cell.
 Device classes pnp_05p00x05p00 and pnp_05p00x05p00 are equivalent.
-Flattening unmatched subcell testbuffer in circuit sch_gf180mcu_cw_vref.spice (0)(1 instance)
-Flattening unmatched subcell tb_amplifier in circuit sch_gf180mcu_cw_vref.spice (0)(1 instance)
-Flattening unmatched subcell spdt in circuit sch_gf180mcu_cw_vref.spice (0)(2 instances)
-Flattening unmatched subcell levelshifter in circuit sch_gf180mcu_cw_vref.spice (0)(11 instances)
-Flattening unmatched subcell bandgap in circuit sch_gf180mcu_cw_vref.spice (0)(1 instance)
-Flattening unmatched subcell bg_amplifier in circuit sch_gf180mcu_cw_vref.spice (0)(1 instance)
-Flattening unmatched subcell bg_trimres in circuit sch_gf180mcu_cw_vref.spice (0)(1 instance)
+Flattening unmatched subcell tba__xmb3_xmb4 in circuit tb_amplifier (0)(1 instance)
+Flattening unmatched subcell pfet_06v0_8u_1u_2nf in circuit tb_amplifier (0)(2 instances)
+Flattening unmatched subcell tba__xmb1_xmb2_xm5_xm6 in circuit tb_amplifier (0)(1 instance)
+Flattening unmatched subcell nfet_06v0_8u_1u_2nf in circuit tb_amplifier (0)(18 instances)
+Flattening unmatched subcell tba__xm3_xm4 in circuit tb_amplifier (0)(1 instance)
+Flattening unmatched subcell pfet_06v0_8u_4u_2nf in circuit tb_amplifier (0)(8 instances)
+Flattening unmatched subcell tba__cc in circuit tb_amplifier (0)(1 instance)
+Flattening unmatched subcell cap_mim_30u_30u in circuit tb_amplifier (0)(1 instance)
+Flattening unmatched subcell tba__xm1_xm2 in circuit tb_amplifier (0)(1 instance)
+Flattening unmatched subcell nfet_06v0_8u_2u_2nf in circuit tb_amplifier (0)(6 instances)
+Flattening unmatched subcell tba__xrcc in circuit tb_amplifier (0)(1 instance)
+Flattening unmatched subcell ppolyf_u_1k_6p0_9p5_2u_4nf in circuit tb_amplifier (0)(1 instance)
+Flattening unmatched subcell tba__xm7 in circuit tb_amplifier (0)(1 instance)
+Flattening unmatched subcell pfet_06v0_8u_1u_12nf in circuit tb_amplifier (0)(1 instance)
 
-Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
-Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
-Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
-Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
-Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
-Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
-Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
-Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
-Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
-Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
-Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
-Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
-Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
-Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (0) makes a better match
+Class tb_amplifier (0):  Merged 67 parallel devices.
+Class tb_amplifier (0):  Merged 3 series devices.
+Subcircuit summary:
+Circuit 1: tb_amplifier                    |Circuit 2: tb_amplifier                    
+-------------------------------------------|-------------------------------------------
+pfet_06v0 (32->6)                          |pfet_06v0 (11->6)                          
+nfet_06v0 (48->7)                          |nfet_06v0 (24->7)                          
+cap_mim_2f0_m4m5_noshield (1)              |cap_mim_2f0_m4m5_noshield (1)              
+ppolyf_u_1k_6p0 (4->1)                     |ppolyf_u_1k_6p0 (1)                        
+Number of devices: 15                      |Number of devices: 15                      
+Number of nets: 12                         |Number of nets: 12                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: tb_amplifier                    |Circuit 2: tb_amplifier                    
+-------------------------------------------|-------------------------------------------
+tba__xm1_xm2_0/m2_0_1831#                  |inp **Mismatch**                           
+tba__xm1_xm2_0/m2_0_65#                    |inn **Mismatch**                           
+m3_8055_11362#                             |bias **Mismatch**                          
+m4_0_0#                                    |vdd **Mismatch**                           
+VSUBS                                      |vss **Mismatch**                           
+m5_6914_8027#                              |out **Mismatch**                           
+---------------------------------------------------------------------------------------
+Cell pin lists for tb_amplifier and tb_amplifier altered to match.
+Device classes tb_amplifier and tb_amplifier are equivalent.
+Flattening unmatched subcell spdt__mi3_mi4 in circuit spdt (0)(1 instance)
+Flattening unmatched subcell pfet_06v0_8u_1u_2nf in circuit spdt (0)(1 instance)
+Flattening unmatched subcell spdt__mi1_mi2 in circuit spdt (0)(1 instance)
+Flattening unmatched subcell nfet_06v0_4u_1u_2nf in circuit spdt (0)(1 instance)
+Flattening unmatched subcell spdt__m1_m3 in circuit spdt (0)(1 instance)
+Flattening unmatched subcell nfet_06v0_8u_1u_4nf in circuit spdt (0)(2 instances)
+Flattening unmatched subcell spdt__m2_m4 in circuit spdt (0)(1 instance)
+Flattening unmatched subcell pfet_06v0_8u_1u_8nf in circuit spdt (0)(2 instances)
+
+Class spdt (0):  Merged 20 parallel devices.
+Subcircuit summary:
+Circuit 1: spdt                            |Circuit 2: spdt                            
+-------------------------------------------|-------------------------------------------
+pfet_06v0 (18->4)                          |pfet_06v0 (4)                              
+nfet_06v0 (10->4)                          |nfet_06v0 (4)                              
+Number of devices: 8                       |Number of devices: 8                       
+Number of nets: 8                          |Number of nets: 8                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: spdt                            |Circuit 2: spdt                            
+-------------------------------------------|-------------------------------------------
+m3_4328_1458#                              |out **Mismatch**                           
+m2_0_2262#                                 |en **Mismatch**                            
+m3_2278_750#                               |inb **Mismatch**                           
+m3_4874_750#                               |ina **Mismatch**                           
+VSUBS                                      |vss **Mismatch**                           
+m1_0_2436#                                 |vdd **Mismatch**                           
+---------------------------------------------------------------------------------------
+Cell pin lists for spdt and spdt altered to match.
+Device classes spdt and spdt are equivalent.
+
+Cell testbuffer (0) disconnected node: w_604_604#
+Subcircuit summary:
+Circuit 1: testbuffer                      |Circuit 2: testbuffer                      
+-------------------------------------------|-------------------------------------------
+tb_amplifier (1)                           |tb_amplifier (1)                           
+Number of devices: 1                       |Number of devices: 1                       
+Number of nets: 5                          |Number of nets: 5                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: testbuffer                      |Circuit 2: testbuffer                      
+-------------------------------------------|-------------------------------------------
+m3_1230_9739#                              |out **Mismatch**                           
+m1_827_827#                                |vdd **Mismatch**                           
+tb_amplifier_0/tba__xm1_xm2_0/m2_0_1831#   |in **Mismatch**                            
+VSUBS                                      |vss **Mismatch**                           
+tb_amplifier_0/m3_8055_11362#              |bias **Mismatch**                          
+w_604_604#                                 |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists for testbuffer and testbuffer altered to match.
+Device classes testbuffer and testbuffer are equivalent.
+Flattening unmatched subcell lvl__m1_m2 in circuit levelshifter (0)(1 instance)
+Flattening unmatched subcell nfet_06v0_8u_1u_2nf in circuit levelshifter (0)(1 instance)
+Flattening unmatched subcell lvl__mi3_mi4 in circuit levelshifter (0)(1 instance)
+Flattening unmatched subcell pfet_06v0_8u_1u_2nf in circuit levelshifter (0)(1 instance)
+Flattening unmatched subcell lvl__m3_m4 in circuit levelshifter (0)(1 instance)
+Flattening unmatched subcell pfet_06v0_2u_1u_2nf in circuit levelshifter (0)(1 instance)
+Flattening unmatched subcell lvl__mi1_mi2 in circuit levelshifter (0)(1 instance)
+Flattening unmatched subcell nfet_06v0_4u_1u_2nf in circuit levelshifter (0)(1 instance)
+
+Subcircuit summary:
+Circuit 1: levelshifter                    |Circuit 2: levelshifter                    
+-------------------------------------------|-------------------------------------------
+nfet_06v0 (4)                              |nfet_06v0 (4)                              
+pfet_06v0 (4)                              |pfet_06v0 (4)                              
+Number of devices: 8                       |Number of devices: 8                       
+Number of nets: 11 **Mismatch**            |Number of nets: 8 **Mismatch**             
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: levelshifter                    |Circuit 2: levelshifter                    
+
+---------------------------------------------------------------------------------------
+Net: via__M1_M3_SQU_9/via__M2_M3_SQU_0/m2_ |Net: in                                    
+  pfet_06v0/(1|3) = 2                      |  nfet_06v0/2 = 1                          
+                                           |  pfet_06v0/2 = 1                          
+                                           |                                           
+Net: m2_0_3379#                            |Net: vss                                   
+  pfet_06v0/2 = 1                          |  nfet_06v0/(1|3) = 4                      
+  nfet_06v0/2 = 1                          |  nfet_06v0/4 = 4                          
+                                           |                                           
+Net: lvl__mi3_mi4_0/pfet_06v0_8u_1u_2nf_0/ |(no matching net)                          
+  pfet_06v0/4 = 2                          |                                           
+                                           |                                           
+Net: lvl__m3_m4_0/pfet_06v0_2u_1u_2nf_0/w_ |(no matching net)                          
+  pfet_06v0/4 = 2                          |                                           
+                                           |                                           
+Net: via__M1_M3_SQU_11/via__M2_M3_SQU_0/m2 |(no matching net)                          
+  pfet_06v0/(1|3) = 2                      |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: m3_250_2558#                          |Net: inb_buf                               
+  nfet_06v0/2 = 2                          |  nfet_06v0/2 = 2                          
+  pfet_06v0/(1|3) = 1                      |  pfet_06v0/(1|3) = 1                      
+  pfet_06v0/2 = 1                          |  pfet_06v0/2 = 1                          
+  nfet_06v0/(1|3) = 1                      |  nfet_06v0/(1|3) = 1                      
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: VSUBS                                 |Net: vddh                                  
+  nfet_06v0/4 = 4                          |  pfet_06v0/(1|3) = 2                      
+                                           |  pfet_06v0/4 = 2                          
+                                           |                                           
+Net: m2_470_574#                           |Net: vddl                                  
+  nfet_06v0/(1|3) = 4                      |  pfet_06v0/(1|3) = 2                      
+                                           |  pfet_06v0/4 = 2                          
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: m3_578_1708#                          |Net: out                                   
+  nfet_06v0/(1|3) = 1                      |  nfet_06v0/(1|3) = 1                      
+  pfet_06v0/2 = 1                          |  pfet_06v0/2 = 1                          
+  pfet_06v0/(1|3) = 1                      |  pfet_06v0/(1|3) = 1                      
+                                           |                                           
+Net: m3_188_1259#                          |Net: outb                                  
+  nfet_06v0/(1|3) = 1                      |  nfet_06v0/(1|3) = 1                      
+  pfet_06v0/(1|3) = 1                      |  pfet_06v0/(1|3) = 1                      
+  pfet_06v0/2 = 1                          |  pfet_06v0/2 = 1                          
+                                           |                                           
+Net: m3_734_2558#                          |Net: in_buf                                
+  nfet_06v0/2 = 1                          |  nfet_06v0/(1|3) = 1                      
+  pfet_06v0/(1|3) = 1                      |  nfet_06v0/2 = 1                          
+  nfet_06v0/(1|3) = 1                      |  pfet_06v0/(1|3) = 1                      
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: levelshifter                    |Circuit 2: levelshifter                    
+
+---------------------------------------------------------------------------------------
+Instance: lvl__m3_m4_0//pfet_06v0_2u_1u_2n |Instance: pfet_06v0:M4                     
+  (1,3) = (3,2)                            |  (1,3) = (4,3)                            
+  2 = 3                                    |  2 = 3                                    
+  4 = 2                                    |  4 = 4                                    
+                                           |                                           
+Instance: lvl__m3_m4_0//pfet_06v0_2u_1u_2n |Instance: pfet_06v0:M3                     
+  (1,3) = (3,2)                            |  (1,3) = (4,3)                            
+  2 = 3                                    |  2 = 3                                    
+  4 = 2                                    |  4 = 4                                    
+                                           |                                           
+Instance: lvl__mi3_mi4_0//pfet_06v0_8u_1u_ |Instance: pfet_06v0:MI4                    
+  (1,3) = (3,2)                            |  (1,3) = (4,3)                            
+  2 = 5                                    |  2 = 5                                    
+  4 = 2                                    |  4 = 4                                    
+                                           |                                           
+Instance: lvl__mi3_mi4_0//pfet_06v0_8u_1u_ |Instance: pfet_06v0:MI3                    
+  (1,3) = (5,2)                            |  (1,3) = (5,4)                            
+  2 = 2                                    |  2 = 2                                    
+  4 = 2                                    |  4 = 4                                    
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: lvl__mi1_mi2_0//nfet_06v0_4u_1u_ |Instance: nfet_06v0:M2                     
+  (1,3) = (5,4)                            |  (1,3) = (8,3)                            
+  2 = 2                                    |  2 = 5                                    
+  4 = 4                                    |  4 = 8                                    
+                                           |                                           
+Instance: lvl__mi1_mi2_0//nfet_06v0_4u_1u_ |Instance: nfet_06v0:MI2                    
+  (1,3) = (4,3)                            |  (1,3) = (8,3)                            
+  2 = 5                                    |  2 = 5                                    
+  4 = 4                                    |  4 = 8                                    
+                                           |                                           
+Instance: lvl__m1_m2_0//nfet_06v0_8u_1u_2n |Instance: nfet_06v0:M1                     
+  (1,3) = (4,3)                            |  (1,3) = (8,3)                            
+  2 = 5                                    |  2 = 3                                    
+  4 = 4                                    |  4 = 8                                    
+                                           |                                           
+Instance: lvl__m1_m2_0//nfet_06v0_8u_1u_2n |Instance: nfet_06v0:MI1                    
+  (1,3) = (4,3)                            |  (1,3) = (8,5)                            
+  2 = 3                                    |  2 = 2                                    
+  4 = 4                                    |  4 = 8                                    
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+  Flattening non-matched subcircuits levelshifter levelshifter
+Flattening unmatched subcell bandgap_cm in circuit gf180mcu_cw_ip_vref.spice (0)(1 instance)
+Flattening unmatched subcell bg__mb2_mb3 in circuit gf180mcu_cw_ip_vref.spice (0)(1 instance)
+Flattening unmatched subcell nfet_06v0_8u_8u_1nf in circuit gf180mcu_cw_ip_vref.spice (0)(20 instances)
+Flattening unmatched subcell bg__mi1_mi2_me1_me2_me3_me4 in circuit gf180mcu_cw_ip_vref.spice (0)(1 instance)
+Flattening unmatched subcell nfet_06v0_2u_1u_1nf in circuit gf180mcu_cw_ip_vref.spice (0)(3 instances)
+Flattening unmatched subcell pfet_06v0_2u_1u_1nf in circuit gf180mcu_cw_ip_vref.spice (0)(3 instances)
+Flattening unmatched subcell bg__ms1_ms2_ms3_ms4_c1 in circuit gf180mcu_cw_ip_vref.spice (0)(1 instance)
+Flattening unmatched subcell nfet_06v0_1u_1u_1nf in circuit gf180mcu_cw_ip_vref.spice (0)(4 instances)
+Flattening unmatched subcell cap_mim_10u_10u in circuit gf180mcu_cw_ip_vref.spice (0)(1 instance)
+Flattening unmatched subcell bg__r1_r2_r3_ro in circuit gf180mcu_cw_ip_vref.spice (0)(1 instance)
+Flattening unmatched subcell ppoly_u_1k_6p0_1u_20u in circuit gf180mcu_cw_ip_vref.spice (0)(55 instances)
+Flattening unmatched subcell bg__m1_m2_mb1_mo1_mo2 in circuit gf180mcu_cw_ip_vref.spice (0)(1 instance)
+Flattening unmatched subcell pfet_06v0_8u_8u_1nf in circuit gf180mcu_cw_ip_vref.spice (0)(48 instances)
+Flattening unmatched subcell bg__trimres in circuit gf180mcu_cw_ip_vref.spice (0)(1 instance)
+Flattening unmatched subcell bgt__runits in circuit gf180mcu_cw_ip_vref.spice (0)(1 instance)
+Flattening unmatched subcell ppolyf_u_1k_6p0_1u_5u in circuit gf180mcu_cw_ip_vref.spice (0)(50 instances)
+Flattening unmatched subcell bgt__trimsw in circuit gf180mcu_cw_ip_vref.spice (0)(1 instance)
+Flattening unmatched subcell nfet_06v0_8u_1u_4nf in circuit gf180mcu_cw_ip_vref.spice (0)(32 instances)
+Flattening unmatched subcell bg__pnp_group in circuit gf180mcu_cw_ip_vref.spice (0)(1 instance)
+Flattening unmatched subcell bg__amplifier in circuit gf180mcu_cw_ip_vref.spice (0)(1 instance)
+Flattening unmatched subcell bga__md1_md2 in circuit gf180mcu_cw_ip_vref.spice (0)(1 instance)
+Flattening unmatched subcell pfet_06v0_8u_4u_2nf in circuit gf180mcu_cw_ip_vref.spice (0)(24 instances)
+Flattening unmatched subcell bga__mc7_mc8 in circuit gf180mcu_cw_ip_vref.spice (0)(1 instance)
+Flattening unmatched subcell pfet_06v0_8u_2u_2nf in circuit gf180mcu_cw_ip_vref.spice (0)(6 instances)
+Flattening unmatched subcell bga__mb5_mc1_mc2 in circuit gf180mcu_cw_ip_vref.spice (0)(1 instance)
+Flattening unmatched subcell nfet_06v0_8u_2u_2nf in circuit gf180mcu_cw_ip_vref.spice (0)(26 instances)
+Flattening unmatched subcell bga__mb1_mb2_mt1 in circuit gf180mcu_cw_ip_vref.spice (0)(1 instance)
+Flattening unmatched subcell pfet_06v0_8u_2u_2nf in circuit gf180mcu_cw_ip_vref.spice (0)(20 instances)
+Flattening unmatched subcell bga__mb4_mc3_mc4 in circuit gf180mcu_cw_ip_vref.spice (0)(1 instance)
+Flattening unmatched subcell nfet_06v0_8u_2u_2nf in circuit gf180mcu_cw_ip_vref.spice (0)(14 instances)
+Flattening unmatched subcell bga__mb3_mc5_mc6 in circuit gf180mcu_cw_ip_vref.spice (0)(1 instance)
+Flattening unmatched subcell pfet_06v0_8u_2u_2nf in circuit gf180mcu_cw_ip_vref.spice (0)(14 instances)
+Flattening unmatched subcell spdt__group in circuit gf180mcu_cw_ip_vref.spice (0)(1 instance)
+Flattening unmatched subcell bandgap in circuit sch_gf180mcu_cw_vref.spice (1)(1 instance)
+Flattening unmatched subcell bg_amplifier in circuit sch_gf180mcu_cw_vref.spice (1)(1 instance)
+Flattening unmatched subcell bg_trimres in circuit sch_gf180mcu_cw_vref.spice (1)(1 instance)
+
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (1) makes a better match
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (1) makes a better match
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (1) makes a better match
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (1) makes a better match
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (1) makes a better match
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (1) makes a better match
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (1) makes a better match
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (1) makes a better match
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (1) makes a better match
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (1) makes a better match
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (1) makes a better match
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (1) makes a better match
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (1) makes a better match
+Removing zero-valued device vsrc from cell sch_gf180mcu_cw_vref.spice (1) makes a better match
 Making another compare attempt.
 
-Class sch_gf180mcu_cw_vref.spice (0):  Merged 35 parallel devices.
-Class lay_gf180mcu_cw_ip_vref.spice (1):  Merged 540 parallel devices.
-Class lay_gf180mcu_cw_ip_vref.spice (1):  Merged 57 series devices.
+Class gf180mcu_cw_ip_vref.spice (0):  Merged 431 parallel devices.
+Class gf180mcu_cw_ip_vref.spice (0):  Merged 54 series devices.
+Class sch_gf180mcu_cw_vref.spice (1):  Merged 33 parallel devices.
 Subcircuit summary:
-Circuit 1: sch_gf180mcu_cw_vref.spice      |Circuit 2: lay_gf180mcu_cw_ip_vref.spice   
+Circuit 1: gf180mcu_cw_ip_vref.spice       |Circuit 2: sch_gf180mcu_cw_vref.spice      
 -------------------------------------------|-------------------------------------------
-pfet_06v0 (178->76)                        |pfet_06v0 (291->76)                        
-nfet_06v0 (175->82)                        |nfet_06v0 (347->82)                        
-ppolyf_u_1k_6p0 (52->14)                   |ppolyf_u_1k_6p0 (109->14)                  
-cap_mim_2f0_m4m5_noshield (2)              |cap_mim_2f0_m4m5_noshield (2)              
+nfet_06v0 (279->68)                        |nfet_06v0 (143->68)                        
+pfet_06v0 (223->63)                        |pfet_06v0 (159->63)                        
+cap_mim_2f0_m4m5_noshield (1)              |cap_mim_2f0_m4m5_noshield (1)              
+ppolyf_u_1k_6p0 (105->13)                  |ppolyf_u_1k_6p0 (51->13)                   
 pnp_05p00x05p00 (25->3)                    |pnp_05p00x05p00 (25->3)                    
-Number of devices: 177                     |Number of devices: 177                     
-Number of nets: 102                        |Number of nets: 102                        
+testbuffer (1)                             |testbuffer (1)                             
+spdt (2)                                   |spdt (2)                                   
+Number of devices: 151                     |Number of devices: 151                     
+Number of nets: 92                         |Number of nets: 92                         
 ---------------------------------------------------------------------------------------
 Netlists match uniquely.
 Cells have no pins;  pin matching not needed.
-Device classes sch_gf180mcu_cw_vref.spice and lay_gf180mcu_cw_ip_vref.spice are equivalent.
+Device classes gf180mcu_cw_ip_vref.spice and sch_gf180mcu_cw_vref.spice are equivalent.
 
 Final result: Circuits match uniquely.
 .

@@ -1,4 +1,4 @@
-* SPICE3 file created from gf180mcu_cw_ip_vref.ext - technology: gf180mcuD
+* Layout netlist flat
 
 X0 a_58848_8833# a_58456_10901# VGND VGND nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
 X1 VAPWR a_24590_15686# a_12342_17754# VAPWR pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
