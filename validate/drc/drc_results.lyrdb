@@ -1586,6 +1586,12 @@
    </categories>
   </category>
   <category>
+   <name>DCF.1a</name>
+   <description>DCF.1a : All area between active polygons (COMP) (with spacing greater than equal to this rule)must be filled with "Dummy COMP" (see exceptions): 20</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
    <name>DCF.1b</name>
    <description>DCF.1b : Global density for active layers (COMP+ Dummy COMP) shall be &gt;= 25%</description>
    <categories>
@@ -1979,12 +1985,6 @@
   <category>
    <name>DV.9</name>
    <description>DV.9 : 3.3V and 5V/6V PMOS cannot be sitting inside same NWELL.</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>DCF.1a</name>
-   <description>DCF.1a : All area between active polygons (COMP) (with spacing greater than equal to this rule)must be filled with "Dummy COMP" (see exceptions): 20</description>
    <categories>
    </categories>
   </category>
@@ -4168,7 +4168,7 @@
   </category>
   <category>
    <name>PL.5a_LV</name>
-   <description>PL.5a_LV : Space from field Poly2 to unrelated COMP Spacer from field Poly2 to Guard-ring. : 0.1µm</description>
+   <description>PL.5a_LV : Space from field Poly2 to unrelated COMP, Space from field Poly2 to Guard-ring. : 0.1µm</description>
    <categories>
    </categories>
   </category>
@@ -4758,6 +4758,30 @@
  <items>
   <item>
    <tags/>
+   <category>'DCF.1a'</category>
+   <cell>gf180mcu_cw_ip_vref</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (0,0;0,258.325;399.2,258.325;399.2,0/272.4,42.265;324.52,42.265;324.52,84.66;353.29,84.66;353.29,119.945;330.32,119.945;330.32,217.29;43.56,217.29;43.56,43.425;272.4,43.425)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DCF.1a'</category>
+   <cell>gf180mcu_cw_ip_vref</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (171.78,187.205;171.78,211.93;205.27,211.93;205.27,187.205)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
    <category>'DCF.1b'</category>
    <cell>gf180mcu_cw_ip_vref</cell>
    <visited>false</visited>
@@ -4814,30 +4838,6 @@
    <image/>
    <values>
     <value>polygon: (0,0;0,258.325;399.2,258.325;399.2,0)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'DCF.1a'</category>
-   <cell>gf180mcu_cw_ip_vref</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (10,10;10,248.325;389.2,248.325;389.2,10/272.4,42.265;324.52,42.265;324.52,84.66;353.29,84.66;353.29,119.945;330.32,119.945;330.32,217.29;43.56,217.29;43.56,43.425;272.4,43.425)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'DCF.1a'</category>
-   <cell>gf180mcu_cw_ip_vref</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (171.78,187.205;171.78,211.93;205.27,211.93;205.27,187.205)</value>
    </values>
   </item>
  </items>
