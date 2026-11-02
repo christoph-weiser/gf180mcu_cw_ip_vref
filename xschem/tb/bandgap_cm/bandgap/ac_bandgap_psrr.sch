@@ -19,10 +19,20 @@ N 270 -350 340 -350 {
 lab=#net1}
 N 130 -350 210 -350 {
 lab=vdd}
-N 570 -330 620 -330 {
+N 570 -330 670 -330 {
 lab=vbg}
-N 620 -330 620 -280 {
+N 670 -330 670 -280 {
 lab=vbg}
+N 570 -300 590 -300 {
+lab=#net2}
+N 590 -300 590 -280 {
+lab=#net2}
+N 520 -300 570 -300 {
+lab=#net2}
+N 490 -260 530 -260 {
+lab=tio[7:0]}
+N 530 -260 530 -240 {
+lab=tio[7:0]}
 C {devices/vsource.sym} 130 -290 0 0 {name=vdd value="DC 'vdd'"
 }
 C {devices/vsource.sym} 130 -200 0 0 {name=vss value=0
@@ -36,14 +46,25 @@ only_toplevel=true
 value="* Control
 
 .param vdd = 3.3
+.param cl = 100e-15
+
 .temp 27
 
 .options reltol = 1e-6
 
+*------------------------------------------------------------
+* Nodeset for better convergence
+*------------------------------------------------------------
+.nodeset v(vbg)  = '1'
+.nodeset v(xbg.gate) = 'vdd/2'
+.nodeset v(xbg.vx)   = '0.70'
+.nodeset v(xbg.vbe2) = '0.65'
+.nodeset v(xbg.vs1)  = '0'
+*------------------------------------------------------------
+
 .control
 
 save all
-*optran 0 0 0 100n 0.3m 0
 ac dec 10 0.01 1e9
 
 let psrr=(1/vbg)
@@ -73,15 +94,14 @@ C {devices/lab_wire.sym} 370 -260 0 0 {name=l9 sig_type=std_logic lab=vss}
 C {devices/titleblock.sym} 760 0 0 0 {name=l10 author="Christoph Weiser" license="Apache-2.0" year="2026"}
 C {devices/lab_wire.sym} 370 -310 0 0 {name=l3 sig_type=std_logic lab=vdd,7*(vss)
 }
-C {devices/noconn.sym} 520 -300 2 0 {name=l8}
 C {devices/lab_wire.sym} 370 -290 0 0 {name=l11 sig_type=std_logic lab=vdd}
 C {devices/vsource.sym} 240 -350 1 0 {name=vac value="DC 0 AC 1"
 }
-C {devices/capa.sym} 620 -250 0 0 {name=C1
+C {devices/capa.sym} 670 -250 0 0 {name=Cl
 m=1
-value=10f
+value='cl'
 }
-C {devices/lab_wire.sym} 620 -220 3 0 {name=l14 sig_type=std_logic lab=vss}
+C {devices/lab_wire.sym} 670 -220 3 0 {name=l14 sig_type=std_logic lab=vss}
 C {sch/bandgap_cm/bandgap/bandgap.sym} 390 -250 0 0 {name=xbg
 schematic=sch/bandgap_cm/bandgap/bandgap.sch
 }
@@ -97,3 +117,15 @@ value="* Model Corners
 *.include \\\\$::CORNERS\\\\/ngspice/sf.spice
 *.include \\\\$::CORNERS\\\\/ngspice/fs.spice
 "}
+C {devices/lab_wire.sym} 590 -220 3 0 {name=l2 sig_type=std_logic lab=vss}
+C {devices/lab_wire.sym} 490 -260 0 1 {name=l4 sig_type=std_logic lab=tio[7:0]
+}
+C {devices/res.sym} 590 -250 0 0 {name=R1
+value=1e9
+m=1
+}
+C {devices/lab_wire.sym} 530 -180 3 0 {name=l12 sig_type=std_logic lab=vss}
+C {devices/res.sym} 530 -210 0 0 {name=Rtio[7:0]
+value=1e9
+m=1
+}
