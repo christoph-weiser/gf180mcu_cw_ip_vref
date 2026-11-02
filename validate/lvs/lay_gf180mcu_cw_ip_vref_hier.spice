@@ -1,23 +1,23 @@
 * Layout netlist hierachical
 
-Xbandgap_cm_0 w_41706_23485# m3_53511_9912# m2_50770_8396# m2_49918_7454# m3_64941_21277#
+Xgf__bandgap_cm_0 w_41706_23485# m3_53511_9912# m2_50770_8396# m2_49918_7454# m3_64941_21277#
 + m2_36786_6525# w_9284_9257# m2_50202_7790# m2_36502_6193# VAPWR m3_58309_21277#
-+ m2_37354_7139# m2_37070_6795# m2_50486_8120# VGND bandgap_cm
-Xtestbuffer_0 m3_60905_21401# m3_65487_22109# w_55284_25430# bias VAPWR VGND testbuffer
-Xlevelshifter_0[0] en VDPWR VAPWR m3_53511_9912# VDPWR VAPWR VGND VGND levelshifter
-Xlevelshifter_0[1] trim[0] VDPWR VAPWR m2_50770_8396# VDPWR VAPWR VGND VGND levelshifter
-Xlevelshifter_0[2] trim[1] VDPWR VAPWR m2_50486_8120# VDPWR VAPWR VGND VGND levelshifter
-Xlevelshifter_0[3] trim[2] VDPWR VAPWR m2_50202_7790# VDPWR VAPWR VGND VGND levelshifter
-Xlevelshifter_0[4] trim[3] VDPWR VAPWR m2_49918_7454# VDPWR VAPWR VGND VGND levelshifter
-Xlevelshifter_0[5] trim[4] VDPWR VAPWR m2_37354_7139# VDPWR VAPWR VGND VGND levelshifter
-Xlevelshifter_0[6] trim[5] VDPWR VAPWR m2_37070_6795# VDPWR VAPWR VGND VGND levelshifter
-Xlevelshifter_0[7] trim[6] VDPWR VAPWR m2_36786_6525# VDPWR VAPWR VGND VGND levelshifter
-Xlevelshifter_0[8] trim[7] VDPWR VAPWR m2_36502_6193# VDPWR VAPWR VGND VGND levelshifter
-Xlevelshifter_0[9] dsw[0] VDPWR VAPWR m3_62910_8048# VDPWR VAPWR VGND VGND levelshifter
-Xlevelshifter_0[10] dsw[1] VDPWR VAPWR m3_63806_8346# VDPWR VAPWR VGND VGND levelshifter
-Xspdt__group_0 m3_60905_21401# vout w_55284_17504# m3_64941_21277# vext m3_62910_8048#
-+ m3_63806_8346# m3_65487_22109# VAPWR VGND m3_58309_21277# spdt__group
-*.ends
++ m2_37354_7139# m2_37070_6795# m2_50486_8120# VGND gf__bandgap_cm
+Xgf__spdt_group_0 m3_62910_8048# m3_63806_8346# VAPWR w_55284_17504# m3_64941_21277#
++ vext m3_65487_22109# m3_58309_21277# vout m3_60905_21401# VGND gf__spdt_group
+Xgf__testbuffer_0 w_55284_25430# VAPWR m3_60905_21401# m3_65487_22109# VGND bias gf__testbuffer
+Xgf__levelshifter_0[0] en VDPWR VAPWR m3_53511_9912# VDPWR VAPWR VGND VGND gf__levelshifter
+Xgf__levelshifter_0[1] trim[0] VDPWR VAPWR m2_50770_8396# VDPWR VAPWR VGND VGND gf__levelshifter
+Xgf__levelshifter_0[2] trim[1] VDPWR VAPWR m2_50486_8120# VDPWR VAPWR VGND VGND gf__levelshifter
+Xgf__levelshifter_0[3] trim[2] VDPWR VAPWR m2_50202_7790# VDPWR VAPWR VGND VGND gf__levelshifter
+Xgf__levelshifter_0[4] trim[3] VDPWR VAPWR m2_49918_7454# VDPWR VAPWR VGND VGND gf__levelshifter
+Xgf__levelshifter_0[5] trim[4] VDPWR VAPWR m2_37354_7139# VDPWR VAPWR VGND VGND gf__levelshifter
+Xgf__levelshifter_0[6] trim[5] VDPWR VAPWR m2_37070_6795# VDPWR VAPWR VGND VGND gf__levelshifter
+Xgf__levelshifter_0[7] trim[6] VDPWR VAPWR m2_36786_6525# VDPWR VAPWR VGND VGND gf__levelshifter
+Xgf__levelshifter_0[8] trim[7] VDPWR VAPWR m2_36502_6193# VDPWR VAPWR VGND VGND gf__levelshifter
+Xgf__levelshifter_0[9] dsw[0] VDPWR VAPWR m3_62910_8048# VDPWR VAPWR VGND VGND gf__levelshifter
+Xgf__levelshifter_0[10] dsw[1] VDPWR VAPWR m3_63806_8346# VDPWR VAPWR VGND VGND gf__levelshifter
+
 
 .subckt nfet_06v0_8u_8u_1nf a_192_272# a_280_180# a_1880_272# a_48_48#
 X0 a_1880_272# a_280_180# a_192_272# a_48_48# nfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
@@ -630,9 +630,9 @@ Xbga__mb3_mc5_mc6_0 m4_943_5738# m3_14069_5769# m4_1904_6377# m3_21090_10300# m3
 + w_16_5668# bga__mb3_mc5_mc6
 .ends
 
-.subckt bandgap_cm w_33026_14832# m3_29379_24840# m2_40640_7621# m2_40640_1693# m3_8898_22092#
-+ m2_28106_0# w_604_604# m2_40640_3669# m2_27822_0# m4_0_14925# m3_23976_26628# m2_28674_0#
-+ m2_28390_0# m2_40640_5645# VSUBS
+.subckt gf__bandgap_cm w_33026_14832# m3_29379_24840# m2_40640_7621# m2_40640_1693#
++ m3_8898_22092# m2_28106_0# w_604_604# m2_40640_3669# m2_27822_0# m4_0_14925# m3_23976_26628#
++ m2_28674_0# m2_28390_0# m2_40640_5645# VSUBS
 Xbg__mb2_mb3_0 m3_32202_26212# VSUBS m3_31611_16588# m3_32202_26212# m3_31611_16588#
 + VSUBS VSUBS bg__mb2_mb3
 Xbg__mi1_mi2_me1_me2_me3_me4_0 m3_29379_24840# m3_30666_27298# m3_1064_4976# m3_28816_28022#
@@ -655,6 +655,111 @@ Xbg__amplifier_0 m3_37414_19345# m3_9450_13888# m3_31611_16588# m4_0_14925# m3_1
 + w_16_16#
 X0 a_480_272# a_280_180# a_192_272# w_16_16# pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
 X1 a_784_272# a_584_180# a_480_272# w_16_16# pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+.ends
+
+.subckt spdt__mi3_mi4 pfet_06v0_8u_1u_2nf_0/a_584_180# pfet_06v0_8u_1u_2nf_0/a_480_272#
++ pfet_06v0_8u_1u_2nf_0/a_280_180# pfet_06v0_8u_1u_2nf_0/a_192_272# pfet_06v0_8u_1u_2nf_0/w_16_16#
++ pfet_06v0_8u_1u_2nf_0/a_784_272#
+Xpfet_06v0_8u_1u_2nf_0 pfet_06v0_8u_1u_2nf_0/a_784_272# pfet_06v0_8u_1u_2nf_0/a_584_180#
++ pfet_06v0_8u_1u_2nf_0/a_480_272# pfet_06v0_8u_1u_2nf_0/a_192_272# pfet_06v0_8u_1u_2nf_0/a_280_180#
++ pfet_06v0_8u_1u_2nf_0/w_16_16# pfet_06v0_8u_1u_2nf
+.ends
+
+.subckt nfet_06v0_4u_1u_2nf a_784_272# a_584_180# a_480_272# a_192_272# a_280_180#
++ a_48_48#
+X0 a_784_272# a_584_180# a_480_272# a_48_48# nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X1 a_480_272# a_280_180# a_192_272# a_48_48# nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+.ends
+
+.subckt spdt__mi1_mi2 nfet_06v0_4u_1u_2nf_0/a_584_180# nfet_06v0_4u_1u_2nf_0/a_480_272#
++ nfet_06v0_4u_1u_2nf_0/a_280_180# nfet_06v0_4u_1u_2nf_0/a_192_272# nfet_06v0_4u_1u_2nf_0/a_784_272#
++ VSUBS
+Xnfet_06v0_4u_1u_2nf_0 nfet_06v0_4u_1u_2nf_0/a_784_272# nfet_06v0_4u_1u_2nf_0/a_584_180#
++ nfet_06v0_4u_1u_2nf_0/a_480_272# nfet_06v0_4u_1u_2nf_0/a_192_272# nfet_06v0_4u_1u_2nf_0/a_280_180#
++ VSUBS nfet_06v0_4u_1u_2nf
+.ends
+
+.subckt spdt__m1_m3 nfet_06v0_8u_1u_4nf_0[1]/a_480_272# nfet_06v0_8u_1u_4nf_0[1]/a_1088_272#
++ nfet_06v0_8u_1u_4nf_0[0]/a_192_272# nfet_06v0_8u_1u_4nf_0[0]/a_280_180# nfet_06v0_8u_1u_4nf_0[0]/a_1192_180#
++ nfet_06v0_8u_1u_4nf_0[1]/a_280_180# nfet_06v0_8u_1u_4nf_0[1]/a_192_272# nfet_06v0_8u_1u_4nf_0[0]/a_1088_272#
++ nfet_06v0_8u_1u_4nf_0[0]/a_888_180# nfet_06v0_8u_1u_4nf_0[1]/a_888_180# nfet_06v0_8u_1u_4nf_0[0]/a_784_272#
++ nfet_06v0_8u_1u_4nf_0[1]/a_784_272# nfet_06v0_8u_1u_4nf_0[1]/a_1392_272# nfet_06v0_8u_1u_4nf_0[0]/a_584_180#
++ nfet_06v0_8u_1u_4nf_0[1]/a_584_180# VSUBS nfet_06v0_8u_1u_4nf_0[0]/a_1392_272# nfet_06v0_8u_1u_4nf_0[1]/a_1192_180#
++ nfet_06v0_8u_1u_4nf_0[0]/a_480_272#
+Xnfet_06v0_8u_1u_4nf_0[0] nfet_06v0_8u_1u_4nf_0[0]/a_784_272# nfet_06v0_8u_1u_4nf_0[0]/a_584_180#
++ nfet_06v0_8u_1u_4nf_0[0]/a_480_272# nfet_06v0_8u_1u_4nf_0[0]/a_1392_272# nfet_06v0_8u_1u_4nf_0[0]/a_192_272#
++ nfet_06v0_8u_1u_4nf_0[0]/a_280_180# nfet_06v0_8u_1u_4nf_0[0]/a_1192_180# nfet_06v0_8u_1u_4nf_0[0]/a_1088_272#
++ VSUBS nfet_06v0_8u_1u_4nf_0[0]/a_888_180# nfet_06v0_8u_1u_4nf
+Xnfet_06v0_8u_1u_4nf_0[1] nfet_06v0_8u_1u_4nf_0[1]/a_784_272# nfet_06v0_8u_1u_4nf_0[1]/a_584_180#
++ nfet_06v0_8u_1u_4nf_0[1]/a_480_272# nfet_06v0_8u_1u_4nf_0[1]/a_1392_272# nfet_06v0_8u_1u_4nf_0[1]/a_192_272#
++ nfet_06v0_8u_1u_4nf_0[1]/a_280_180# nfet_06v0_8u_1u_4nf_0[1]/a_1192_180# nfet_06v0_8u_1u_4nf_0[1]/a_1088_272#
++ VSUBS nfet_06v0_8u_1u_4nf_0[1]/a_888_180# nfet_06v0_8u_1u_4nf
+.ends
+
+.subckt pfet_06v0_8u_1u_8nf a_784_272# a_1696_272# a_2104_180# a_2000_272# a_584_180#
++ a_1496_180# a_480_272# a_1800_180# a_1392_272# a_192_272# a_280_180# a_1192_180#
++ a_2608_272# a_1088_272# w_16_16# a_2408_180# a_2304_272# a_888_180#
+X0 a_480_272# a_280_180# a_192_272# w_16_16# pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X1 a_1696_272# a_1496_180# a_1392_272# w_16_16# pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X2 a_2000_272# a_1800_180# a_1696_272# w_16_16# pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X3 a_1392_272# a_1192_180# a_1088_272# w_16_16# pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X4 a_1088_272# a_888_180# a_784_272# w_16_16# pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X5 a_2608_272# a_2408_180# a_2304_272# w_16_16# pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X6 a_784_272# a_584_180# a_480_272# w_16_16# pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X7 a_2304_272# a_2104_180# a_2000_272# w_16_16# pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+.ends
+
+.subckt spdt__m2_m4 pfet_06v0_8u_1u_8nf_0[0]/a_2608_272# pfet_06v0_8u_1u_8nf_0[1]/a_2408_180#
++ pfet_06v0_8u_1u_8nf_0[0]/a_584_180# pfet_06v0_8u_1u_8nf_0[0]/a_1088_272# pfet_06v0_8u_1u_8nf_0[1]/a_2304_272#
++ pfet_06v0_8u_1u_8nf_0[1]/a_584_180# pfet_06v0_8u_1u_8nf_0[0]/a_2408_180# pfet_06v0_8u_1u_8nf_0[0]/a_480_272#
++ pfet_06v0_8u_1u_8nf_0[1]/a_1696_272# pfet_06v0_8u_1u_8nf_0[1]/a_2104_180# pfet_06v0_8u_1u_8nf_0[1]/a_480_272#
++ pfet_06v0_8u_1u_8nf_0[0]/a_2304_272# pfet_06v0_8u_1u_8nf_0[1]/a_2000_272# pfet_06v0_8u_1u_8nf_0[0]/a_192_272#
++ pfet_06v0_8u_1u_8nf_0[1]/a_1496_180# pfet_06v0_8u_1u_8nf_0[0]/a_280_180# pfet_06v0_8u_1u_8nf_0[1]/a_280_180#
++ pfet_06v0_8u_1u_8nf_0[0]/a_1696_272# pfet_06v0_8u_1u_8nf_0[1]/a_192_272# pfet_06v0_8u_1u_8nf_0[0]/a_2104_180#
++ pfet_06v0_8u_1u_8nf_0[1]/a_1800_180# pfet_06v0_8u_1u_8nf_0[1]/a_1392_272# pfet_06v0_8u_1u_8nf_0[0]/a_2000_272#
++ pfet_06v0_8u_1u_8nf_0[0]/a_1496_180# pfet_06v0_8u_1u_8nf_0[0]/a_1392_272# pfet_06v0_8u_1u_8nf_0[1]/a_1192_180#
++ pfet_06v0_8u_1u_8nf_0[0]/a_1800_180# pfet_06v0_8u_1u_8nf_0[1]/w_16_16# pfet_06v0_8u_1u_8nf_0[1]/a_2608_272#
++ pfet_06v0_8u_1u_8nf_0[1]/a_888_180# pfet_06v0_8u_1u_8nf_0[0]/a_888_180# pfet_06v0_8u_1u_8nf_0[1]/a_1088_272#
++ pfet_06v0_8u_1u_8nf_0[0]/a_784_272# pfet_06v0_8u_1u_8nf_0[0]/a_1192_180# pfet_06v0_8u_1u_8nf_0[1]/a_784_272#
+Xpfet_06v0_8u_1u_8nf_0[0] pfet_06v0_8u_1u_8nf_0[0]/a_784_272# pfet_06v0_8u_1u_8nf_0[0]/a_1696_272#
++ pfet_06v0_8u_1u_8nf_0[0]/a_2104_180# pfet_06v0_8u_1u_8nf_0[0]/a_2000_272# pfet_06v0_8u_1u_8nf_0[0]/a_584_180#
++ pfet_06v0_8u_1u_8nf_0[0]/a_1496_180# pfet_06v0_8u_1u_8nf_0[0]/a_480_272# pfet_06v0_8u_1u_8nf_0[0]/a_1800_180#
++ pfet_06v0_8u_1u_8nf_0[0]/a_1392_272# pfet_06v0_8u_1u_8nf_0[0]/a_192_272# pfet_06v0_8u_1u_8nf_0[0]/a_280_180#
++ pfet_06v0_8u_1u_8nf_0[0]/a_1192_180# pfet_06v0_8u_1u_8nf_0[0]/a_2608_272# pfet_06v0_8u_1u_8nf_0[0]/a_1088_272#
++ pfet_06v0_8u_1u_8nf_0[1]/w_16_16# pfet_06v0_8u_1u_8nf_0[0]/a_2408_180# pfet_06v0_8u_1u_8nf_0[0]/a_2304_272#
++ pfet_06v0_8u_1u_8nf_0[0]/a_888_180# pfet_06v0_8u_1u_8nf
+Xpfet_06v0_8u_1u_8nf_0[1] pfet_06v0_8u_1u_8nf_0[1]/a_784_272# pfet_06v0_8u_1u_8nf_0[1]/a_1696_272#
++ pfet_06v0_8u_1u_8nf_0[1]/a_2104_180# pfet_06v0_8u_1u_8nf_0[1]/a_2000_272# pfet_06v0_8u_1u_8nf_0[1]/a_584_180#
++ pfet_06v0_8u_1u_8nf_0[1]/a_1496_180# pfet_06v0_8u_1u_8nf_0[1]/a_480_272# pfet_06v0_8u_1u_8nf_0[1]/a_1800_180#
++ pfet_06v0_8u_1u_8nf_0[1]/a_1392_272# pfet_06v0_8u_1u_8nf_0[1]/a_192_272# pfet_06v0_8u_1u_8nf_0[1]/a_280_180#
++ pfet_06v0_8u_1u_8nf_0[1]/a_1192_180# pfet_06v0_8u_1u_8nf_0[1]/a_2608_272# pfet_06v0_8u_1u_8nf_0[1]/a_1088_272#
++ pfet_06v0_8u_1u_8nf_0[1]/w_16_16# pfet_06v0_8u_1u_8nf_0[1]/a_2408_180# pfet_06v0_8u_1u_8nf_0[1]/a_2304_272#
++ pfet_06v0_8u_1u_8nf_0[1]/a_888_180# pfet_06v0_8u_1u_8nf
+.ends
+
+.subckt spg__spdt m3_2278_750# m3_4874_750# m1_0_2436# m3_4328_1458# m2_0_2262# VSUBS
+Xspdt__mi3_mi4_0 m3_3254_177# m1_0_2436# m2_0_2262# m3_3254_177# m1_0_2436# m3_774_1553#
++ spdt__mi3_mi4
+Xspdt__mi1_mi2_0 m3_3254_177# VSUBS m2_0_2262# m3_3254_177# m3_774_1553# VSUBS spdt__mi1_mi2
+Xspdt__m1_m3_0 m3_4328_1458# m3_4328_1458# m3_2278_750# m3_3254_177# m3_3254_177#
++ m3_774_1553# m3_4874_750# m3_4328_1458# m3_3254_177# m3_774_1553# m3_2278_750# m3_4874_750#
++ m3_4874_750# m3_3254_177# m3_774_1553# VSUBS m3_2278_750# m3_774_1553# m3_4328_1458#
++ spdt__m1_m3
+Xspdt__m2_m4_0 m3_2278_750# m3_3254_177# m3_774_1553# m3_4328_1458# m3_4328_1458#
++ m3_3254_177# m3_774_1553# m3_4328_1458# m3_4328_1458# m3_3254_177# m3_4328_1458#
++ m3_4328_1458# m3_4874_750# m3_2278_750# m3_3254_177# m3_774_1553# m3_3254_177# m3_4328_1458#
++ m3_4874_750# m3_774_1553# m3_3254_177# m3_4874_750# m3_2278_750# m3_774_1553# m3_2278_750#
++ m3_3254_177# m3_774_1553# m1_0_2436# m3_4874_750# m3_3254_177# m3_774_1553# m3_4328_1458#
++ m3_2278_750# m3_774_1553# m3_4874_750# spdt__m2_m4
+.ends
+
+.subckt gf__spdt_group spg__spdt_0/m2_0_2262# spg__spdt_1/m2_0_2262# m1_719_719# w_604_604#
++ spg__spdt_0/m3_2278_750# spg__spdt_0/m3_4874_750# spg__spdt_0/m3_4328_1458# spg__spdt_1/m3_2278_750#
++ spg__spdt_1/m3_4328_1458# spg__spdt_1/m3_4874_750# VSUBS
+Xspg__spdt_1 spg__spdt_1/m3_2278_750# spg__spdt_1/m3_4874_750# m1_719_719# spg__spdt_1/m3_4328_1458#
++ spg__spdt_1/m2_0_2262# VSUBS spg__spdt
+Xspg__spdt_0 spg__spdt_0/m3_2278_750# spg__spdt_0/m3_4874_750# m1_719_719# spg__spdt_0/m3_4328_1458#
++ spg__spdt_0/m2_0_2262# VSUBS spg__spdt
 .ends
 
 .subckt tba__xmb3_xmb4 m2_166_333# m2_0_1123#
@@ -788,7 +893,7 @@ Xpfet_06v0_8u_1u_12nf_0 m2_0_341# m2_0_341# m2_0_1123# m2_0_1836# m2_0_1836# m2_
 + m2_0_1836# m2_0_1836# m2_0_1123# m2_0_1836# pfet_06v0_8u_1u_12nf
 .ends
 
-.subckt tb_amplifier tba__xm1_xm2_0/m2_0_1831# tba__xm1_xm2_0/m2_0_65# m3_8055_11362#
+.subckt tb__amplifier tba__xm1_xm2_0/m2_0_1831# tba__xm1_xm2_0/m2_0_65# m3_8055_11362#
 + m5_6914_8027# m4_0_0# VSUBS
 Xtba__xmb3_xmb4_0 m3_5258_6144# m4_0_0# tba__xmb3_xmb4
 Xtba__xmb1_xmb2_xm5_xm6_0 m3_2257_8993# m3_8055_11362# m3_5258_6144# VSUBS m5_6914_8027#
@@ -801,10 +906,10 @@ Xtba__xrcc_0 m4_0_0# m3_960_1720# m5_8397_6034# tba__xrcc
 Xtba__xm7_0 m4_0_0# m5_6914_8027# m3_960_1720# tba__xm7
 .ends
 
-.subckt testbuffer m3_1230_9739# tb_amplifier_0/tba__xm1_xm2_0/m2_0_1831# w_604_604#
-+ tb_amplifier_0/m3_8055_11362# m1_827_827# VSUBS
-Xtb_amplifier_0 tb_amplifier_0/tba__xm1_xm2_0/m2_0_1831# m3_1230_9739# tb_amplifier_0/m3_8055_11362#
-+ m3_1230_9739# m1_827_827# VSUBS tb_amplifier
+.subckt gf__testbuffer w_604_604# m1_827_827# m3_1230_9739# tb__amplifier_0/tba__xm1_xm2_0/m2_0_1831#
++ VSUBS tb__amplifier_0/m3_8055_11362#
+Xtb__amplifier_0 tb__amplifier_0/tba__xm1_xm2_0/m2_0_1831# m3_1230_9739# tb__amplifier_0/m3_8055_11362#
++ m3_1230_9739# m1_827_827# VSUBS tb__amplifier
 .ends
 
 .subckt lvl__m1_m2 nfet_06v0_8u_1u_2nf_0/a_584_180# nfet_06v0_8u_1u_2nf_0/a_480_272#
@@ -837,12 +942,6 @@ Xpfet_06v0_2u_1u_2nf_0 pfet_06v0_2u_1u_2nf_0/a_784_272# pfet_06v0_2u_1u_2nf_0/a_
 + pfet_06v0_2u_1u_2nf_0/w_16_16# pfet_06v0_2u_1u_2nf
 .ends
 
-.subckt nfet_06v0_4u_1u_2nf a_784_272# a_584_180# a_480_272# a_192_272# a_280_180#
-+ a_48_48#
-X0 a_784_272# a_584_180# a_480_272# a_48_48# nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
-X1 a_480_272# a_280_180# a_192_272# a_48_48# nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
-.ends
-
 .subckt lvl__mi1_mi2 nfet_06v0_4u_1u_2nf_0/a_584_180# nfet_06v0_4u_1u_2nf_0/a_480_272#
 + nfet_06v0_4u_1u_2nf_0/a_192_272# nfet_06v0_4u_1u_2nf_0/a_280_180# nfet_06v0_4u_1u_2nf_0/a_784_272#
 + VSUBS
@@ -851,9 +950,9 @@ Xnfet_06v0_4u_1u_2nf_0 nfet_06v0_4u_1u_2nf_0/a_784_272# nfet_06v0_4u_1u_2nf_0/a_
 + VSUBS nfet_06v0_4u_1u_2nf
 .ends
 
-.subckt levelshifter m2_0_3379# lvl__mi3_mi4_0/pfet_06v0_8u_1u_2nf_0/w_16_16# via__M1_M3_SQU_11/via__M2_M3_SQU_0/m2_0_0#
-+ m3_188_1259# via__M1_M3_SQU_9/via__M2_M3_SQU_0/m2_0_0# lvl__m3_m4_0/pfet_06v0_2u_1u_2nf_0/w_16_16#
-+ m2_470_574# VSUBS
+.subckt gf__levelshifter m2_0_3379# lvl__mi3_mi4_0/pfet_06v0_8u_1u_2nf_0/w_16_16#
++ via__M1_M3_SQU_11/via__M2_M3_SQU_0/m2_0_0# m3_188_1259# via__M1_M3_SQU_9/via__M2_M3_SQU_0/m2_0_0#
++ lvl__m3_m4_0/pfet_06v0_2u_1u_2nf_0/w_16_16# m2_470_574# VSUBS
 Xlvl__m1_m2_0 m3_734_2558# m2_470_574# m3_188_1259# m3_250_2558# m3_578_1708# VSUBS
 + lvl__m1_m2
 Xlvl__mi3_mi4_0 m3_250_2558# via__M1_M3_SQU_9/via__M2_M3_SQU_0/m2_0_0# m3_250_2558#
@@ -863,104 +962,4 @@ Xlvl__m3_m4_0 lvl__m3_m4_0/pfet_06v0_2u_1u_2nf_0/w_16_16# m3_188_1259# via__M1_M
 Xlvl__mi1_mi2_0 m3_250_2558# m2_470_574# m3_250_2558# m2_0_3379# m3_734_2558# VSUBS
 + lvl__mi1_mi2
 .ends
-
-.subckt spdt__mi3_mi4 pfet_06v0_8u_1u_2nf_0/a_584_180# pfet_06v0_8u_1u_2nf_0/a_480_272#
-+ pfet_06v0_8u_1u_2nf_0/a_280_180# pfet_06v0_8u_1u_2nf_0/a_192_272# pfet_06v0_8u_1u_2nf_0/w_16_16#
-+ pfet_06v0_8u_1u_2nf_0/a_784_272#
-Xpfet_06v0_8u_1u_2nf_0 pfet_06v0_8u_1u_2nf_0/a_784_272# pfet_06v0_8u_1u_2nf_0/a_584_180#
-+ pfet_06v0_8u_1u_2nf_0/a_480_272# pfet_06v0_8u_1u_2nf_0/a_192_272# pfet_06v0_8u_1u_2nf_0/a_280_180#
-+ pfet_06v0_8u_1u_2nf_0/w_16_16# pfet_06v0_8u_1u_2nf
-.ends
-
-.subckt spdt__mi1_mi2 nfet_06v0_4u_1u_2nf_0/a_584_180# nfet_06v0_4u_1u_2nf_0/a_480_272#
-+ nfet_06v0_4u_1u_2nf_0/a_280_180# nfet_06v0_4u_1u_2nf_0/a_192_272# nfet_06v0_4u_1u_2nf_0/a_784_272#
-+ VSUBS
-Xnfet_06v0_4u_1u_2nf_0 nfet_06v0_4u_1u_2nf_0/a_784_272# nfet_06v0_4u_1u_2nf_0/a_584_180#
-+ nfet_06v0_4u_1u_2nf_0/a_480_272# nfet_06v0_4u_1u_2nf_0/a_192_272# nfet_06v0_4u_1u_2nf_0/a_280_180#
-+ VSUBS nfet_06v0_4u_1u_2nf
-.ends
-
-.subckt spdt__m1_m3 nfet_06v0_8u_1u_4nf_0[1]/a_480_272# nfet_06v0_8u_1u_4nf_0[1]/a_1088_272#
-+ nfet_06v0_8u_1u_4nf_0[0]/a_192_272# nfet_06v0_8u_1u_4nf_0[0]/a_280_180# nfet_06v0_8u_1u_4nf_0[0]/a_1192_180#
-+ nfet_06v0_8u_1u_4nf_0[1]/a_280_180# nfet_06v0_8u_1u_4nf_0[1]/a_192_272# nfet_06v0_8u_1u_4nf_0[0]/a_1088_272#
-+ nfet_06v0_8u_1u_4nf_0[0]/a_888_180# nfet_06v0_8u_1u_4nf_0[1]/a_888_180# nfet_06v0_8u_1u_4nf_0[0]/a_784_272#
-+ nfet_06v0_8u_1u_4nf_0[1]/a_784_272# nfet_06v0_8u_1u_4nf_0[1]/a_1392_272# nfet_06v0_8u_1u_4nf_0[0]/a_584_180#
-+ nfet_06v0_8u_1u_4nf_0[1]/a_584_180# VSUBS nfet_06v0_8u_1u_4nf_0[0]/a_1392_272# nfet_06v0_8u_1u_4nf_0[1]/a_1192_180#
-+ nfet_06v0_8u_1u_4nf_0[0]/a_480_272#
-Xnfet_06v0_8u_1u_4nf_0[0] nfet_06v0_8u_1u_4nf_0[0]/a_784_272# nfet_06v0_8u_1u_4nf_0[0]/a_584_180#
-+ nfet_06v0_8u_1u_4nf_0[0]/a_480_272# nfet_06v0_8u_1u_4nf_0[0]/a_1392_272# nfet_06v0_8u_1u_4nf_0[0]/a_192_272#
-+ nfet_06v0_8u_1u_4nf_0[0]/a_280_180# nfet_06v0_8u_1u_4nf_0[0]/a_1192_180# nfet_06v0_8u_1u_4nf_0[0]/a_1088_272#
-+ VSUBS nfet_06v0_8u_1u_4nf_0[0]/a_888_180# nfet_06v0_8u_1u_4nf
-Xnfet_06v0_8u_1u_4nf_0[1] nfet_06v0_8u_1u_4nf_0[1]/a_784_272# nfet_06v0_8u_1u_4nf_0[1]/a_584_180#
-+ nfet_06v0_8u_1u_4nf_0[1]/a_480_272# nfet_06v0_8u_1u_4nf_0[1]/a_1392_272# nfet_06v0_8u_1u_4nf_0[1]/a_192_272#
-+ nfet_06v0_8u_1u_4nf_0[1]/a_280_180# nfet_06v0_8u_1u_4nf_0[1]/a_1192_180# nfet_06v0_8u_1u_4nf_0[1]/a_1088_272#
-+ VSUBS nfet_06v0_8u_1u_4nf_0[1]/a_888_180# nfet_06v0_8u_1u_4nf
-.ends
-
-.subckt pfet_06v0_8u_1u_8nf a_784_272# a_1696_272# a_2104_180# a_2000_272# a_584_180#
-+ a_1496_180# a_480_272# a_1800_180# a_1392_272# a_192_272# a_280_180# a_1192_180#
-+ a_2608_272# a_1088_272# w_16_16# a_2408_180# a_2304_272# a_888_180#
-X0 a_480_272# a_280_180# a_192_272# w_16_16# pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
-X1 a_1696_272# a_1496_180# a_1392_272# w_16_16# pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
-X2 a_2000_272# a_1800_180# a_1696_272# w_16_16# pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
-X3 a_1392_272# a_1192_180# a_1088_272# w_16_16# pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
-X4 a_1088_272# a_888_180# a_784_272# w_16_16# pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
-X5 a_2608_272# a_2408_180# a_2304_272# w_16_16# pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
-X6 a_784_272# a_584_180# a_480_272# w_16_16# pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
-X7 a_2304_272# a_2104_180# a_2000_272# w_16_16# pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
-.ends
-
-.subckt spdt__m2_m4 pfet_06v0_8u_1u_8nf_0[0]/a_2608_272# pfet_06v0_8u_1u_8nf_0[1]/a_2408_180#
-+ pfet_06v0_8u_1u_8nf_0[0]/a_584_180# pfet_06v0_8u_1u_8nf_0[0]/a_1088_272# pfet_06v0_8u_1u_8nf_0[1]/a_2304_272#
-+ pfet_06v0_8u_1u_8nf_0[1]/a_584_180# pfet_06v0_8u_1u_8nf_0[0]/a_2408_180# pfet_06v0_8u_1u_8nf_0[0]/a_480_272#
-+ pfet_06v0_8u_1u_8nf_0[1]/a_1696_272# pfet_06v0_8u_1u_8nf_0[1]/a_2104_180# pfet_06v0_8u_1u_8nf_0[1]/a_480_272#
-+ pfet_06v0_8u_1u_8nf_0[0]/a_2304_272# pfet_06v0_8u_1u_8nf_0[1]/a_2000_272# pfet_06v0_8u_1u_8nf_0[0]/a_192_272#
-+ pfet_06v0_8u_1u_8nf_0[1]/a_1496_180# pfet_06v0_8u_1u_8nf_0[0]/a_280_180# pfet_06v0_8u_1u_8nf_0[1]/a_280_180#
-+ pfet_06v0_8u_1u_8nf_0[0]/a_1696_272# pfet_06v0_8u_1u_8nf_0[1]/a_192_272# pfet_06v0_8u_1u_8nf_0[0]/a_2104_180#
-+ pfet_06v0_8u_1u_8nf_0[1]/a_1800_180# pfet_06v0_8u_1u_8nf_0[1]/a_1392_272# pfet_06v0_8u_1u_8nf_0[0]/a_2000_272#
-+ pfet_06v0_8u_1u_8nf_0[0]/a_1496_180# pfet_06v0_8u_1u_8nf_0[0]/a_1392_272# pfet_06v0_8u_1u_8nf_0[1]/a_1192_180#
-+ pfet_06v0_8u_1u_8nf_0[0]/a_1800_180# pfet_06v0_8u_1u_8nf_0[1]/w_16_16# pfet_06v0_8u_1u_8nf_0[1]/a_2608_272#
-+ pfet_06v0_8u_1u_8nf_0[1]/a_888_180# pfet_06v0_8u_1u_8nf_0[0]/a_888_180# pfet_06v0_8u_1u_8nf_0[1]/a_1088_272#
-+ pfet_06v0_8u_1u_8nf_0[0]/a_784_272# pfet_06v0_8u_1u_8nf_0[0]/a_1192_180# pfet_06v0_8u_1u_8nf_0[1]/a_784_272#
-Xpfet_06v0_8u_1u_8nf_0[0] pfet_06v0_8u_1u_8nf_0[0]/a_784_272# pfet_06v0_8u_1u_8nf_0[0]/a_1696_272#
-+ pfet_06v0_8u_1u_8nf_0[0]/a_2104_180# pfet_06v0_8u_1u_8nf_0[0]/a_2000_272# pfet_06v0_8u_1u_8nf_0[0]/a_584_180#
-+ pfet_06v0_8u_1u_8nf_0[0]/a_1496_180# pfet_06v0_8u_1u_8nf_0[0]/a_480_272# pfet_06v0_8u_1u_8nf_0[0]/a_1800_180#
-+ pfet_06v0_8u_1u_8nf_0[0]/a_1392_272# pfet_06v0_8u_1u_8nf_0[0]/a_192_272# pfet_06v0_8u_1u_8nf_0[0]/a_280_180#
-+ pfet_06v0_8u_1u_8nf_0[0]/a_1192_180# pfet_06v0_8u_1u_8nf_0[0]/a_2608_272# pfet_06v0_8u_1u_8nf_0[0]/a_1088_272#
-+ pfet_06v0_8u_1u_8nf_0[1]/w_16_16# pfet_06v0_8u_1u_8nf_0[0]/a_2408_180# pfet_06v0_8u_1u_8nf_0[0]/a_2304_272#
-+ pfet_06v0_8u_1u_8nf_0[0]/a_888_180# pfet_06v0_8u_1u_8nf
-Xpfet_06v0_8u_1u_8nf_0[1] pfet_06v0_8u_1u_8nf_0[1]/a_784_272# pfet_06v0_8u_1u_8nf_0[1]/a_1696_272#
-+ pfet_06v0_8u_1u_8nf_0[1]/a_2104_180# pfet_06v0_8u_1u_8nf_0[1]/a_2000_272# pfet_06v0_8u_1u_8nf_0[1]/a_584_180#
-+ pfet_06v0_8u_1u_8nf_0[1]/a_1496_180# pfet_06v0_8u_1u_8nf_0[1]/a_480_272# pfet_06v0_8u_1u_8nf_0[1]/a_1800_180#
-+ pfet_06v0_8u_1u_8nf_0[1]/a_1392_272# pfet_06v0_8u_1u_8nf_0[1]/a_192_272# pfet_06v0_8u_1u_8nf_0[1]/a_280_180#
-+ pfet_06v0_8u_1u_8nf_0[1]/a_1192_180# pfet_06v0_8u_1u_8nf_0[1]/a_2608_272# pfet_06v0_8u_1u_8nf_0[1]/a_1088_272#
-+ pfet_06v0_8u_1u_8nf_0[1]/w_16_16# pfet_06v0_8u_1u_8nf_0[1]/a_2408_180# pfet_06v0_8u_1u_8nf_0[1]/a_2304_272#
-+ pfet_06v0_8u_1u_8nf_0[1]/a_888_180# pfet_06v0_8u_1u_8nf
-.ends
-
-.subckt spdt m3_2278_750# m3_4874_750# m1_0_2436# m3_4328_1458# m2_0_2262# VSUBS
-Xspdt__mi3_mi4_0 m3_3254_177# m1_0_2436# m2_0_2262# m3_3254_177# m1_0_2436# m3_774_1553#
-+ spdt__mi3_mi4
-Xspdt__mi1_mi2_0 m3_3254_177# VSUBS m2_0_2262# m3_3254_177# m3_774_1553# VSUBS spdt__mi1_mi2
-Xspdt__m1_m3_0 m3_4328_1458# m3_4328_1458# m3_2278_750# m3_3254_177# m3_3254_177#
-+ m3_774_1553# m3_4874_750# m3_4328_1458# m3_3254_177# m3_774_1553# m3_2278_750# m3_4874_750#
-+ m3_4874_750# m3_3254_177# m3_774_1553# VSUBS m3_2278_750# m3_774_1553# m3_4328_1458#
-+ spdt__m1_m3
-Xspdt__m2_m4_0 m3_2278_750# m3_3254_177# m3_774_1553# m3_4328_1458# m3_4328_1458#
-+ m3_3254_177# m3_774_1553# m3_4328_1458# m3_4328_1458# m3_3254_177# m3_4328_1458#
-+ m3_4328_1458# m3_4874_750# m3_2278_750# m3_3254_177# m3_774_1553# m3_3254_177# m3_4328_1458#
-+ m3_4874_750# m3_774_1553# m3_3254_177# m3_4874_750# m3_2278_750# m3_774_1553# m3_2278_750#
-+ m3_3254_177# m3_774_1553# m1_0_2436# m3_4874_750# m3_3254_177# m3_774_1553# m3_4328_1458#
-+ m3_2278_750# m3_774_1553# m3_4874_750# spdt__m2_m4
-.ends
-
-.subckt spdt__group spdt_1/m3_4874_750# spdt_1/m3_4328_1458# w_604_604# spdt_0/m3_2278_750#
-+ spdt_0/m3_4874_750# spdt_0/m2_0_2262# spdt_1/m2_0_2262# spdt_0/m3_4328_1458# m1_719_719#
-+ VSUBS spdt_1/m3_2278_750#
-Xspdt_0 spdt_0/m3_2278_750# spdt_0/m3_4874_750# m1_719_719# spdt_0/m3_4328_1458# spdt_0/m2_0_2262#
-+ VSUBS spdt
-Xspdt_1 spdt_1/m3_2278_750# spdt_1/m3_4874_750# m1_719_719# spdt_1/m3_4328_1458# spdt_1/m2_0_2262#
-+ VSUBS spdt
-.ends
-
 
