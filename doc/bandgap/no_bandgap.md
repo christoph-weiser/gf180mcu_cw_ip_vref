@@ -12,3 +12,15 @@ Simulation results for no_bandgap
 
 ![onoise](pic/sim_sch/no_bandgap/onoise.png)
 
+
+## Post-Layout Simulation
+
+|              | min       | max       | mean      | std      |
+|:-------------|:----------|:----------|:----------|:---------|
+| onoise_total | 74.50524u | 97.26561u | 85.56302u | 5.44764u |
+
+![onoise_total](pic/sim_pex/no_bandgap/onoise_total.png)
+
+![onoise](pic/sim_pex/no_bandgap/onoise.png)
+
+
