@@ -19,17 +19,18 @@ It also features a enable signal, such that the circuit can be powered down when
 | Load Capacitance             | Cl       |       |        | 500        | fF    | To achieve tset                   |
 | Area                         | A        |       |        | 180x220    | µm²   |                                   |
 | Temperature Range            | T        |  -40  |        | 85         | °C    |                                   |
-| Initial Accuracy             | ΔVbgi    | -10   |        | +10        | %     | All PV, ±3σ yield                | 
-| Trimmed Accuracy             | ΔVbgt    | -0.25 | +-0.15 | +0.25      | %     | All PV, ±3σ yield                | 
+| Initial Accuracy             | ΔVbgi    | -10   |        | +10        | %     | All PV, ±3σ yield                 | 
+| Trimmed Accuracy             | ΔVbgt    | -0.25 | +-0.15 | +0.25      | %     | All PV, ±3σ yield                 | 
 | Quiesent Current             | Iq       |       |  20    | 30         | µA    | All PVT                           |
 | Power-down state Current     | Ioff     |       |        | 10         | nA    | All PVT                           |
 | Power Dissipation            | Pd       |       |  66    | 150        | µW    | All PVT                           |
 | Temperature coefficient      | Tc       |       |  35    | 85         | µV/°C | All PVT, ±3σ yield                | 
 | Line Regulation              | dV/dVdd  |       |  1     | 2          | mV/V  | All PVT                           |
 | Line Relative Change         | ΔVvdd    |       |  2     | 4          | mV    | All PVT                           |
-| Power Supply Rejection Ratio | PSRR     |  75   |        |            | dB    | f=1Hz, Vdd=3.3V                   |
-|                              |          |  60   |        |            | dB    | f=100Hz, Vdd=3.3V                 |   
-|                              |          |  40   |        |            | dB    | f=1kHz, Vdd=3.3V                  |
+| Power Supply Rejection Ratio | PSRR     |  43   |  62    |            | dB    | f=1Hz, Vdd=3.3V                   |
+|                              |          |  43   |  62    |            | dB    | f=1kHz, Vdd=3.3V                  |
+|                              |          |  43   |  50    |            | dB    | f=10kHz, Vdd=3.3V                  |
+|                              |          |  27   |  32    |            | dB    | f=100kHz, Vdd=3.3V                |
 | Noise                        | en       |       |  75    | 80         | µVrms | f=0.1Hz to 10Hz                   |
 |                              |          |       |  90    | 100        | µVrms | f=10Hz to 10kHz                   |
 | Turn-on settling time        | tset     |       |  8     | 35         | µs    | All PVT, @Cl max, Vbg: +-1% of SS |
