@@ -46,7 +46,8 @@ of the voltage reference.
 | :--------------: | :----------------- | :------------------------ |
 | VAPWR            | IO                 | Analog supply voltage     |
 | VDPWR            | IO                 | Digital supply voltage    |
-| VGND             | IO                 | Supply ground             |
+| VAGND            | IO                 | Analog ground             |
+| VDGND            | IO                 | Digital ground            |
 | vbg              | OUT                | Bandgap reference voltage |
 | en               | IN                 | Enable signal             |
 | trim[7:0]        | IN                 | Digital trim inputs       |
