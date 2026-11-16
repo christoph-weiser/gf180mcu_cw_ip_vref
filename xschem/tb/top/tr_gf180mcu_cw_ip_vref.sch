@@ -43,6 +43,8 @@ N 420 -300 420 -210 {
 lab=en}
 N 420 -300 530 -300 {
 lab=en}
+N 490 -450 530 -450 {
+lab=vss}
 C {devices/vsource.sym} 100 -330 0 0 {name=vapwr value='vapwr'
 }
 C {devices/vsource.sym} 100 -240 0 0 {name=vss value=0
@@ -156,3 +158,4 @@ value="* Model Corners
 "}
 C {devices/lab_wire.sym} 530 -300 0 0 {name=l3 sig_type=std_logic lab=en
 }
+C {devices/lab_wire.sym} 490 -450 0 0 {name=l4 sig_type=std_logic lab=vss}

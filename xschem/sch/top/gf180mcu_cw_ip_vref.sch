@@ -12,10 +12,8 @@ P 4 5 2130 -80 2130 -310 2410 -310 2410 -80 2130 -80 {}
 P 4 5 2130 -780 2130 -1250 2410 -1250 2410 -780 2130 -780 {}
 T {User Area} 1810 -1130 0 0 0.4 0.4 {
 }
-N 190 -260 1420 -260 {
-lab=VGND}
-N 1420 -680 1420 -260 {
-lab=VGND}
+N 1420 -680 1420 -200 {
+lab=#net1}
 N 780 -970 1420 -970 {
 lab=VAPWR}
 N 1420 -970 1420 -760 {
@@ -40,14 +38,14 @@ N 420 -690 480 -690 {
 lab=VAPWR}
 N 1420 -970 1590 -970 {
 lab=VAPWR}
-N 1420 -260 1590 -260 {
-lab=VGND}
+N 1420 -200 1590 -200 {
+lab=#net1}
 N 1280 -720 1350 -720 {
 lab=vsw}
-N 1200 -630 1200 -260 {
-lab=VGND}
+N 1200 -630 1200 -200 {
+lab=#net1}
 N 1200 -650 1200 -630 {
-lab=VGND}
+lab=#net1}
 N 1060 -740 1120 -740 {
 lab=vext}
 N 1470 -720 1610 -720 {
@@ -56,10 +54,10 @@ N 1690 -970 1690 -770 {
 lab=VAPWR}
 N 1590 -970 1690 -970 {
 lab=VAPWR}
-N 1690 -630 1690 -260 {
-lab=VGND}
-N 1590 -260 1690 -260 {
-lab=VGND}
+N 1690 -630 1690 -200 {
+lab=#net1}
+N 1590 -200 1690 -200 {
+lab=#net1}
 N 1770 -700 1920 -700 {
 lab=vout}
 N 1200 -970 1200 -790 {
@@ -109,9 +107,9 @@ lab=VAPWR}
 N 790 -970 790 -590 {
 lab=VAPWR}
 N 790 -500 860 -500 {
-lab=VGND}
-N 790 -500 790 -260 {
-lab=VGND}
+lab=#net1}
+N 790 -500 790 -200 {
+lab=#net1}
 N 230 -630 340 -630 {
 lab=trim[7:0]}
 N 190 -630 230 -630 {
@@ -135,18 +133,23 @@ lab=dsw_ls[1:0]}
 N 460 -350 580 -350 {
 lab=en_ls}
 N 260 -450 260 -260 {
-lab=VGND}
+lab=VDGND}
 N 260 -450 400 -450 {
-lab=VGND}
+lab=VDGND}
 N 260 -580 260 -450 {
-lab=VGND}
+lab=VDGND}
 N 260 -590 260 -580 {
-lab=VGND}
+lab=VDGND}
 N 260 -590 400 -590 {
-lab=VGND}
+lab=VDGND}
 N 400 -310 400 -260 {
-lab=VGND}
-C {devices/iopin.sym} 190 -260 2 0 {name=p1 lab=VGND
+lab=VDGND}
+N 790 -200 1420 -200 {
+lab=#net1}
+N 190 -260 400 -260 {
+lab=VDGND}
+N 180 -200 790 -200 {}
+C {devices/iopin.sym} 190 -260 2 0 {name=p1 lab=VDGND
 }
 C {devices/iopin.sym} 310 -1100 3 0 {name=p33 lab=VDPWR
 }
@@ -204,4 +207,6 @@ C {sch/levelshifter/levelshifter/levelshifter.sym} 340 -310 0 0 {name=xlvl3
 C {devices/lab_wire.sym} 580 -350 0 0 {name=l1 sig_type=std_logic lab=en_ls
 }
 C {devices/ipin.sym} 190 -350 0 0 {name=p6 lab=en
+}
+C {devices/iopin.sym} 190 -200 2 0 {name=p8 lab=VAGND
 }
