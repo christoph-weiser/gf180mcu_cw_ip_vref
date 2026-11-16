@@ -1,0 +1,803 @@
+* SPICE3 file created from slot_2.ext - technology: gf180mcuD
+
+X0 a_97542_26118# a_97630_26026# a_98030_26118# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X1 a_142752_30007# a_129894_29363# vdd_5v0 vdd_5v0 pfet_06v0 ad=0.88p pd=4.88u as=0.52p ps=2.52u w=2u l=1u
+X2 a_123790_25503# a_129894_25411# a_127390_34348# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X3 a_142297_46862# a_142223_34170# s2_an_1_ vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X4 a_148583_46836# a_150605_46836# vdd_5v0 ppolyf_u_1k_6p0 r_width=2u r_length=9.5u
+X5 a_98342_32754# a_98430_32662# a_99230_32754# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X6 s2_an_1_ a_142815_34170# a_99972_50251# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X7 vss_5v0 analog_bus0 a_144081_49648# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X8 vdd_5v0 vdd_5v0 vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X9 a_97542_26118# a_100276_52227# a_98342_32754# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X10 a_128494_35470# a_129894_29363# a_128494_34348# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X11 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0.80096n ps=3.7068m w=8u l=8u
+X12 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X13 a_123790_29455# a_123878_27387# a_123790_27479# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X14 vss_3v3 a_141768_25901# a_129894_31339# vss_3v3 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X15 a_142815_34170# a_142223_34170# vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X16 a_122922_45337# a_121266_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X17 a_100276_52227# a_98030_26118# vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X18 a_125182_35470# a_123790_31431# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X19 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X20 a_128494_34348# a_129894_31339# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X21 vss_5v0 vss_5v0 vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=0.47168n ps=2.17048m w=8u l=2u
+X22 vss_3v3 dig_in_4_ a_146248_25901# vss_3v3 nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+X23 a_110778_45337# a_110778_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X24 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X25 vdd_5v0 a_100134_26118# a_111798_34730# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X26 a_98342_32754# a_110590_30686# vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X27 a_123790_25503# a_123878_25411# a_123790_27479# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X28 a_128494_35470# a_129894_27387# a_127390_34348# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X29 vdd_5v0 vdd_5v0 vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X30 vdd_5v0 a_123064_47705# a_98030_26118# vdd_5v0 pfet_06v0 ad=0.88p pd=4.88u as=0.88p ps=4.88u w=2u l=1u
+X31 vdd_5v0 vdd_5v0 vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X32 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X33 a_127390_34348# a_128494_35470# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X34 s2_an_1_ a_142223_34170# a_142297_46862# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X35 vss_5v0 vss_5v0 vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X36 a_99972_50251# a_142815_34170# s2_an_1_ vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X37 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X38 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X39 a_145744_23833# a_145352_25901# vss_3v3 vss_3v3 nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X40 a_143681_49556# a_148855_34170# a_103602_45337# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X41 a_128494_35470# a_128494_34348# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X42 vss_5v0 analog_bus0 a_142297_46862# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X43 a_97542_26118# a_98838_26118# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X44 a_123568_47797# vss_5v0 cap_mim_2f0_m4m5_noshield c_width=10u c_length=10u
+X45 vss_5v0 vss_5v0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X46 a_123790_29455# a_123878_29363# a_123790_31431# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X47 a_97630_26026# a_110590_30686# vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X48 a_123790_31431# a_123878_31339# a_98082_41215# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X49 a_142297_46862# a_142223_34170# s2_an_1_ vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X50 vss_5v0 analog_bus0 a_142297_46862# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X51 a_110590_30686# a_110590_30686# vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X52 vdd_3v3 dig_in_7_ a_143560_25901# vdd_3v3 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X53 vss_3v3 a_144456_25901# a_129894_25411# vss_3v3 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X54 s2_an_1_ a_142815_34170# a_142297_46862# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X55 a_142297_46862# analog_bus0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X56 s2_an_0_ a_148855_34170# a_143681_49556# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X57 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X58 a_143681_49556# a_149447_34170# s2_an_0_ vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X59 a_123790_25503# a_123878_25411# a_123790_27479# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X60 a_103602_45337# a_98030_26118# vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X61 a_97542_26118# a_100276_52227# a_98342_32754# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X62 vdd_5v0 a_110590_30686# a_110590_30686# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X63 vss_5v0 vss_5v0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X64 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X65 vdd_5v0 a_110590_30686# a_97630_26026# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X66 vdd_5v0 vdd_5v0 vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X67 vss_3v3 dig_in_1_ a_148936_25901# vss_3v3 nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+X68 a_143648_30007# a_143952_23833# vss_3v3 vss_3v3 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X69 a_123790_29455# a_123878_29363# a_123790_31431# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X70 vss_5v0 analog_bus0 a_142297_46862# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X71 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X72 a_123526_37066# a_124078_35470# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X73 a_97630_26026# a_110590_30686# vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X74 a_148432_23833# a_148040_25901# vss_3v3 vss_3v3 nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X75 a_125734_35470# a_123790_31431# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X76 vdd_5v0 a_144393_42544# a_142385_46770# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X77 a_123790_25503# a_123878_25411# a_123790_27479# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X78 a_99230_32754# a_98838_26118# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X79 a_106362_45337# a_105258_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X80 a_98838_26118# a_97630_26026# a_97630_26026# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X81 a_98342_32754# a_98430_32662# a_99230_32754# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X82 vdd_5v0 a_143648_30007# a_129894_27387# vdd_5v0 pfet_06v0 ad=0.52p pd=2.52u as=0.88p ps=4.88u w=2u l=1u
+X83 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X84 a_123790_31431# a_123878_31339# a_98082_41215# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X85 a_141264_23833# a_140872_25901# vss_3v3 vss_3v3 nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X86 a_128494_34348# a_129894_29363# a_128494_35470# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X87 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X88 vss_5v0 analog_bus0 a_144081_49648# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X89 vdd_3v3 dig_in_4_ a_146248_25901# vdd_3v3 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X90 vss_3v3 a_147144_25901# a_123878_29363# vss_3v3 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X91 a_123790_25503# a_129894_25411# a_127390_34348# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X92 vss_5v0 vss_5v0 a_110778_41215# pnp_05p00x05p00
+**devattr d=1000000,4000
+X93 a_149920_30007# a_150224_23833# vss_3v3 vss_3v3 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X94 a_113538_45337# a_111882_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X95 a_98342_32754# a_110590_30686# vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X96 s2_an_0_ a_148855_34170# a_143681_49556# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X97 a_127390_34348# a_129894_25411# a_123790_25503# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X98 vss_5v0 a_128494_34348# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X99 a_143681_49556# a_149447_34170# a_103602_45337# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X100 vdd_5v0 a_123064_47705# a_123064_48889# vdd_5v0 pfet_06v0 ad=0.88p pd=4.88u as=0.88p ps=4.88u w=2u l=1u
+X101 a_123790_31431# a_123878_31339# a_98082_41215# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X102 a_148583_47316# a_150605_46836# vdd_5v0 ppolyf_u_1k_6p0 r_width=2u r_length=9.5u
+X103 a_142297_46862# analog_bus0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X104 a_98342_32754# a_110590_30686# vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X105 a_146336_30007# a_146640_23833# vss_3v3 vss_3v3 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X106 a_145744_23833# a_145352_25901# vdd_3v3 vdd_3v3 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X107 a_127390_34348# a_129894_27387# a_128494_35470# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X108 a_142297_46862# a_142385_46770# vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X109 vdd_5v0 a_100134_26118# a_110502_34730# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X110 vdd_5v0 a_110590_30686# a_98342_32754# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X111 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X112 a_128494_34348# vss_5v0 vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X113 a_100276_52227# a_98030_26118# vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X114 vss_5v0 vss_5v0 vss_5v0 pnp_05p00x05p00
+**devattr d=1000000,4000
+X115 a_110590_34638# a_110590_34638# a_110590_30686# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X116 vdd_5v0 a_123064_47705# a_123568_47797# vdd_5v0 pfet_06v0 ad=0.88p pd=4.88u as=0.88p ps=4.88u w=2u l=1u
+X117 vss_5v0 a_98838_26118# a_97542_26118# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X118 a_128494_34348# a_129894_31339# vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X119 a_123790_31431# a_123878_29363# a_123790_29455# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X120 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X121 a_143681_49556# a_148855_34170# s2_an_0_ vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X122 a_128494_34348# a_129894_29363# a_128494_35470# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X123 vss_5v0 analog_bus0 a_142297_46862# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X124 vdd_5v0 a_100134_26118# a_110502_34730# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X125 vdd_5v0 a_146336_30007# a_123878_27387# vdd_5v0 pfet_06v0 ad=0.52p pd=2.52u as=0.88p ps=4.88u w=2u l=1u
+X126 a_123790_25503# a_129894_25411# a_127390_34348# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X127 a_99230_32754# a_98838_26118# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X128 vss_5v0 a_129894_31339# a_128494_34348# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X129 a_123790_25503# a_127390_34348# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X130 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X131 vdd_5v0 a_142385_46770# a_142297_46862# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X132 a_127390_34348# a_129894_25411# a_123790_25503# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X133 a_99230_32754# a_98838_26118# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X134 vdd_5v0 vdd_5v0 vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X135 a_100134_26118# a_97630_26026# a_99230_32754# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X136 a_98030_26118# a_97630_26026# a_97542_26118# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X137 vdd_5v0 a_110590_30686# a_97630_26026# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X138 vdd_3v3 dig_in_1_ a_148936_25901# vdd_3v3 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X139 a_103602_45337# a_149447_34170# a_143681_49556# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X140 a_112986_45337# a_112434_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X141 a_145440_30007# a_123878_25411# vdd_5v0 vdd_5v0 pfet_06v0 ad=0.88p pd=4.88u as=0.52p ps=2.52u w=2u l=1u
+X142 a_123790_27479# a_123878_27387# a_123790_29455# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X143 a_106362_45337# a_106914_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X144 vss_5v0 vss_5v0 vss_5v0 pnp_05p00x05p00
+**devattr d=1000000,4000
+X145 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X146 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X147 vdd_5v0 a_110590_30686# a_98342_32754# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X148 vdd_5v0 a_142385_46770# a_142297_46862# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X149 vss_5v0 vss_5v0 vss_5v0 pnp_05p00x05p00
+**devattr d=1000000,4000
+X150 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X151 a_127390_34348# a_128494_35470# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X152 a_128494_34348# vss_5v0 vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X153 a_148432_23833# a_148040_25901# vdd_3v3 vdd_3v3 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X154 a_115194_45337# a_114642_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X155 vdd_5v0 a_110590_30686# a_98342_32754# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X156 a_128494_34348# a_129894_31339# vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X157 a_123790_31431# a_123878_29363# a_123790_29455# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X158 a_108570_45337# a_109122_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X159 a_141856_30007# a_142160_23833# vss_3v3 vss_3v3 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X160 a_103602_45337# a_98030_26118# vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X161 vss_5v0 a_129894_31339# a_128494_34348# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X162 a_141264_23833# a_140872_25901# vdd_3v3 vdd_3v3 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X163 a_100276_50251# a_100276_50251# vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X164 vss_5v0 vss_5v0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X165 a_100134_26118# a_110590_34638# a_110502_34730# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X166 a_142297_46862# a_142385_46770# vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X167 a_100290_45337# a_99738_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X168 vdd_5v0 a_149024_30007# a_148936_23925# vdd_5v0 pfet_06v0 ad=0.52p pd=2.52u as=0.88p ps=4.88u w=2u l=1u
+X169 a_100134_26118# a_110590_34638# a_110502_34730# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X170 vdd_5v0 a_98030_26118# a_99972_50251# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X171 a_123790_27479# a_123878_27387# a_123790_29455# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X172 a_99230_32754# a_98430_32662# a_98342_32754# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X173 vss_5v0 vss_5v0 vss_5v0 pnp_05p00x05p00
+**devattr d=1000000,4000
+X174 vss_3v3 dig_in_9_ a_141768_25901# vss_3v3 nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+X175 a_123790_31431# a_123878_29363# a_123790_29455# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X176 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X177 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X178 vdd_5v0 a_142385_46770# a_142297_46862# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X179 a_148128_30007# a_123878_31339# vdd_5v0 vdd_5v0 pfet_06v0 ad=0.88p pd=4.88u as=0.52p ps=2.52u w=2u l=1u
+X180 s2_an_1_ a_142815_34170# a_99972_50251# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X181 a_98838_26118# a_98838_26118# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X182 a_127390_34348# a_129894_25411# a_123790_25503# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X183 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X184 a_97542_26118# a_98838_26118# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X185 vss_5v0 a_100276_50251# a_110590_34638# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X186 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X187 a_98342_32754# a_110590_30686# vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X188 a_128494_34348# a_129894_29363# a_128494_35470# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X189 a_140960_30007# a_123064_47705# vdd_5v0 vdd_5v0 pfet_06v0 ad=0.88p pd=4.88u as=0.52p ps=2.52u w=2u l=1u
+X190 a_125734_37066# a_126286_35470# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X191 a_123790_27479# a_123878_27387# a_123790_29455# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X192 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X193 a_123790_25503# a_127390_34348# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X194 a_108570_45337# a_106914_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X195 a_98030_26118# a_97630_26026# a_97542_26118# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X196 a_99230_32754# a_98430_32662# a_98342_32754# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X197 a_110502_34730# a_100134_26118# vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X198 vdd_5v0 a_110590_30686# a_110590_30686# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X199 a_142297_46862# a_142815_34170# s2_an_1_ vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X200 s2_an_1_ a_142223_34170# a_142297_46862# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X201 a_99972_50251# a_142815_34170# s2_an_1_ vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X202 vss_5v0 a_98838_26118# a_98838_26118# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X203 vss_5v0 vss_5v0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X204 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X205 a_144985_52184# analog_bus0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X206 a_127390_34348# a_129894_27387# a_128494_35470# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X207 vss_5v0 a_129894_31339# a_128494_34348# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X208 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X209 vdd_5v0 a_100134_26118# a_111798_34730# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X210 vss_5v0 a_128494_34348# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X211 vss_5v0 vss_5v0 vss_5v0 pnp_05p00x05p00
+**devattr d=1000000,4000
+X212 a_128494_35470# a_129894_27387# a_127390_34348# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X213 vss_5v0 a_98838_26118# a_99230_32754# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X214 vdd_5v0 a_98030_26118# a_103602_45337# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X215 a_115746_45337# a_114090_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X216 vss_3v3 dig_in_6_ a_144456_25901# vss_3v3 nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+X217 a_110590_34638# a_110590_34638# a_110590_30686# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X218 vdd_5v0 a_110590_30686# a_110590_30686# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X219 vss_5v0 vss_5v0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X220 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X221 vss_5v0 vss_5v0 a_110778_41215# pnp_05p00x05p00
+**devattr d=1000000,4000
+X222 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X223 a_100290_45337# a_100842_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X224 vdd_5v0 a_110590_30686# a_97630_26026# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X225 a_143952_23833# a_143560_25901# vss_3v3 vss_3v3 nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X226 vss_5v0 vss_5v0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X227 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X228 a_99972_50251# a_142223_34170# s2_an_1_ vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X229 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X230 vss_5v0 analog_bus0 a_142297_46862# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X231 vss_3v3 a_149832_25901# a_142311_34078# vss_3v3 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X232 a_123790_27479# a_123878_25411# a_123790_25503# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X233 a_127390_34348# a_129894_27387# a_128494_35470# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X234 a_102498_45337# a_103050_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X235 a_97630_26026# a_110590_30686# vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X236 vdd_5v0 a_144393_42544# a_144393_42544# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X237 vss_5v0 vss_5v0 vss_5v0 pnp_05p00x05p00
+**devattr d=1000000,4000
+X238 a_128494_35470# a_129894_27387# a_127390_34348# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X239 a_99230_32754# a_98838_26118# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X240 vdd_3v3 dig_in_9_ a_141768_25901# vdd_3v3 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X241 vss_3v3 a_142664_25901# a_129894_29363# vss_3v3 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X242 a_99972_50251# a_142815_34170# s2_an_1_ vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X243 a_98342_32754# a_98430_32662# a_99230_32754# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X244 vss_5v0 vss_5v0 vss_5v0 pnp_05p00x05p00
+**devattr d=1000000,4000
+X245 a_98030_26118# a_110590_34638# a_111798_34730# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X246 vss_5v0 a_148936_23925# a_148855_34170# vss_5v0 nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+X247 a_123790_27479# a_126838_35470# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X248 a_142297_46862# a_142815_34170# s2_an_1_ vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X249 a_142297_46862# a_148583_46836# cap_mim_2f0_m4m5_noshield c_width=30u c_length=30u
+X250 vss_3v3 dig_in_3_ a_147144_25901# vss_3v3 nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+X251 a_98838_26118# a_97630_26026# a_97630_26026# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X252 vss_5v0 a_142311_34078# a_142223_34170# vss_5v0 nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+X253 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X254 a_100276_50251# a_100276_50251# vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X255 a_110226_45337# a_109674_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X256 a_150224_23833# a_149832_25901# vss_3v3 vss_3v3 nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X257 a_100134_26118# a_110590_34638# a_110502_34730# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X258 a_98082_41215# a_123878_31339# a_123790_31431# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X259 a_127390_34348# a_128494_35470# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X260 a_97542_26118# a_98838_26118# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X261 a_100134_26118# a_110590_34638# a_110502_34730# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X262 a_98838_26118# a_98838_26118# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X263 a_146640_23833# a_146248_25901# vss_3v3 vss_3v3 nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X264 a_97630_26026# a_97630_26026# a_98838_26118# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X265 vdd_5v0 a_98030_26118# a_99972_50251# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X266 a_128494_35470# a_129894_29363# a_128494_34348# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X267 vdd_5v0 a_110590_30686# a_98342_32754# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X268 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X269 vdd_5v0 a_141856_30007# a_129894_31339# vdd_5v0 pfet_06v0 ad=0.52p pd=2.52u as=0.88p ps=4.88u w=2u l=1u
+X270 vss_5v0 vss_5v0 vss_5v0 pnp_05p00x05p00
+**devattr d=1000000,4000
+X271 a_110590_34638# a_100276_50251# vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X272 a_100276_52227# a_124026_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X273 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X274 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X275 vss_5v0 analog_bus0 a_142297_46862# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X276 vdd_3v3 dig_in_6_ a_144456_25901# vdd_3v3 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X277 vss_3v3 a_145352_25901# a_123878_25411# vss_3v3 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X278 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X279 a_111798_34730# a_110590_34638# a_98030_26118# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X280 a_117954_45337# a_118506_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X281 a_144081_49648# a_143681_49556# a_142385_46770# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X282 a_128494_35470# a_129894_27387# a_127390_34348# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X283 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X284 a_111798_34730# a_100134_26118# vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X285 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X286 a_143952_23833# a_143560_25901# vdd_3v3 vdd_3v3 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X287 a_123790_29455# a_123878_29363# a_123790_31431# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X288 vss_5v0 a_98838_26118# a_99230_32754# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X289 a_143681_49556# a_148855_34170# s2_an_0_ vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X290 a_103602_45337# a_103050_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X291 a_98030_26118# a_110590_34638# a_111798_34730# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X292 s2_an_0_ a_149447_34170# a_143681_49556# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X293 a_103602_45337# a_149447_34170# a_143681_49556# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X294 a_127390_34348# a_128494_35470# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X295 a_123790_27479# a_123878_25411# a_123790_25503# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X296 vss_5v0 a_98838_26118# a_99230_32754# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X297 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X298 vdd_5v0 a_110590_30686# a_98342_32754# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X299 a_128494_35470# a_128494_34348# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X300 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X301 vss_5v0 vss_5v0 vss_5v0 pnp_05p00x05p00
+**devattr d=1000000,4000
+X302 vdd_5v0 a_110590_30686# a_98342_32754# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X303 vdd_5v0 a_142385_46770# a_142297_46862# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X304 a_123790_25503# a_123878_25411# a_123790_27479# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X305 vdd_5v0 a_98030_26118# a_103602_45337# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X306 vss_5v0 vss_5v0 a_110778_41215# pnp_05p00x05p00
+**devattr d=1000000,4000
+X307 vdd_5v0 a_144544_30007# a_129894_25411# vdd_5v0 pfet_06v0 ad=0.52p pd=2.52u as=0.88p ps=4.88u w=2u l=1u
+X308 a_99230_32754# a_98838_26118# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X309 a_142160_23833# a_141768_25901# vss_3v3 vss_3v3 nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X310 vss_5v0 vss_5v0 vss_5v0 pnp_05p00x05p00
+**devattr d=1000000,4000
+X311 a_143681_49556# a_149447_34170# s2_an_0_ vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X312 vss_5v0 a_128494_34348# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X313 a_117954_45337# a_116298_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X314 vdd_3v3 dig_in_3_ a_147144_25901# vdd_3v3 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X315 a_143648_30007# a_129894_27387# vdd_5v0 vdd_5v0 pfet_06v0 ad=0.88p pd=4.88u as=0.52p ps=2.52u w=2u l=1u
+X316 a_97542_26118# a_98838_26118# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X317 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X318 a_98082_41215# a_123878_31339# a_123790_31431# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X319 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X320 a_99230_32754# a_98430_32662# a_98342_32754# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X321 a_150224_23833# a_149832_25901# vdd_3v3 vdd_3v3 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X322 a_123790_29455# a_123878_29363# a_123790_31431# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X323 a_103602_45337# a_148855_34170# a_143681_49556# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X324 a_99230_32754# a_97630_26026# a_100134_26118# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X325 a_111798_34730# a_110590_34638# a_98030_26118# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X326 a_123790_31431# a_123878_31339# a_98082_41215# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X327 a_146640_23833# a_146248_25901# vdd_3v3 vdd_3v3 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X328 vss_5v0 vss_5v0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X329 a_97542_26118# a_97630_26026# a_98030_26118# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X330 vss_5v0 vss_5v0 vss_5v0 pnp_05p00x05p00
+**devattr d=1000000,4000
+X331 a_144081_49648# a_143681_49556# a_142385_46770# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X332 a_123790_25503# a_123878_25411# a_123790_27479# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X333 a_142297_46862# analog_bus0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X334 a_103602_45337# a_149447_34170# a_143681_49556# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X335 a_98030_26118# a_110590_34638# a_111798_34730# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X336 a_123790_29455# a_123878_27387# a_123790_27479# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X337 a_124630_35470# a_124078_34348# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X338 a_123790_29455# a_123878_29363# a_123790_31431# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X339 vss_5v0 a_98838_26118# a_97542_26118# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X340 a_142297_46862# analog_bus0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X341 a_99230_32754# a_98430_32662# a_98342_32754# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X342 vdd_5v0 a_147232_30007# a_123878_29363# vdd_5v0 pfet_06v0 ad=0.52p pd=2.52u as=0.88p ps=4.88u w=2u l=1u
+X343 vdd_5v0 a_110590_30686# a_110590_30686# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X344 a_123790_25503# a_129894_25411# a_127390_34348# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X345 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X346 a_149920_30007# a_142311_34078# vdd_5v0 vdd_5v0 pfet_06v0 ad=0.88p pd=4.88u as=0.52p ps=2.52u w=2u l=1u
+X347 vss_5v0 a_98838_26118# a_99230_32754# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X348 a_99230_32754# a_98838_26118# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X349 s2_an_0_ a_148855_34170# a_143681_49556# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X350 a_144081_49648# analog_bus0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X351 a_128494_35470# a_129894_29363# a_128494_34348# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X352 a_123790_31431# a_123878_31339# a_98082_41215# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X353 a_149024_30007# a_149328_23833# vss_3v3 vss_3v3 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X354 a_127390_34348# a_129894_25411# a_123790_25503# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X355 a_110502_34730# a_110590_34638# a_100134_26118# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X356 a_146336_30007# a_123878_27387# vdd_5v0 vdd_5v0 pfet_06v0 ad=0.88p pd=4.88u as=0.52p ps=2.52u w=2u l=1u
+X357 a_128494_35470# a_128494_34348# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X358 a_110226_45337# a_112434_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X359 a_110502_34730# a_110590_34638# a_100134_26118# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X360 a_128494_34348# a_129894_29363# a_128494_35470# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X361 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X362 a_148583_47316# a_150605_47796# vdd_5v0 ppolyf_u_1k_6p0 r_width=2u r_length=9.5u
+X363 a_142297_46862# a_142385_46770# vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X364 s2_an_1_ a_142223_34170# a_99972_50251# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X365 a_123790_25503# a_129894_25411# a_127390_34348# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X366 a_97630_26026# a_97630_26026# a_98838_26118# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X367 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X368 vdd_5v0 a_110590_30686# a_98342_32754# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X369 a_146233_46862# a_144985_52184# a_144985_52184# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X370 a_128494_34348# vss_5v0 vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X371 a_128494_34348# a_129894_31339# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X372 vss_5v0 a_98838_26118# a_98838_26118# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X373 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X374 a_111798_34730# a_110590_34638# a_98030_26118# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X375 vss_5v0 vss_5v0 a_110778_41215# pnp_05p00x05p00
+**devattr d=1000000,4000
+X376 a_98342_32754# a_100276_52227# a_97542_26118# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X377 vss_5v0 a_98838_26118# a_97542_26118# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X378 vss_5v0 a_100276_52227# a_123658_51785# vss_5v0 nfet_06v0 ad=0.44p pd=2.88u as=0.44p ps=2.88u w=1u l=1u
+X379 vdd_5v0 vdd_5v0 vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X380 a_142160_23833# a_141768_25901# vdd_3v3 vdd_3v3 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X381 vss_5v0 a_129894_31339# a_128494_34348# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X382 vss_3v3 dig_in_0_ a_149832_25901# vss_3v3 nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+X383 a_146233_46862# a_146233_46862# vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X384 a_144985_52184# analog_bus0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X385 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X386 a_142297_46862# a_142223_34170# s2_an_1_ vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X387 a_128494_35470# a_129894_29363# a_128494_34348# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X388 a_98030_26118# a_110590_34638# a_111798_34730# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X389 a_99186_45337# a_98634_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X390 a_128494_34348# a_129894_31339# vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X391 vss_3v3 dig_in_8_ a_142664_25901# vss_3v3 nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+X392 a_128494_34348# a_129894_29363# a_128494_35470# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X393 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X394 vss_5v0 vss_5v0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X395 a_111330_45337# a_111882_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X396 vdd_5v0 a_98030_26118# a_100276_52227# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X397 a_123526_37066# a_123526_35470# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X398 a_144393_42544# a_142297_46862# a_144081_49648# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X399 vss_5v0 vss_5v0 vss_5v0 pnp_05p00x05p00
+**devattr d=1000000,4000
+X400 a_97542_26118# a_98838_26118# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X401 vss_5v0 a_100276_50251# a_100276_50251# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X402 a_105810_45337# vss_5v0 vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X403 a_123790_29455# a_123878_27387# a_123790_27479# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X404 vss_5v0 a_98838_26118# a_97542_26118# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X405 vdd_5v0 a_148936_23925# a_148855_34170# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X406 a_110590_30686# a_110590_34638# a_110590_34638# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X407 a_128494_34348# vss_5v0 vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X408 a_141856_30007# a_129894_31339# vdd_5v0 vdd_5v0 pfet_06v0 ad=0.88p pd=4.88u as=0.52p ps=2.52u w=2u l=1u
+X409 a_113538_45337# a_114090_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X410 a_123790_27479# a_123878_27387# a_123790_29455# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X411 vdd_5v0 a_142311_34078# a_142223_34170# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X412 a_144081_49648# a_142297_46862# a_144393_42544# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X413 vss_5v0 vss_5v0 a_110778_41215# pnp_05p00x05p00
+**devattr d=1000000,4000
+X414 vss_5v0 vss_5v0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X415 vss_5v0 vss_5v0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X416 a_111798_34730# a_110590_34638# a_98030_26118# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X417 vss_3v3 a_140872_25901# a_123064_47705# vss_3v3 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X418 a_142297_46862# analog_bus0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X419 vss_5v0 a_98838_26118# a_99230_32754# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X420 a_120714_45337# a_121266_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X421 s2_an_1_ a_142815_34170# a_99972_50251# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X422 vss_3v3 dig_in_5_ a_145352_25901# vss_3v3 nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+X423 vdd_5v0 vdd_5v0 vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X424 vss_5v0 a_98838_26118# a_99230_32754# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X425 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X426 a_99230_32754# a_98838_26118# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X427 a_123790_27479# a_123878_27387# a_123790_29455# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X428 a_128494_34348# a_129894_29363# a_128494_35470# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X429 a_100134_26118# a_97630_26026# a_99230_32754# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X430 vss_5v0 vss_5v0 vss_5v0 pnp_05p00x05p00
+**devattr d=1000000,4000
+X431 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X432 a_124630_37066# a_125182_35470# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X433 a_128494_35470# a_128494_34348# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X434 s2_an_1_ a_142223_34170# a_142297_46862# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X435 a_144393_42544# a_142297_46862# a_144081_49648# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X436 a_99186_45337# a_99738_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X437 vdd_3v3 dig_in_0_ a_149832_25901# vdd_3v3 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X438 a_99230_32754# a_97630_26026# a_100134_26118# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X439 a_110502_34730# a_110590_34638# a_100134_26118# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X440 a_123790_27479# a_123878_25411# a_123790_25503# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X441 a_127390_34348# a_129894_27387# a_128494_35470# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X442 a_110502_34730# a_110590_34638# a_100134_26118# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X443 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X444 a_123568_47797# a_123064_47705# a_123658_51785# vss_5v0 nfet_06v0 ad=0.44p pd=2.88u as=0.44p ps=2.88u w=1u l=1u
+X445 a_144081_49648# a_142297_46862# a_144393_42544# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X446 vdd_3v3 dig_in_8_ a_142664_25901# vdd_3v3 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X447 a_128494_35470# a_129894_27387# a_127390_34348# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X448 vss_5v0 vss_5v0 a_110778_41215# pnp_05p00x05p00
+**devattr d=1000000,4000
+X449 vss_5v0 a_128494_34348# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X450 a_142385_46770# a_150605_47796# vdd_5v0 ppolyf_u_1k_6p0 r_width=2u r_length=9.5u
+X451 vss_5v0 analog_bus0 analog_bus0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X452 a_123790_25503# a_123878_25411# a_123790_27479# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X453 a_112986_45337# a_114642_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X454 a_123790_27479# a_123878_25411# a_123790_25503# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X455 a_127390_34348# a_129894_27387# a_128494_35470# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X456 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X457 a_102498_45337# a_101946_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X458 a_98082_41215# a_123878_31339# a_123790_31431# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X459 vdd_5v0 vdd_5v0 vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X460 vdd_5v0 a_149920_30007# a_142311_34078# vdd_5v0 pfet_06v0 ad=0.52p pd=2.52u as=0.88p ps=4.88u w=2u l=1u
+X461 a_99230_32754# a_98838_26118# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X462 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X463 a_103602_45337# a_148855_34170# a_143681_49556# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X464 a_97542_26118# a_97630_26026# a_98030_26118# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X465 a_123790_27479# a_123878_25411# a_123790_25503# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X466 a_97542_26118# a_98838_26118# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X467 a_120162_45337# a_121818_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X468 vss_5v0 vss_5v0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X469 a_98030_26118# a_97630_26026# a_97542_26118# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X470 vdd_5v0 a_142752_30007# a_129894_29363# vdd_5v0 pfet_06v0 ad=0.52p pd=2.52u as=0.88p ps=4.88u w=2u l=1u
+X471 a_142297_46862# analog_bus0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X472 a_124078_35470# a_124078_34348# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X473 a_123790_31431# a_123878_31339# a_98082_41215# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X474 vdd_5v0 a_98030_26118# a_100276_50251# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X475 a_123790_31431# a_123878_29363# a_123790_29455# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X476 a_99972_50251# a_98030_26118# vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X477 a_142297_46862# a_142385_46770# vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X478 vss_5v0 a_100276_50251# a_100276_50251# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X479 a_103602_45337# a_149447_34170# a_143681_49556# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X480 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X481 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X482 a_98082_41215# a_123878_31339# a_123790_31431# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X483 a_144544_30007# a_144848_23833# vss_3v3 vss_3v3 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X484 a_142297_46862# analog_bus0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X485 a_122370_45337# a_124026_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X486 vdd_3v3 dig_in_5_ a_145352_25901# vdd_3v3 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X487 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X488 a_110590_30686# a_110590_34638# a_110590_34638# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X489 a_125734_37066# a_125734_35470# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X490 vss_5v0 analog_bus0 a_142297_46862# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X491 vss_5v0 vss_5v0 vss_5v0 pnp_05p00x05p00
+**devattr d=1000000,4000
+X492 vss_5v0 vss_5v0 vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X493 a_98082_41215# a_123878_31339# a_123790_31431# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X494 a_149328_23833# a_148936_25901# vss_3v3 vss_3v3 nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X495 vss_5v0 vss_5v0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X496 vss_5v0 vss_5v0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X497 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X498 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X499 a_128494_34348# vss_5v0 vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X500 vss_5v0 vss_5v0 vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X501 a_127390_34348# a_129894_25411# a_123790_25503# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X502 vdd_5v0 a_98030_26118# a_100276_52227# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X503 vdd_5v0 a_110590_30686# a_98342_32754# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X504 vss_5v0 vss_5v0 vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X505 vss_3v3 a_148040_25901# a_123878_31339# vss_3v3 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X506 a_143681_49556# a_149447_34170# a_103602_45337# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X507 a_123790_25503# a_129894_25411# a_127390_34348# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X508 vss_5v0 a_123064_48889# a_100276_50251# vss_5v0 nfet_06v0 ad=0.88p pd=4.88u as=0.88p ps=4.88u w=2u l=1u
+X509 vdd_5v0 a_145440_30007# a_123878_25411# vdd_5v0 pfet_06v0 ad=0.52p pd=2.52u as=0.88p ps=4.88u w=2u l=1u
+X510 a_98342_32754# a_100276_52227# a_97542_26118# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X511 a_142385_46770# a_143681_49556# a_144081_49648# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X512 vss_5v0 vss_5v0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X513 a_98838_26118# a_98838_26118# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X514 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X515 a_97542_26118# a_98838_26118# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X516 vss_5v0 vss_5v0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X517 a_122922_45337# a_98430_32662# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X518 vss_5v0 a_128494_34348# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X519 a_147232_30007# a_147536_23833# vss_3v3 vss_3v3 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X520 a_144081_49648# analog_bus0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X521 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X522 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X523 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X524 a_117402_45337# a_116850_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X525 a_98430_32662# a_98030_26118# vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X526 vss_5v0 a_129894_31339# a_128494_34348# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X527 s2_an_0_ a_149447_34170# a_143681_49556# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X528 a_143681_49556# a_148855_34170# s2_an_0_ vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X529 a_123790_25503# a_129894_25411# a_127390_34348# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X530 a_98030_26118# a_97630_26026# a_97542_26118# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X531 a_144393_42544# a_144393_42544# vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X532 vss_5v0 a_105258_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X533 a_128494_34348# a_129894_31339# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X534 vss_5v0 a_98838_26118# a_98838_26118# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X535 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X536 a_123790_27479# a_123790_25503# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X537 vdd_5v0 a_142385_46770# a_142297_46862# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X538 vss_5v0 analog_bus0 a_142297_46862# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X539 a_123790_31431# a_123878_29363# a_123790_29455# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X540 a_128494_35470# a_128494_34348# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X541 a_123790_29455# a_123878_27387# a_123790_27479# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X542 a_123790_29455# a_123878_29363# a_123790_31431# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X543 vss_5v0 a_98838_26118# a_99230_32754# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X544 vdd_5v0 a_98030_26118# a_98430_32662# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X545 a_142297_46862# analog_bus0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X546 a_98838_26118# a_97630_26026# a_97630_26026# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X547 a_128494_34348# a_129894_31339# vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X548 vss_5v0 vss_5v0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X549 vss_5v0 vss_5v0 a_100276_52227# pnp_05p00x05p00
+**devattr d=1000000,4000
+X550 vss_5v0 a_128494_34348# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X551 a_123790_27479# a_123878_27387# a_123790_29455# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X552 a_115194_45337# a_116850_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X553 vss_3v3 dig_in_10_ a_140872_25901# vss_3v3 nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+X554 a_142385_46770# a_143681_49556# a_144081_49648# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X555 a_142297_46862# analog_bus0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X556 a_149328_23833# a_148936_25901# vdd_3v3 vdd_3v3 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X557 a_123790_29455# a_123878_27387# a_123790_27479# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X558 a_111798_34730# a_100134_26118# vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X559 a_142752_30007# a_143056_23833# vss_3v3 vss_3v3 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X560 a_99972_50251# a_98030_26118# vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X561 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X562 a_123790_25503# a_129894_25411# a_127390_34348# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X563 a_99230_32754# a_98838_26118# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X564 a_123790_29455# a_123878_27387# a_123790_27479# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X565 a_149447_34170# a_148855_34170# vss_5v0 vss_5v0 nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X566 a_123790_29455# a_123878_29363# a_123790_31431# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X567 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X568 a_123658_51785# a_123064_47705# a_122866_51693# vss_5v0 nfet_06v0 ad=0.44p pd=2.88u as=0.44p ps=2.88u w=1u l=1u
+X569 vss_5v0 a_123064_47705# a_123064_48889# vss_5v0 nfet_06v0 ad=0.88p pd=4.88u as=0.88p ps=4.88u w=2u l=1u
+X570 a_126286_35470# a_123790_29455# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X571 vss_5v0 a_98838_26118# a_97542_26118# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X572 a_142385_46770# a_144393_42544# vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X573 vdd_5v0 vdd_5v0 vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X574 a_98838_26118# a_97630_26026# a_97630_26026# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X575 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X576 a_144985_52184# a_144985_52184# a_146233_46862# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X577 analog_bus0 analog_bus0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X578 a_110590_30686# a_110590_30686# vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X579 a_149024_30007# a_148936_23925# vdd_5v0 vdd_5v0 pfet_06v0 ad=0.88p pd=4.88u as=0.52p ps=2.52u w=2u l=1u
+X580 vdd_5v0 vdd_5v0 vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X581 a_128494_35470# a_129894_29363# a_128494_34348# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X582 vss_5v0 a_122866_51693# a_98030_26118# vss_5v0 nfet_06v0 ad=0.44p pd=2.88u as=0.44p ps=2.88u w=1u l=1u
+X583 vss_5v0 a_123064_48889# a_122866_51693# vss_5v0 nfet_06v0 ad=0.88p pd=4.88u as=0.88p ps=4.88u w=2u l=1u
+X584 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X585 vdd_5v0 vdd_5v0 vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X586 a_97542_26118# a_98838_26118# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X587 a_128494_34348# a_129894_31339# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X588 a_100134_26118# a_97630_26026# a_99230_32754# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X589 vdd_5v0 a_98030_26118# a_100276_52227# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X590 a_97630_26026# a_97630_26026# a_98838_26118# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X591 a_128494_34348# a_129894_29363# a_128494_35470# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X592 a_128494_35470# a_128494_34348# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X593 a_142297_46862# a_142385_46770# vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X594 a_111330_45337# a_109122_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X595 s2_an_1_ a_142223_34170# a_99972_50251# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X596 a_99972_50251# a_142815_34170# s2_an_1_ vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X597 vss_5v0 analog_bus0 analog_bus0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X598 a_108018_45337# a_107466_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X599 a_123790_25503# a_123878_25411# a_123790_27479# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X600 a_128494_35470# a_129894_27387# a_127390_34348# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X601 a_128494_35470# a_129894_29363# a_128494_34348# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X602 a_127390_34348# a_129894_27387# a_128494_35470# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X603 a_98342_32754# a_100276_52227# a_97542_26118# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X604 a_142297_46862# a_142223_34170# s2_an_1_ vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X605 vss_5v0 vss_5v0 vss_5v0 pnp_05p00x05p00
+**devattr d=1000000,4000
+X606 a_98430_32662# a_98030_26118# vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X607 s2_an_1_ a_142815_34170# a_142297_46862# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X608 vdd_5v0 vdd_5v0 vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X609 vdd_3v3 dig_in_10_ a_140872_25901# vdd_3v3 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X610 a_123790_25503# a_123878_25411# a_123790_27479# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X611 vss_5v0 a_98838_26118# a_99230_32754# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X612 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X613 a_117402_45337# a_119610_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X614 vss_5v0 a_98838_26118# a_97542_26118# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X615 a_98082_45337# a_98082_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X616 a_123790_31431# a_123878_31339# a_98082_41215# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X617 a_98342_32754# a_110590_30686# vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X618 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X619 a_127390_34348# a_129894_27387# a_128494_35470# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X620 a_144848_23833# a_144456_25901# vss_3v3 vss_3v3 nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X621 vdd_5v0 a_144393_42544# a_144393_42544# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X622 a_126838_35470# a_123790_29455# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X623 a_105810_45337# a_107466_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X624 vss_5v0 analog_bus0 a_142297_46862# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X625 vdd_5v0 a_98030_26118# a_98430_32662# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X626 a_97542_26118# a_98838_26118# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X627 vss_5v0 vss_5v0 vss_5v0 pnp_05p00x05p00
+**devattr d=1000000,4000
+X628 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X629 a_127390_34348# a_129894_25411# a_123790_25503# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X630 a_123790_31431# a_123878_31339# a_98082_41215# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X631 vss_3v3 a_143560_25901# a_129894_27387# vss_3v3 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X632 a_128494_35470# a_128494_34348# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X633 vdd_5v0 a_140960_30007# a_123064_47705# vdd_5v0 pfet_06v0 ad=0.52p pd=2.52u as=0.88p ps=4.88u w=2u l=1u
+X634 a_97542_26118# a_98838_26118# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X635 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X636 a_110502_34730# a_100134_26118# vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X637 a_99230_32754# a_97630_26026# a_100134_26118# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X638 vss_3v3 dig_in_2_ a_148040_25901# vss_3v3 nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+X639 s2_an_1_ a_142815_34170# a_99972_50251# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X640 a_97542_26118# a_97630_26026# a_98030_26118# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X641 a_143681_49556# a_149447_34170# a_103602_45337# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X642 a_120162_45337# a_119610_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X643 a_98342_32754# a_98430_32662# a_99230_32754# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X644 vss_5v0 analog_bus0 a_144985_52184# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X645 a_97542_26118# a_100276_52227# a_98342_32754# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X646 vss_5v0 a_129894_31339# a_128494_34348# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X647 a_147536_23833# a_147144_25901# vss_3v3 vss_3v3 nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X648 a_142815_34170# a_142223_34170# vss_5v0 vss_5v0 nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X649 a_123790_27479# a_123878_25411# a_123790_25503# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X650 a_127390_34348# a_129894_27387# a_128494_35470# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X651 vss_5v0 a_98838_26118# a_97542_26118# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X652 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X653 a_127390_34348# a_129894_25411# a_123790_25503# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X654 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X655 s2_an_1_ a_142223_34170# a_142297_46862# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X656 vss_5v0 vss_5v0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X657 a_142385_46770# a_144393_42544# vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X658 a_143681_49556# a_148855_34170# s2_an_0_ vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X659 a_128494_35470# a_128494_34348# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X660 vss_5v0 a_98838_26118# a_99230_32754# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X661 vss_5v0 vss_5v0 vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X662 vss_5v0 analog_bus0 a_142297_46862# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X663 vss_3v3 a_146248_25901# a_123878_27387# vss_3v3 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X664 a_100276_52227# a_98030_26118# vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X665 a_98082_45337# a_98634_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X666 a_123790_31431# a_123878_29363# a_123790_29455# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X667 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X668 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X669 a_143681_49556# a_148855_34170# a_103602_45337# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X670 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X671 a_98082_41215# a_123878_31339# a_123790_31431# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X672 a_145440_30007# a_145744_23833# vss_3v3 vss_3v3 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X673 a_142297_46862# analog_bus0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X674 vss_5v0 a_129894_31339# a_128494_34348# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X675 a_144848_23833# a_144456_25901# vdd_3v3 vdd_3v3 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X676 vss_5v0 a_128494_34348# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X677 a_97630_26026# a_97630_26026# a_98838_26118# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X678 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X679 a_128494_34348# vss_5v0 vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X680 a_123790_29455# a_123878_29363# a_123790_31431# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X681 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X682 a_115746_45337# a_116298_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X683 vss_5v0 analog_bus0 a_142297_46862# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X684 a_123790_27479# a_123878_25411# a_123790_25503# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X685 vss_5v0 a_98838_26118# a_98838_26118# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X686 vss_5v0 vss_5v0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X687 a_123790_27479# a_123878_27387# a_123790_29455# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X688 vss_5v0 a_98838_26118# a_97542_26118# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X689 a_123790_31431# a_123878_29363# a_123790_29455# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X690 a_97630_26026# a_110590_30686# vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X691 s2_an_0_ a_148855_34170# a_143681_49556# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X692 vss_5v0 analog_bus0 a_142297_46862# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X693 a_101394_45337# a_100842_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X694 a_110590_30686# a_110590_30686# vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X695 a_142297_46862# analog_bus0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X696 vss_5v0 vss_5v0 a_110778_41215# pnp_05p00x05p00
+**devattr d=1000000,4000
+X697 a_98838_26118# a_98838_26118# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X698 a_143056_23833# a_142664_25901# vss_3v3 vss_3v3 nfet_06v0 ad=1.76p pd=8.88u as=1.04p ps=4.52u w=4u l=1u
+X699 a_97542_26118# a_100276_52227# a_98342_32754# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X700 a_123790_27479# a_123878_25411# a_123790_25503# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X701 a_120714_45337# a_118506_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X702 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X703 a_142297_46862# a_142385_46770# vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X704 a_123790_31431# a_123878_29363# a_123790_29455# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X705 vss_3v3 a_148936_25901# a_148936_23925# vss_3v3 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X706 a_144544_30007# a_129894_25411# vdd_5v0 vdd_5v0 pfet_06v0 ad=0.88p pd=4.88u as=0.52p ps=2.52u w=2u l=1u
+X707 vdd_3v3 dig_in_2_ a_148040_25901# vdd_3v3 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X708 a_123790_27479# a_123878_27387# a_123790_29455# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X709 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X710 a_98082_41215# a_123878_31339# a_123790_31431# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X711 a_149447_34170# a_148855_34170# vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X712 a_144393_42544# a_144393_42544# vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X713 vss_5v0 vss_5v0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X714 vss_5v0 a_98838_26118# a_97542_26118# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X715 a_148128_30007# a_148432_23833# vss_3v3 vss_3v3 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X716 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X717 analog_bus0 analog_bus0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X718 a_127390_34348# a_129894_25411# a_123790_25503# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X719 a_110590_30686# a_110590_30686# vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X720 a_147536_23833# a_147144_25901# vdd_3v3 vdd_3v3 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X721 a_124630_37066# a_124630_35470# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X722 a_108018_45337# a_109674_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X723 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X724 a_140960_30007# a_141264_23833# vss_3v3 vss_3v3 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X725 a_98082_41215# a_123878_31339# a_123790_31431# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X726 a_128494_35470# a_129894_27387# a_127390_34348# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X727 vdd_5v0 a_146233_46862# a_146233_46862# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X728 vss_5v0 analog_bus0 a_144985_52184# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X729 vss_5v0 a_98838_26118# a_97542_26118# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X730 vdd_5v0 a_148128_30007# a_123878_31339# vdd_5v0 pfet_06v0 ad=0.52p pd=2.52u as=0.88p ps=4.88u w=2u l=1u
+X731 a_128494_34348# a_129894_29363# a_128494_35470# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X732 vss_5v0 a_128494_34348# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X733 a_98342_32754# a_110590_30686# vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X734 vss_5v0 a_129894_31339# a_128494_34348# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X735 a_128494_35470# a_129894_29363# a_128494_34348# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X736 a_98342_32754# a_110590_30686# vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X737 a_142297_46862# analog_bus0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X738 vss_5v0 a_98838_26118# a_99230_32754# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X739 a_147232_30007# a_123878_29363# vdd_5v0 vdd_5v0 pfet_06v0 ad=0.88p pd=4.88u as=0.52p ps=2.52u w=2u l=1u
+X740 a_98342_32754# a_100276_52227# a_97542_26118# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=4u
+X741 a_100134_26118# a_97630_26026# a_99230_32754# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X742 a_122370_45337# a_121818_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X743 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=4u
+X744 vss_5v0 a_128494_34348# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X745 a_101394_45337# a_101946_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X746 vss_5v0 vss_5v0 vss_5v0 vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X747 a_110778_45337# a_98430_32662# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X748 a_123790_29455# a_123878_27387# a_123790_27479# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X749 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X750 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=0 ps=0 w=8u l=2u
+X751 a_128494_35470# a_129894_27387# a_127390_34348# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X752 a_100276_50251# a_98030_26118# vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=3.52p ps=16.88u w=8u l=8u
+X753 a_98342_32754# a_110590_30686# vdd_5v0 vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X754 a_99230_32754# a_97630_26026# a_100134_26118# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+X755 a_128494_35470# a_129894_29363# a_128494_34348# vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X756 vdd_5v0 a_142385_46770# a_142297_46862# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=2.08p ps=8.52u w=8u l=1u
+X757 a_123526_35470# a_98082_41215# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X758 a_99972_50251# a_142223_34170# s2_an_1_ vss_5v0 nfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X759 vdd_5v0 vdd_5v0 vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=20u
+X760 a_143056_23833# a_142664_25901# vdd_3v3 vdd_3v3 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=1u
+X761 vdd_5v0 a_144393_42544# a_142385_46770# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=4u
+X762 vdd_5v0 a_110590_30686# a_97630_26026# vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=2.08p ps=8.52u w=8u l=2u
+X763 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X764 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=2u
+X765 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X766 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=4u
+X767 vss_3v3 dig_in_7_ a_143560_25901# vss_3v3 nfet_06v0 ad=1.04p pd=4.52u as=1.76p ps=8.88u w=4u l=1u
+X768 vss_5v0 vss_5v0 a_110778_41215# pnp_05p00x05p00
+**devattr d=1000000,4000
+X769 vdd_5v0 vdd_5v0 vdd_5v0 vdd_5v0 pfet_06v0 ad=3.52p pd=16.88u as=0 ps=0 w=8u l=8u
+X770 vss_5v0 a_128494_34348# vdd_5v0 ppolyf_u_1k_6p0 r_width=1u r_length=5u
+X771 a_123790_29455# a_123878_27387# a_123790_27479# vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X772 a_143681_49556# a_149447_34170# a_103602_45337# vdd_5v0 pfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=1u
+X773 a_99230_32754# a_98838_26118# vss_5v0 vss_5v0 nfet_06v0 ad=2.08p pd=8.52u as=3.52p ps=16.88u w=8u l=2u
+.end
+
