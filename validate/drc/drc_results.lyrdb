@@ -5,6 +5,30 @@
  <generator>drc: script='gf180mcu.drc'</generator>
  <top-cell>slot_2</top-cell>
  <tags>
+  <tag>
+   <name>waived</name>
+   <description/>
+  </tag>
+  <tag>
+   <name>red</name>
+   <description/>
+  </tag>
+  <tag>
+   <name>green</name>
+   <description/>
+  </tag>
+  <tag>
+   <name>blue</name>
+   <description/>
+  </tag>
+  <tag>
+   <name>yellow</name>
+   <description/>
+  </tag>
+  <tag>
+   <name>important</name>
+   <description/>
+  </tag>
  </tags>
  <categories>
   <category>
@@ -4780,10 +4804,10 @@
  </cells>
  <items>
   <item>
-   <tags/>
+   <tags>waived</tags>
    <category>'DCF.1a'</category>
    <cell>slot_2</cell>
-   <visited>false</visited>
+   <visited>true</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
@@ -4792,10 +4816,10 @@
    </values>
   </item>
   <item>
-   <tags/>
+   <tags>waived</tags>
    <category>'DCF.1a'</category>
    <cell>slot_2</cell>
-   <visited>false</visited>
+   <visited>true</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
@@ -4804,10 +4828,10 @@
    </values>
   </item>
   <item>
-   <tags/>
+   <tags>waived</tags>
    <category>'DCF.1b'</category>
    <cell>slot_2</cell>
-   <visited>false</visited>
+   <visited>true</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
@@ -4816,10 +4840,10 @@
    </values>
   </item>
   <item>
-   <tags/>
+   <tags>waived</tags>
    <category>'PL.8'</category>
    <cell>slot_2</cell>
-   <visited>false</visited>
+   <visited>true</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
@@ -4828,10 +4852,10 @@
    </values>
   </item>
   <item>
-   <tags/>
+   <tags>waived</tags>
    <category>'M1.4'</category>
    <cell>slot_2</cell>
-   <visited>false</visited>
+   <visited>true</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
@@ -4840,10 +4864,10 @@
    </values>
   </item>
   <item>
-   <tags/>
+   <tags>waived</tags>
    <category>'M2.4'</category>
    <cell>slot_2</cell>
-   <visited>false</visited>
+   <visited>true</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
@@ -4852,10 +4876,10 @@
    </values>
   </item>
   <item>
-   <tags/>
+   <tags>waived</tags>
    <category>'M3.4'</category>
    <cell>slot_2</cell>
-   <visited>false</visited>
+   <visited>true</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
@@ -4864,10 +4888,10 @@
    </values>
   </item>
   <item>
-   <tags/>
+   <tags>waived</tags>
    <category>'M4.4'</category>
    <cell>slot_2</cell>
-   <visited>false</visited>
+   <visited>true</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
@@ -4876,10 +4900,10 @@
    </values>
   </item>
   <item>
-   <tags/>
+   <tags>waived</tags>
    <category>'M5.4'</category>
    <cell>slot_2</cell>
-   <visited>false</visited>
+   <visited>true</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
@@ -4888,10 +4912,10 @@
    </values>
   </item>
   <item>
-   <tags/>
+   <tags>waived</tags>
    <category>'MT.3'</category>
    <cell>slot_2</cell>
-   <visited>false</visited>
+   <visited>true</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
